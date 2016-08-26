@@ -27,8 +27,8 @@
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "th3gr8lambino",
+        "url": "http://soundcloud.com/th3gr8lambino"
       },
       {
         "network": "instagram",
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "bioimformatics",
       "keywords": [
       ]
     }
@@ -82,9 +82,9 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "area": "Computer Science",
+      "studyType": "UD",
+      "startDate": "2015-08-24",
       "endDate": "Present",
       "gpa": "",
       "courses": [
@@ -93,15 +93,15 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Eyegenix LLC",
+      "position": "Researcher",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2015-08-03",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Cell & Tissue Culture",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Perform biocompatibility testing/assays on manufactured products",
+        "Assist in manufacturing and qualatiy control testing"
       ]
     },
     {
