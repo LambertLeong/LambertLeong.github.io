@@ -1,20 +1,20 @@
 ---
 layout: project
 type: project
-published: false
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
-date: 2015
+published: true
+image: images/2000px-DNA_microarray.svg.png
+title: Genomic Analyzer Validation
+permalink: projects/genomic_analyzer_validation
+date: 2011
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Molecular Genetics
+  - Microarray
+  - Laser Micro Dissection 
+summary: Performed an ih-house validation of Autogenomics' Infinti Analyzer on KRAS and BRAF testing at the Queen's Medical Center, Honolulu HI.
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
+  <img class="ui image" src="../images/s1draftversion1image7a02a01.jpg">
   <img class="ui image" src="../images/micromouse-robot-2.jpg">
   <img class="ui image" src="../images/micromouse.jpg">
   <img class="ui image" src="../images/micromouse-circuit.png">
