@@ -5,7 +5,7 @@ published: true
 image: images/images.jpg
 title: Inventory Database
 permalink: projects/Inventory Database
-date: 2014
+date: 2016
 labels:
   - Database
   - php
