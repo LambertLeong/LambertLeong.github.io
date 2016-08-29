@@ -8,7 +8,7 @@ permalink: projects/Analysis_of_KRAS_and_BRAF_mutant_colorectal_cancers_in_a_mul
 date: 2012
 labels:
   - Cancer Research
-  - Retrospective Study
+  - Statistical Analysis
   - Abstract
 summary: Study that looked at pattern and trends of certian gene mutations and their correlation to survival rates for a multiracial population.
 ---
