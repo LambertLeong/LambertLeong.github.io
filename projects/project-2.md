@@ -1,20 +1,19 @@
 ---
 layout: project
 type: project
-published: false
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
-date: 2015
+published: true
+image: images/UsaXUpTx_400x400.png
+title: Analysis of KRAS and BRAF mutant colorectal cancers in a multiracial population
+permalink: projects/Analysis_of_KRAS_and_BRAF_mutant_colorectal_cancers_in_a_multiracial_population
+date: 2012
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Cancer Research
+  - Retrospective Study
+  - Abstract
+summary: Study that looked at pattern and trends of certian gene mutations and their correlation to survival rates for a multiracial population.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/UsaXUpTx_400x400.png">
 
 Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
 
