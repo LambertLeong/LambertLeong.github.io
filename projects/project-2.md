@@ -15,10 +15,9 @@ summary: Study that looked at pattern and trends of certian gene mutations and t
 
 <img class="ui medium right floated rounded image" src="../images/UsaXUpTx_400x400.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+Hawaii is often referred to as the melting pot because of its racial and cultural diversity.  As a result, the diverse sample population has been the subject of research for many fields, one of which being cancer.  Studies have shown that genetic variation associated with a multiracial population can have value as indicators of prognosis.  This project evaluated the genetic variation of colorectal cancer (CRC) patients in Hawaii.    
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+As a research employee at the Queen’s Medical Center in Honolulu Hi, I was able to go through the histories of CRC patients and gather data such as, mutation type and race.  I compiled the data and ran a preliminary statistical analysis which suggested that certain mutations were more prevalent within the population of Hawaii.   Further data analysis was conducted with the help of Jared Acoba M.D. and Christopher Lum M.D.  Findings were written up in an abstract and published in the American Society of Clinical Oncology (ASCO).
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+Link to abstract: <a href="http://meetinglibrary.asco.org/content/99452-114"><i class="large github icon"></i>Analysis of KRAS and BRAF mutant colorectal cancers in a multiracial population</a>
