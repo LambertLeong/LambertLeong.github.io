@@ -39,19 +39,17 @@
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
-      "keywords": [
-      ]
-    },
-    {
       "name": "bioimformatics",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "database management",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "web development",
       "keywords": [
       ]
     }
@@ -105,15 +103,27 @@
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "University of Oregon Student Recreation Center",
+      "position": "Fitness Attendant",
+      "website": "",
+      "startDate": "2013-09-25",
+      "endDate": "2014-06-14",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "",
+        ""
+      ]
+    }
+    {
+      "company": "Queens Medical Center",
+      "position": "Pathology Student Trainee",
+      "website": "",
+      "startDate": "Summer 2011 & 2012",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "",
+        ""
       ]
     }
   ],
