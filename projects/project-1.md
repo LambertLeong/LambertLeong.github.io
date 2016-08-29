@@ -9,22 +9,20 @@ date: 2011
 labels:
   - Molecular Genetics
   - Microarray
-  - Laser Micro Dissection 
+  - Laser Micro-Dissection 
 summary: Performed an ih-house validation of Autogenomics' Infinti Analyzer on KRAS and BRAF testing at the Queen's Medical Center, Honolulu HI.
 ---
 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/s1draftversion1image7a02a01.jpg">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+KRAS and BRAF are genetic mutations often screened for in colorectal cancer (CRC) patients.  Having one of these mutations often indicates a less favorable prognosis as patients with these genetic mutation often do not respond well to anti-epidermal growth factor receptor(EGFR) chemotherapies.  Therefore, alternative treatment paths must be explored when treating patients with KRAS and BRAF gene mutations.  
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+New technologies and test methods allow for faster, cheaper, and more accurate testing.  While I was a pathology intern at the Queens Medical Center, the molecular genetics and bio repository lab had purchased a genomic analyzer with the intent to in-house the testing of KRAS and BRAF mutations.  Validations must first be performed on new equipment and test methods before patient testing to insure the result were accurate and within the range of the spec.  I was one of three people responsible for validating the testing of KRAS and BRAF genetic screening. 
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+The validation of the genomic analyzer allowed me to learn and develop my skills in microscopic observation, laser microdissection, DNA extraction, pipetting, microarray sample prep, and technical writing.  The analyzer was successfully validates and commissioned for patient testing within the year. 
+
 
 
 
