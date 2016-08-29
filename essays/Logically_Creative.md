@@ -11,6 +11,8 @@ labels:
   - Learning
 ---
 
+<img class="ui tiny left circular floated image" src="../images/G0058272 (2).JPG">
+
 Creativity is my greatest strength because it helps me approach problems and see things in a different light.  It also motivates me to come up with new ways to perform task and accomplish my goals.  I’ve always enjoyed, drawing,  making 3D sculptures, photography, and compiling time-lapses and films because I am allowed total creative freedom.  I also enjoy the transition of the intangible to the tangible, meaning an idea I think up can become something that someone can watch, hold, and/or see.
 
 With my great interest in art it seems counterintuitive that I received my bachelors of science in biology and a minor in chemistry.  I was always interested in the sciences and enjoyed the challenge it provided. I had hoped to use my degree and work for a bio-tech or pharmaceutical company because I thought creative ideas could lead to research breakthroughs and developments of medical devices or new drug treatments; another example of how an idea can become something tangible.  However, the reality is that drug trials and medical development is a long process and the time it would take for my potential idea come to life would take a long time.
