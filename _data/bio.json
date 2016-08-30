@@ -2,10 +2,10 @@
   "basics": {
     "name": "Lambert Leong",
     "label": "Student",
-    "picture": "https://th3gr8lambino.github.io/images/profile2d.jpg ",
+    "picture": "https://LAMbertLeong.github.io/images/profile2d.jpg ",
     "email": "lambert3@hawaii.edu",
     "phone": "808-429-2576",
-    "website": "https://th3gr8lambino.github.io",
+    "website": "https://LAMbertLeong.github.io",
     "summary": "I am studying Information and Computer Sciences at the University of Hawaii, Manoa.",
     "location": {
       "address": "",
@@ -17,24 +17,15 @@
     "profiles": [
       {
         "network": "github",
-        "username": "th3gr8lambino",
-        "url": "http://github.com/th3gr8lambino"
+        "username": "LAMbertLeong",
+        "url": "http://github.com/LAMbertLeong"
       },
       {
         "network": "linkedin",
         "username": "Lambert Leong",
         "url": "https://www.linkedin.com/in/lambert-leong-0bba23a4"
       },
-      {
-        "network": "twitter",
-        "username": "th3gr8lambino",
-        "url": "http://soundcloud.com/th3gr8lambino"
-      },
-      {
-        "network": "instagram",
-        "username": "th3gr8lambino",
-        "url": "http://instagram.com/th3gr8lambino"
-      }
+
     ]
   },
   "interests": [
