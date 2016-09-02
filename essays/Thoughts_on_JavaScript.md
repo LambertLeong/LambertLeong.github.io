@@ -2,10 +2,11 @@
 layout: essay
 type: essay
 published: true
-title: Thoughts on JavaScript
-date: 2016-09-01
+title: Logically Creative
+image: images/G0058272 (2).JPG
+date: 2016-08-28
 labels:
-  - JavaScript
-  - ICS 314Classwork
+  - Software Engineering
+  - Classwork
   - Learning
 ---
