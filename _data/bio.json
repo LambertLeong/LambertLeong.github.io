@@ -2,10 +2,10 @@
   "basics": {
     "name": "Lambert Leong",
     "label": "Student",
-    "picture": "https://LAMbertLeong.github.io/images/profile2d.jpg ",
+    "picture": "https://LambertLeong.github.io/images/profile2d.jpg ",
     "email": "lambert3@hawaii.edu",
     "phone": "808-429-2576",
-    "website": "https://LAMbertLeong.github.io",
+    "website": "https://LambertLeong.github.io",
     "summary": "I am studying Information and Computer Sciences at the University of Hawaii, Manoa.",
     "location": {
       "address": "",
@@ -17,8 +17,8 @@
     "profiles": [
       {
         "network": "github",
-        "username": "LAMbertLeong",
-        "url": "http://github.com/LAMbertLeong"
+        "username": "LambertLeong",
+        "url": "http://github.com/LambertLeong"
       },
       {
         "network": "linkedin",
