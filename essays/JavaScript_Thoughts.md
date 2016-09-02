@@ -2,12 +2,12 @@
 layout: essay
 type: essay
 published: true
-title: Thoughts
-image: images/G0058272 (2).JPG
+title: Thoughts on JavaScript
+image: 
 date: 2016-09-01
 labels:
-  - Software Engineering
-  - Classwork
+  - JavaScript
+  - ICS314 Classwork
   - Learning
 ---
 
