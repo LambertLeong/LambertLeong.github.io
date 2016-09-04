@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Lambert Leong",
-    "label": "Student",
+    "label": "Student & Researcher",
     "picture": "https://LambertLeong.github.io/images/profile2d.jpg ",
     "email": "lambert3@hawaii.edu",
     "phone": "808-429-2576",
     "website": "https://LambertLeong.github.io",
-    "summary": "I am studying Information and Computer Sciences at the University of Hawaii, Manoa.",
+    "summary": "I am studying Information and Computer Sciences at the University of Hawaii, Manoa and expect to graduate in 2018.  I also recieved my B.S. in biology with a minor in chemistry from the University of Oregon.  After receiving my degree in computer science, I hope to continue to work in the bio-tech and bio-medical fields",
     "location": {
       "address": "",
       "postalCode": "96822",
