@@ -99,6 +99,7 @@
       "highlights": [
         "Biocompatibility testing/assays of manufactured products",
         "Maintainging human cell lines",
+        "Aseptic technique",
         "Electrophorisis",
         "Polymer formulation and manufacturing",
         "Quality control testing",
@@ -118,13 +119,20 @@
     },
     {
       "company": "The Queen's Medical Center",
-      "position": "Fitness Attendant",
-      "website": "http://uorec.uoregon.edu",
-      "startDate": "2013",
-      "endDate": "2014",
-      "summary": "",
+      "position": "Pathology Student Trainee",
+      "website": "",
+      "startDate": "2011",
+      "endDate": "2012",
+      "summary": "Research intern, two summers",
       "highlights": [
-        "Custormer service",
+        "Genomic anaylizer validation",
+        "DNA extraction",
+        "Laser microdissection",
+        "Immunohistochemistry",
+        "Proficient with a microscope",
+        "Assisted with autopsies",
+        "Data anaylsis",
+        "Vitural microscopy"
       ]
     }
   ],
