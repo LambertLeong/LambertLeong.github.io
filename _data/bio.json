@@ -79,8 +79,8 @@
     },
     {
       "institution": "University of Oregon, Eugene, OR",
-      "area": "Biology, chemistry minor",
-      "studyType": "Bachelors of Science",
+      "area": "Biology, minor,chemistry",
+      "studyType": "B.S.",
       "startDate": "2010-09-24",
       "endDate": "2014-06-14",
       "gpa": "",
@@ -107,6 +107,17 @@
     },
     {
       "company": "University of Oregon Student Recreation Center",
+      "position": "Fitness Attendant",
+      "website": "http://uorec.uoregon.edu",
+      "startDate": "2013",
+      "endDate": "2014",
+      "summary": "",
+      "highlights": [
+        "Custormer service",
+      ]
+    },
+    {
+      "company": "The Queen's Medical Center",
       "position": "Fitness Attendant",
       "website": "http://uorec.uoregon.edu",
       "startDate": "2013",
