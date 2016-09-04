@@ -70,7 +70,7 @@
     {
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science",
-      "studyType": "UD",
+      "studyType": "",
       "startDate": "2015-08-24",
       "endDate": "Present",
       "gpa": "",
@@ -82,13 +82,17 @@
     {
       "company": "Eyegenix LLC",
       "position": "Researcher",
-      "website": "",
+      "website": "http://www.eyegenix.com/",
       "startDate": "2015-08-03",
       "endDate": "Present",
-      "summary": "Cell & Tissue Culture",
+      "summary": "Cell & Tissue Culture, Manufacturing",
       "highlights": [
-        "Perform biocompatibility testing/assays on manufactured products",
-        "Maintainging cell lines"
+        "Biocompatibility testing/assays of manufactured products",
+        "Maintainging human cell lines",
+        "Electrophorisis",
+        "Polymer formulation and manufacturing",
+        "Quality control testing",
+        "Data anaylsis",
       ]
     },
     {
@@ -99,6 +103,7 @@
       "endDate": "2014",
       "summary": "",
       "highlights": [
+        "Custormer service",
       ]
     }
   ],
@@ -109,10 +114,10 @@
       "position": "Pathology Volunteer",
       "startDate": "2016-01-01",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "Volunteer research assistant",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Autopsy observation",
+        "Specimen slide filing"
       ]
     },
   ],
