@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 published: true
-title: Asking Trolls to Stay Under Bridges 
+title: Asking for Help 
 image: 
 date: 2016-09-08
 labels:
