@@ -149,6 +149,18 @@
     }
   ],
   "volunteer": [
+     {
+      "organization": "Hawaii Pacific University",
+      "website": "",
+      "position": "Sim Lab Assistant",
+      "startDate": "2016-01-01",
+      "endDate": "Present",
+      "summary": "Helped to provide pseudo-real world experience to nursing students through simulation.",
+      "highlights": [
+        "Simtiki level one certified",
+        "Installed and maintained simulation software"
+      ]
+    },
     {
       "organization": "Queen's Medical Center",
       "website": "",
@@ -164,10 +176,7 @@
   ],
   "awards": [
     {
-      "title": "3D Studio Art",
-      "date": "",
-      "awarder": "`Iolani School",
-      "summary": ""
+
     },
   ],
   "references": [
