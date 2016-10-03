@@ -6,7 +6,7 @@
     "email": "lambert3@hawaii.edu",
     "phone": "808-429-2576",
     "website": "https://LambertLeong.github.io",
-    "summary": "I am studying Information and Computer Sciences at the University of Hawaii, Manoa and expect to graduate in 2018.  I also received my B.S. in biology with a minor in chemistry from the University of Oregon.  After receiving my degree in computer science, I hope to continue to work in the bio-tech and bio-medical fields.",
+    "summary": "I am studying Information and Computer Sciences at the University of Hawaii, Manoa and expect to graduate in 2018.",
     "location": {
       "address": "",
       "postalCode": "96822",
@@ -70,7 +70,7 @@
     {
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science",
-      "studyType": "",
+      "studyType": "UD",
       "startDate": "2015-08-24",
       "endDate": "Present",
       "gpa": "",
