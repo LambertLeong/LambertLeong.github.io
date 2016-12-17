@@ -5,7 +5,7 @@ published: true
 image: images/og-image-logo.png
 title: Study Session App Built in Meteor
 permalink: projects/Cram
-date: 2011
+date: 2016
 labels:
   - JavaScript
   - HTML/CSS
@@ -13,8 +13,10 @@ labels:
 summary: Developed an app in my software engineering class that can be used to organize study sessions and meet up times. 
 ---
 
-<div class="ui small rounded images">
+<div class="ui images">
   <img class="ui image" src="../images/home_login.png">
+  <img class="ui image" src="../images/newprofile.png">
+  <img class="ui image" src="../images/personal_c">
 </div>
 
 Our app was called CRAM and it allowed students to organize times to study with one another.  CRAM is a web app developed using the Meteor framework and deployed to galaxy.  I became familiar and comfortable with the Meteor framework and knowledgeable of the MongoDB database structure.  I have become more comfortable coding in JavaScript, HTML, and CSS to the point where I enjoy it.
