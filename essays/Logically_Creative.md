@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: true
+published: false
 title: Logically Creative
 image: images/G0058272 (2).JPG
 date: 2016-08-28

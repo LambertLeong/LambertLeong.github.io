@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: true
+published: false
 title: UI Frameworks, Can't Live With Them, Can't Live Without Them 
 image: 
 date: 2016-10-06

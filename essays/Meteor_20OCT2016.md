@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: true
+published: false
 title: Crash and Burn...Meteor 
 image: 
 date: 2016-10-20

@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: true
+published: false
 title: Asking for Help 
 image: 
 date: 2016-09-08
