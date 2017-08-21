@@ -187,6 +187,18 @@
       ]
     },
     {
+      "organization": "Hawaii Pacific University",
+      "website": "",
+      "position": "Sim Lab Assistant",
+      "startDate": "2013-06",
+      "endDate": "2015-0-08",
+      "summary": "Helped to provide pseudo-real world experience to nursing students through simulation.",
+      "highlights": [
+        "Simtiki level one certified",
+        "Installed and maintained simulation software"
+      ]
+    },
+    {
       "organization": "Queen's Medical Center",
       "website": "",
       "position": "Pathology Volunteer",
@@ -196,18 +208,6 @@
       "highlights": [
         "Autopsy observation",
         "Specimen slide filing"
-      ]
-    },
-    {
-      "organization": "Asian American Junior Chamber of Commerce ",
-      "website": "http://aerohawaii.org/Home/",
-      "position": "AERo Committee Member",
-      "startDate": "2017-05",
-      "endDate": "Present",
-      "summary": "Provide a STEM based curriculum to highschool students through interscholastic drone racing"
-      "highlights": [
-        "Program development",
-        "Information distribution"
       ]
     }
   ],
