@@ -175,15 +175,15 @@
   "volunteer": [
 
     {
-      "organization": "Hawaii Pacific University",
-      "website": "",
-      "position": "Sim Lab Assistant",
-      "startDate": "2013-06",
-      "endDate": "2015-0-08",
-      "summary": "Helped to provide pseudo-real world experience to nursing students through simulation.",
+      "organization": "Asian American Junior Chamber of Commerce",
+      "website": "http://aerohawaii.org/Home/",
+      "position": "AERo Committee Member",
+      "startDate": "2017-05",
+      "endDate": "Present",
+      "summary": "Provide a STEM based curriculum to highschool students through interscholastic drone racing",
       "highlights": [
-        "Simtiki level one certified",
-        "Installed and maintained simulation software"
+        "Program development",
+        "Information distribution"
       ]
     },
     {
