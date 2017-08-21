@@ -15,7 +15,8 @@ summary: Developed an app in my software engineering class that can be used to o
 
 <div class="ui medium images">
   <img class="ui image" src="../images/home_login.png">
-  <img class="ui image" src="../images/newprofile.png">
+</div>
+<div class="ui medium images">
   <img class="ui image" src="../images/personal_c.png">
 </div>
 

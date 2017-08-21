@@ -9,6 +9,7 @@ date: 2016
 labels:
   - Database
   - php
+  - SQL
 summary: A database class project with real world application and the ability to be scaled up 
 ---
 

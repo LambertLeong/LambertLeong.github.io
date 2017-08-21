@@ -9,6 +9,7 @@ date: 2012
 labels:
   - Cancer Research
   - Statistical Analysis
+  - Data Analysis
   - Abstract
 summary: Study that looked at pattern and trends of certian gene mutations and their correlation to survival rates for a multiracial population.
 ---

@@ -54,15 +54,20 @@
         "C++",
         "Java",
         "Javascript",
+        "SQL",
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "Windows",
-        "Git/GitHub",
-        "g++"
+        "Windows 10",
+        "Linux",
+        "MacOS",
+        "Microsoft Office",
+        "Git",
+        "gcc/g++",
+        "Adobe: Photoshop, Lightroom, Illustrator, Premier Pro"
       ]
     }
   ],
@@ -70,11 +75,17 @@
     {
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science",
-      "studyType": "UD",
+      "studyType": "MS",
       "startDate": "2015-08-24",
       "endDate": "Present",
       "gpa": "",
       "courses": [
+        "Algorithms",
+        "Bioinformatics",
+        "Databases"
+        "High Performance Computing",
+        "Network Science",
+        "Software Engineering I & II",
       ]
     },
     {
@@ -101,6 +112,19 @@
     }
   ],
   "work": [
+  {
+      "company": "Social Science Research Institute (SSRI), University of Hawaii at Manoa",
+      "position": "Graduate Research Assistant",
+      "website": "http://www.ssri.hawaii.edu/pages/SSRI_REPS.html",
+      "startDate": "2017-06",
+      "endDate": "2017-08",
+      "summary": "Database management and data analysis",
+      "highlights": [
+        "Building Access databases",
+        "Implementing best practice data collection, storage, and manipulation protocols",
+        "Data analysis via MS Excel & SPSS",
+      ]
+    },
     {
       "company": "Eyegenix LLC",
       "position": "Researcher",
@@ -112,7 +136,7 @@
         "Biocompatibility testing/assays of manufactured products",
         "Maintaining human cell lines",
         "Aseptic technique",
-        "Electrophorisis",
+        "Grant writing and reporting",
         "Polymer formulation and manufacturing",
         "Quality control testing",
         "Data analysis",
@@ -149,6 +173,17 @@
     }
   ],
   "volunteer": [
+  {
+      "organization": "Asian American Junior Chamber of Commerce ",
+      "website": "http://aerohawaii.org/Home/",
+      "position": "AERo Committee Member",
+      "startDate": "2017-05",
+      "endDate": "Present",
+      "summary": "Provide a STEM based curriculum to highschool students through interscholastic drone racing": [
+        "Program development",
+        "Information distribution"
+      ]
+    },
      {
       "organization": "Hawaii Pacific University",
       "website": "",
