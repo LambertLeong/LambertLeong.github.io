@@ -54,6 +54,7 @@
         "C++",
         "Java",
         "Javascript",
+        "Python",
         "SQL",
       ]
     },
@@ -63,6 +64,7 @@
       "keywords": [
         "Windows 10",
         "Linux",
+        "Cray Cluster",
         "MacOS",
         "Microsoft Office",
         "Git",
