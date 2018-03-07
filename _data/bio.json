@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Lambert Leong",
-    "label": "Student & Researcher",
+    "label": "Computer Science Graduate Student & Biopolymers Researcher",
     "picture": "https://LambertLeong.github.io/images/profile2dsquare.jpg ",
     "email": "lambert3@hawaii.edu",
     "phone": "808-429-2576",
     "website": "https://LambertLeong.github.io",
-    "summary": "I am studying Information and Computer Sciences at the University of Hawaii, Manoa and expect to graduate in 2018.",
+    "summary": "I a graduate student studying information and computer sciences at the University of Hawaii, Manoa and expect to graduate at the end of Fall 2018.",
     "location": {
       "address": "",
       "postalCode": "96822",
@@ -30,8 +30,10 @@
   },
   "interests": [
     {
-      "name": "bioinformatics",
+      "name": "High Performance Computing",
       "keywords": [
+        "OpenMP",
+        "OpenMPI",
       ]
     },
     {
@@ -40,7 +42,7 @@
       ]
     },
     {
-      "name": "HPC",
+      "name": "Biocomputing",
       "keywords": [
       ]
     }
@@ -69,7 +71,7 @@
         "Microsoft Office",
         "Git",
         "gcc/g++",
-        "Adobe: Photoshop, Lightroom, Illustrator, Premier Pro"
+        "Adobe Suites"
       ]
     }
   ],
@@ -85,8 +87,11 @@
         "Algorithms",
         "Bioinformatics",
         "Databases",
-        "High Performance Computing",
+        "High Performance Computing I & II",
+        "Medical Informatics",
         "Network Science",
+        "Security & Cryptography",
+        "Social Informatics"
         "Software Engineering I & II",
       ]
     },
