@@ -8,10 +8,22 @@
 // Customize the background color
 body {
   // background-color: #f2f2f2;;
+//background-image:url("../images/kauairoad.jpg");
+//background-size: cover;
+//background-repeat: no-repeat;
+}
+
+.home_body {
+  // background-color: #f2f2f2;;
+background-image:url("../images/kauairoad.jpg");
+background-size: 100% 100%;
+//background-size: 100% 100%;
+background-repeat: no-repeat;
 }
 
 // Customize the menubar color
 .ui.menu {
+opacity: .85;
   // background: $background-start;
 }
 
