@@ -22,6 +22,23 @@ centered small circular image">
                     <div style="color: #010101; font-size: 105%" class="meta">
                         <span class="date">{{ site.data.bio.basics.label }}</span>
                     </div>
+                <div class="center aligned content">
+                    <a href="{{ site.baseurl}}/projects/">
+                        <button class="ui basic button" style="color: black !important; border: 1px solid black !important;">Projects ({{ num_projects }})</button>
+                    </a>
+                    <!--<a href="{{ site.baseurl}}/essays/">
+                      <button class="ui basic button">Essays ({{ num_essays }})</button>
+                    </a>-->
+                    <a href="https://lambertleong.github.io/images/lambertleong_resume_2018.pdf" target="_blank"/>
+                    <!--a href="{{ site.baseurl}}/bio/">
+                        <!--a href="/images/lambertleong_resume_2018.pdf"-->
+                        <!--button class="ui basic button">{{ site.bio-page-label }}</button-->
+                        <button class="ui basic button" style="color: black !important; border: 1px solid black !important;  -webkit-transition-duration: 0.4s !important; transition-duration: 0.4s !important;">{{ site.bio-page-label }}</button>
+                    </a>
+                    <!--<a href ="">
+                      <button class="bitcoinate" data-size="30" data-address="1DXbPDevaN8z3PGbvp3GPFzKcuXVTRAjv9">bitcoinate</button>
+                    </a>-->
+                </div>
                     <div class="left aligned description">
                         {{ site.data.bio.basics.summary }}
                     </div>
@@ -34,26 +51,9 @@ centered small circular image">
                         {% endfor %}
 
                     </div>
-                </div>
                 <div class="center aligned extra content">
                     {% include home-network-links.html %}
                 </div>
-                <div class="center aligned content">
-                    <a href="{{ site.baseurl}}/projects/">
-                        <button class="ui basic button">Projects ({{ num_projects }})</button>
-                    </a>
-                    <!--<a href="{{ site.baseurl}}/essays/">
-                      <button class="ui basic button">Essays ({{ num_essays }})</button>
-                    </a>-->
-                    <a href="https://lambertleong.github.io/images/lambertleong_resume_2018.pdf" target="_blank"/>
-                    <!--a href="{{ site.baseurl}}/bio/">
-                        <!--a href="/images/lambertleong_resume_2018.pdf"-->
-                        <!--button class="ui basic button">{{ site.bio-page-label }}</button-->
-                        <button class="ui basic button">{{ site.bio-page-label }}</button>
-                    </a>
-                    <!--<a href ="">
-                      <button class="bitcoinate" data-size="30" data-address="1DXbPDevaN8z3PGbvp3GPFzKcuXVTRAjv9">bitcoinate</button>
-                    </a>-->
                 </div>
             </div>
         </div>
