@@ -7,6 +7,7 @@
 
 // Customize the background color
 body {
+  background: black;
   // background-color: #f2f2f2;;
 //background-image:url("../images/kauairoad.jpg");
 //background-size: cover;
@@ -19,6 +20,8 @@ background-image:url("../images/kauairoad.jpg");
 background-size: 100% 100%;
 //background-size: 100% 100%;
 background-repeat: no-repeat;
+height: 100%;
+margin: auto;
 }
 
 // Customize the menubar color
