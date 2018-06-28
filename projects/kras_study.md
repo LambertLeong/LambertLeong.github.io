@@ -21,4 +21,4 @@ Hawaii is often referred to as the melting pot because of its racial and cultura
 As a research employee at the Queen’s Medical Center in Honolulu Hi, I was able to go through the histories of CRC patients and gather data such as, mutation type and race.  I compiled the data and ran a preliminary statistical analysis which suggested that certain mutations were more prevalent within the population of Hawaii.   Further data analysis was conducted with the help of Jared Acoba M.D. and Christopher Lum M.D.  Findings were written up in an abstract and published in the American Society of Clinical Oncology (ASCO).
 
  
-Link to abstract: <a href="http://meetinglibrary.asco.org/content/99452-114"><i class="large github icon"></i>Analysis of KRAS and BRAF mutant colorectal cancers in a multiracial population</a>
+Link to abstract: <a href="http://meetinglibrary.asco.org/content/99452-114"><!--i class="large github icon"></i-->Analysis of KRAS and BRAF mutant colorectal cancers in a multiracial population</a>
