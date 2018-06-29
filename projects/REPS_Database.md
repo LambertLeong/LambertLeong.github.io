@@ -4,8 +4,8 @@ type: project
 published: true
 image: images/seal.png
 title: Database for Research and Evaluation for Public Safety Project
-permalink: projects/REPS Database
-date: 2016
+permalink: projects/REPS_Database
+date: 2017
 labels:
   - Database
   - SQL
