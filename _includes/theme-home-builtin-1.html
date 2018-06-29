@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/home-stylesheet-customizations.css">
+
 <div class="home_body">
 <!-- Home page design with small circular image bisecting card. -->
 {% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
