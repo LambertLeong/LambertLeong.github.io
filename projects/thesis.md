@@ -14,7 +14,7 @@ labels:
   - MPI
   - C/C++
   
-summary: Developed an app in my software engineering class that can be used to organize study sessions and meet up times. 
+summary: My thesis work consisted of writing Python code for simulation and experiements to design multi-chip systems. 
 ---
 
 
