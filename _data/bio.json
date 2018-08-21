@@ -6,7 +6,7 @@
     "email": "lamberttleong@gmail.com",
     "phone": "808-429-2576",
     "website": "https://LambertLeong.github.io",
-    "summary": "I graduated from the University of Oregon with a B.S. in biology and a minor in chemistry.  I am currently a researcher at Eyegenix LLC in Honolulu, Hawaii.  In addition, I am a graduate student studying information and computer sciences at the University of Hawaii, Manoa and expect to graduate in December 2018.",
+    "summary": "I graduated from the University of Oregon with a B.S. in biology and a minor in chemistry.  I am currently a researcher at Eyegenix LLC in Honolulu, Hawaii.  In addition, I am a graduate student studying information and computer sciences at the University of Hawaii, Manoa and expect to graduate in December 2018.  My goal is in an interdisciplinary space where I am able to utilize my skills in both biology and computer science",
     "location": {
       "address": "",
       "postalCode": "96822",
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "name": "Databases/Data Analysis",
+      "name": "Data Driven Research",
       "keywords": [
       ]
     },
@@ -52,11 +52,11 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
+        "Python",
         "C",
         "C++",
         "Java",
         "Javascript",
-        "Python",
         "SQL",
       ]
     },
@@ -67,11 +67,11 @@
         "Windows 10",
         "Linux",
         "Cray Cluster",
-        "MacOS",
         "Microsoft Office",
         "Git",
         "gcc/g++",
-        "Adobe Suites"
+        "Adobe Suites",
+        "MacOS",
       ]
     }
   ],

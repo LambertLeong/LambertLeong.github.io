@@ -17,8 +17,6 @@ labels:
 summary: My thesis work consisted of writing Python code for simulation and experiements to design multi-chip systems. 
 ---
 
-
-
 __Summary__
 
 For my Master Thesis in computer science at the University of Hawaii at Manoa I wrote a simulation to construct Integreated 3D Multi-chip systems.  Under the guidance of my advisor Prof. [Henri Casanova](https://henricasanova.github.io/) and in collaboration with Prof. [Michihiro Koibuchi](https://www.nii.ac.jp/en/faculty/architecture/koibuchi_michihiro/) and his KoiLab team I developed designs for single systems containing multiple microprocessor chips.  The advantage of a single multi-chip system is high computaitonal power and low latency which is advantagous for running parallel applications.  Common cluster architecture offer high computational power however, microprocessor chips are not contained within one unit and a network is required for communication.  The systems we design contain many microprocessor chips in close proximity to one another in one system and they communicate via either wired or unwired connections.  The interchip connections in our systems offer a significantly greater bandwidth than those presented in common cluster architecture such as Gigabit ethernet or infiniband.
