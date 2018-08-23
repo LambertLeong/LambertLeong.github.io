@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/home-stylesheet-customizations2.css">
+
 <!-- Home page design with large image to left of bio info. -->
 {% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
 {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
@@ -12,7 +14,7 @@
     </div>
   </div>
 
-  <div class="column">
+  <div style="background-color: white; opacity: .85" class="column">
     <h2 class="header no-bottom">{{ site.data.bio.basics.name }}</h2>
     <p class="">{{ site.data.bio.basics.label }}</p>
     <p class="">
@@ -27,15 +29,29 @@
       {% include home-network-links.html %}
     </p>
     <p style="text-align: center">
+
+      <a href="{{ site.baseurl}}/projects/thesis">
+        <!--a href="{{ site.baseurl}}/bio/">
+            <!--a href="/images/lambertleong_resume_2018.pdf"-->
+        <!--button class="ui basic button">{{ site.bio-page-label }}</button-->
+        <button class="ui basic button" style="color: black !important; border: 1px solid black !important;  -webkit-transition-duration: 0.4s !important; transition-duration: 0.4s !important;">Thesis</button>
+      </a>
+
       <a href="{{ site.baseurl}}/projects/">
-        <button class="ui basic button">Projects ({{ num_projects }})</button>
+        <button class="ui basic button"  style="color: black !important; border: 1px solid black !important;  -webkit-transition-duration: 0.4s !important; transition-duration: 0.4s !important;">Projects ({{ num_projects }})</button>
       </a>
       <!--<a href="{{ site.baseurl}}/essays/">
         <button class="ui basic button">Essays ({{ num_essays }})</button>
       </a>-->
-      <a href="{{ site.baseurl}}/bio/">
-        <button class="ui basic button">{{ site.bio-page-label }}</button>
+      <a href="https://lambertleong.github.io/images/lambertleong_resume_2018.pdf" target="_blank"/>
+      <!--a href="{{ site.baseurl}}/bio/">
+          <!--a href="/images/lambertleong_resume_2018.pdf"-->
+      <!--button class="ui basic button">{{ site.bio-page-label }}</button-->
+      <button class="ui basic button" style="color: black !important; border: 1px solid black !important;  -webkit-transition-duration: 0.4s !important; transition-duration: 0.4s !important;">{{ site.bio-page-label }}</button>
       </a>
+      <!--a href="{{ site.baseurl}}/bio/">
+        <button class="ui basic button">{{ site.bio-page-label }}</button>
+      </a-->
     </p>
   </div>
 </div>
