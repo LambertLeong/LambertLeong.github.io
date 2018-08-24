@@ -39,6 +39,6 @@ __Learned__
 
 This project allowed me to become comfortable and well versed in the Python programming language.  During the course of my thesis, I learned to designe and simulate numerous experiements to gather data to build the best possible layouts.  I utilized remote machines and a cray cluster to run simulations which helped me to become more familiar with Linux/unix, ssh, and bash/shell scripting.  The utilization of MPI helped me gain experience in developing, working with, and debugging parallel code.  My concurrent and parallel programming skills greatly improved during the course of my thesis.  My ability to write scientifically and technically as well as present my findings were skills that I attribute to my thesis work.  
 
-*Copy of my thesis to be posted soon
+*Copy of my thesis to be posted following defense
 
 ** Results from this work are up for publication.  Inquire via email for actual results
