@@ -10,8 +10,11 @@ labels:
  
   - R
   - Gephi 
+  - Data collection/analysis
   - Network Analysis
   - igraph
+  - bitcoin
+  - blockchain
   
 summary: Sampling and network analysis of the rapidly growing Bitcoin exchange and blockchain network. Cover GIF shows growth of the network over 6 hours
 
@@ -55,3 +58,5 @@ The graph file was then ported over to [Gephi](https://gephi.org/) mainly for vi
 __Learned__
 
 From my work on this project I was able to analyse the btc network and characterize it.  More importantly, I was able to develope skills in working with API's, parsing large data, analysing that data, and presenting it with visual aids such as igraph and Gephi.  These skills are applicable in many other situations that require the gathering, analysis, and presentation/visualization of large amounts of data.  R is a powerful statistics tool and I foresee my skills with it being useful in my pursuit toward data driven research.  Networks are ever present and being able to recognize and analyse them is an important skill.  
+
+<br/>

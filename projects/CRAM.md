@@ -3,33 +3,45 @@ layout: project
 type: project
 published: true
 image: images/og-image-logo.png
-title: Study Session App Built in Meteor
-permalink: projects/Cram
+title: Study Session App Built with Meteor
+permalink: projects/cram
 date: 2016
 labels:
   - JavaScript
   - HTML/CSS
   - Meteor 
+  - nodeJS
+  
 summary: Developed an app in my software engineering class that can be used to organize study sessions and meet up times. 
 ---
 
+**Summary**
 
-Our app was called CRAM and it allowed students to organize times to study with one another.  CRAM is a web app developed using the Meteor framework and deployed to galaxy.  I became familiar and comfortable with the Meteor framework and knowledgeable of the MongoDB database structure.  I have become more comfortable coding in JavaScript, HTML, and CSS to the point where I enjoy it.
+Me and my team was tasked with using the Meteor framwork to build a web application.  We developed an app to organize study sessions for students and we called it CRAM.  The app was finished and later deployed with [galaxy](https://www.meteor.com/galaxy/signup) hosting.
 
-<div class="ui images">
-  <img class="ui image" src="../images/home_login.png">
-</div>
+__Contribution__
 
-This app was developed as a team project and Git and Github proved to be powerful tools that allowed us to work efficiently.  We developed an organization, created a project, and set up milestones that we strove to accomplish.  Github helped the development process and allowed us to work together without having to actually be together physically.    
+My contributions to the project consisted of planning and prototyping the pages we planned to build.  We split up the work by assigning people certian pages to build.  I was responsible for building the study session generation page, calandar page, and, session signup page.  I also performed the linking of all the pages.
 
-<!--div class="ui medium images"-->
-  <img class="ui image" src="../images/personal_c.png">
-<!--/div-->
+**Learned**
 
-This project was the result of everything we have learned thus far in software engineering.  The development of this app has taught me how to develop and work as a team.  It also has helped me get exposure to different coding languages and frameworks.  I have since gained confidence in my software engineering abilities and would feel comfortable taking on more software engineering opportunities in the future.
+Git and Github played a crucial role in our development.  I learned how to create a Github oranization, post task, and post and resolve issue withing the organization.  This project helped fortify teamwork skills because we all had different schdules and mostly worked asynchronously.  Communication was important as well as proper use of git.  I gained experience with nodeJS, mongoDB, the meteor framwork and languages such as HTML, CSS, and javascript.   
+
+A link to our team organization is below along with screenshot samples of some of our app pages.
 
 Link to github app page:
 <a href="https://cram-colleague.github.io/">CRAM APP PROJECT PAGE</a>
+
+<div class="ui fluid images">
+  <img class="ui image" src="../images/home_login.png">
+</div>
+
+
+<!--div class="ui fluid small images"-->
+  <img class="ui image" src="../images/personal_c.png">
+<!--/div-->
+
+
 
 
 
