@@ -122,19 +122,6 @@
     }
   ],
   "work": [
-  {
-      "company": "Social Science Research Institute (SSRI), University of Hawaii at Manoa",
-      "position": "Graduate Research Assistant",
-      "website": "http://www.ssri.hawaii.edu/pages/SSRI_REPS.html",
-      "startDate": "2017-06",
-      "endDate": "2017-08",
-      "summary": "Database management and data analysis",
-      "highlights": [
-        "Building Access databases",
-        "Implementing best practice data collection, storage, and manipulation protocols",
-        "Data analysis via MS Excel & SPSS",
-      ]
-    },
     {
       "company": "Eyegenix LLC",
       "position": "Researcher",
@@ -150,6 +137,19 @@
         "Polymer formulation and manufacturing",
         "Quality control testing",
         "Data analysis",
+      ]
+    },
+  {
+      "company": "Social Science Research Institute (SSRI), University of Hawaii at Manoa",
+      "position": "Graduate Research Assistant",
+      "website": "http://www.ssri.hawaii.edu/pages/SSRI_REPS.html",
+      "startDate": "2017-06",
+      "endDate": "2017-08",
+      "summary": "Database management and data analysis",
+      "highlights": [
+        "Building Access databases",
+        "Implementing best practice data collection, storage, and manipulation protocols",
+        "Data analysis via MS Excel & SPSS",
       ]
     },
     {
