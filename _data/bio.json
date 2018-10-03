@@ -4,15 +4,15 @@
     "label": "Computer Science Graduate Student & Biopolymers Researcher",
     "picture": "https://LambertLeong.github.io/images/profile2d.jpg ",
     "email": "lamberttleong@gmail.com",
-    "phone": "808-429-2576",
+    "phone": "",
     "website": "https://LambertLeong.github.io",
-    "summary": "I graduated from the University of Oregon with a B.S. in biology and a minor in chemistry.  I am currently a researcher at Eyegenix LLC in Honolulu, Hawaii.  In addition, I am a graduate student studying information and computer sciences at the University of Hawaii, Manoa and expect to graduate in December 2018.  My goal is in an interdisciplinary space where I am able to utilize my skills in both biology and computer science",
+    "summary": "Currently working towards a Masters in computer science while conducting research at a bio-tech company called Eyegenix.  I received my Bachelors in biology and have work experience in biological, medical, and biomedical research. I am motivated by data driven research. I enjoy developing software and hope to work in an environment that allows me to continue to utilize both my backgrounds in biology and computer science.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
     },
     "profiles": [
       {
@@ -57,6 +57,7 @@
         "C++",
         "Java",
         "Javascript",
+        "Shell",
         "SQL",
       ]
     },
@@ -64,12 +65,13 @@
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
+        "Machine Learning (scikit-learn)",
+        "R",
+        "Vim",
         "Windows 10",
         "Linux",
-        "Cray Cluster",
-        "Microsoft Office",
+        "Microsoft Office Suites",
         "Git",
-        "gcc/g++",
         "Adobe Suites",
         "MacOS",
       ]
@@ -82,11 +84,12 @@
       "studyType": "M.S.",
       "startDate": "2015-08-24",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "3.84",
       "courses": [
         "Algorithms",
         "Bioinformatics",
         "Databases",
+        "Evolutionary Computation",
         "High Performance Computing I & II",
         "Medical Informatics",
         "Network Science",
@@ -97,7 +100,7 @@
     },
     {
       "institution": "University of Oregon, Eugene, OR",
-      "area": "Biology, minor,chemistry",
+      "area": "Biology, Minor,chemistry",
       "studyType": "B.S.",
       "startDate": "2010-09-24",
       "endDate": "2014-06-14",
