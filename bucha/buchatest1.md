@@ -1,17 +1,51 @@
 ---
-layout: essay
-type: essay
+layout: bucha
+type: bucha
 published: true
-title: Logically Creative
+title: Bucha log 1
 image: images/G0058272 (2).JPG
 date: 2016-08-28
 labels:
-  - Software Engineering
-  - Classwork
-  - Learning
+  - Kombucha
+  - Fermentation
 ---
+|Hello|World|Test|hello|world|test|
+|:---:|----:|----|:----|-----:|---|
+|Hello|World|Test|hello|world|test|
 
 <img class="ui tiny left circular floated image" src="../images/G0058272 (2).JPG">
+
+<table class="ui celled table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Status</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>No Name Specified</td>
+      <td>Unknown</td>
+      <td class="negative">None</td>
+    </tr>
+    <tr class="positive">
+      <td>Jimmy</td>
+      <td><i class="icon checkmark"></i> Approved</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Jamie</td>
+      <td>Unknown</td>
+      <td class="positive"><i class="icon close"></i> Requires call</td>
+    </tr>
+    <tr class="negative">
+      <td>Jill</td>
+      <td>Unknown</td>
+      <td>None</td>
+    </tr>
+  </tbody>
+</table>
 
 Creativity is my greatest strength because it helps me approach problems and see things in a different light.  It also motivates me to come up with new ways to perform task and accomplish my goals.  I’ve always enjoyed, drawing,  making 3D sculptures, photography, and compiling time-lapses and films because I am allowed total creative freedom.  I also enjoy the transition of the intangible to the tangible, meaning an idea I think up can become something that someone can watch, hold, and/or see.
 

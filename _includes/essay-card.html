@@ -1,6 +1,11 @@
 <!-- Used by theme-essays-builtin-1 -->
 
 <div class="card">
+  {% if include.page.image %}
+  <div class="image">
+    <img src="{{ site.baseurl }}/{{ include.page.image }}">
+  </div>
+  {% endif %}
   <div class="content">
     <span class="header">{{ include.page.title }}</span>
     <div class="meta">

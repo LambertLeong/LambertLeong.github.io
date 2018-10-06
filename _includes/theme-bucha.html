@@ -1,0 +1,9 @@
+
+<div style="padding-top: 20px" class="ui four column centered stackable grid container">
+  {% assign bucha_pages = site.pages | where: "type", "bucha" | sort: "date" | reverse %}
+  {% for page in bucha_pages %}
+    {% unless page.draft %}
+      {% include essay-row.html page=page %}
+    {% endunless %}
+  {% endfor %}
+</div>
