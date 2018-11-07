@@ -4,12 +4,12 @@ type: blog
 published: true
 title: Bucha Blog
 image: images/G0058272 (2).JPG
-date: 2016-08-28
+date:  2018-11-04
 labels:
   - Kombucha
   - Fermentation
 ---
 
-<img class="ui tiny left circular floated image" src="../images/G0058272 (2).JPG">
 
-testing cover page
+
+Describe the bucha blog

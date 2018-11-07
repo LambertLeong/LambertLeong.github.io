@@ -8,7 +8,7 @@
 {% assign num_essays = essay_pages.size %}
 {% assign num_projects = project_pages.size %}
 
-<div style="height: 100%;" class="ui middle aligned two column centered stackable grid container">
+<div style="height: 100%;" class="ui middle aligned two column centered stackable fluid grid container">
 
   <div class="column">
     <!div style="position: relative; top: 75px; z-index: 1" class="ui fluid centered large  circular image">
@@ -17,7 +17,7 @@
     </div>
   </div>
 
-  <div style="background-color: lightgray; opacity: .80" class="column">
+  <div style="position: relative; background-color: lightgray; opacity: .80" class="fluid column">
     <h2 class="header no-bottom">{{ site.data.bio.basics.name }}</h2>
     <p class="">{{ site.data.bio.basics.label }}</p>
     <p class="">

@@ -1,4 +1,70 @@
 
+<!div class="features ui grid" style="overflow-y:auto;">
+<div style="height:200px; overflow-x: scroll;overflow-y: scroll;"class="ui container ">
+<table class="ui celled padded table">
+  <thead>
+  <tr>
+    <!--th class="single line">Evidence Rating</th-->
+    <th>Lot</th>
+    <th>Taste</th>
+    <th>CO2 Level</th>
+    <th>Tea</th>
+    <th>Tea Quantity</th>
+    <th>Sugar</th>
+    <th>Sugar Qantity</th>
+    <th>Scoby Lot</th>
+    <th>pH</th>
+    <th>Date Bottled</th>
+    <th>Flavor</th>
+    <th>Comments</th>
+  </tr></thead>
+  <tbody>
+
+    {% for brew in site.data.bucha.brews reversed %}
+    <tr>
+      <td>
+        <p class="single line"><b>{{brew.lot}}</b></p>
+      </td>
+      <td class="single line">
+        {{brew.taste}}
+      </td>
+      <td class="single line">
+        {{brew.CO2}}
+      </td>
+      <td class="single line">
+        {{brew.tea}}
+      </td>
+      <td class="single line">
+        {{brew.tea_qty}}
+      </td>
+      <td class="single line">
+        {{brew.sugar}}
+      </td>
+      <td class="single line">
+        {{brew.sugar_qty}}
+      </td>
+      <td class="single line">
+        {{brew.scoby_lot}}
+      </td>
+      <td class="single line">
+        {{brew.ph}}
+      </td>
+      <td class="single line">
+        {{brew.bottled}}
+      </td>
+      <td class="single line">
+        {{brew.flavor}}
+      </td>
+      <td >
+        {{brew.comments}}
+      </td>
+    </tr>
+    {% endfor %}
+
+  </tbody>
+
+</table>
+</div>
 <div style="padding-top: 20px" class="ui four column centered stackable grid container">
   {% assign bucha_pages = site.pages | where: "type", "bucha" | sort: "date" | reverse %}
   {% for page in bucha_pages %}
@@ -7,3 +73,6 @@
     {% endunless %}
   {% endfor %}
 </div>
+
+
+<!--table

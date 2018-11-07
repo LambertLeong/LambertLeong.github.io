@@ -2,18 +2,30 @@
 layout: bucha
 type: bucha
 published: true
-title: Bucha log 1
+title: Bucha blog 1
 image: images/G0058272 (2).JPG
 date: 2016-08-28
 labels:
   - Kombucha
   - Fermentation
 ---
-|Hello|World|Test|hello|world|test|
-|:---:|----:|----|:----|-----:|---|
-|Hello|World|Test|hello|world|test|
 
 <img class="ui tiny left circular floated image" src="../images/G0058272 (2).JPG">
+
+<script>
+    var table = '';
+    var rows = 2
+    var cols = 3
+    for (var r=0; r<rows; r++){
+        table += '<tr>';
+        for (var c = 0; c< cols; c++){
+            table+= 'td'+c+'</td>'
+        }
+        table += '</tr>';
+        
+    }
+    document.write('<table>'+table+</table>')
+</script>
 
 <table class="ui celled table">
   <thead>
