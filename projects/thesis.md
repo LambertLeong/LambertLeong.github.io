@@ -14,7 +14,7 @@ labels:
   - MPI
   - C/C++
   
-summary: Title - "A Heuristic for Optimizing the Physical Layout and Network Topology of Integrated 3D Multi-chip Systems Under Temperature Constraints"
+summary: "A Heuristic for Optimizing the Physical Layout and Network Topology of Integrated 3D Multi-chip Systems Under Temperature Constraints"
 ---
 
 __Summary__
