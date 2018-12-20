@@ -24,7 +24,7 @@
         "network": "linkedin",
         "username": "Lambert Leong",
         "url": "https://www.linkedin.com/in/lambert-leong-0bba23a4"
-      },
+      }
 
     ]
   },
@@ -33,7 +33,7 @@
       "name": "High Performance Computing",
       "keywords": [
         "OpenMP",
-        "OpenMPI",
+        "OpenMPI"
       ]
     },
     {
@@ -116,7 +116,7 @@
         "Physiological Biochem",
         "Systems Neuroscience",
         "Tropical Diseases",
-        "Model Organisms",
+        "Model Organisms"
       ]
     }
   ],
@@ -149,7 +149,7 @@
         "Grant writing and reporting",
         "Polymer formulation and manufacturing",
         "Quality control testing",
-        "Data analysis",
+        "Data analysis"
       ]
     },
     {
@@ -162,7 +162,7 @@
       "highlights": [
         "Building Access databases",
         "Implementing best practice data collection, storage, and manipulation protocols",
-        "Data analysis via MS Excel & SPSS",
+        "Data analysis via MS Excel & SPSS"
       ]
     },
     {
@@ -173,7 +173,7 @@
       "endDate": "2014",
       "summary": "",
       "highlights": [
-        "Customer service",
+        "Customer service"
       ]
     },
     {
