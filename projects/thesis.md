@@ -14,7 +14,7 @@ labels:
   - MPI
   - C/C++
   
-summary: My thesis work consisted of writing Python code for simulation and experiments to design multi-chip systems. 
+summary: A Heuristic for Optimizing the Physical Layout and Network Topology of Integrated 3D Multi-chip Systems Under Temperature Constraints
 ---
 
 __Summary__
