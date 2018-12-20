@@ -5,7 +5,7 @@ published: true
 image: images/13chip50.gif
 title: Thesis
 permalink: projects/thesis
-date: 2018-10-12
+date: 2018
 labels:
   - Python
   - Parallel Programming
@@ -14,7 +14,7 @@ labels:
   - MPI
   - C/C++
   
-summary: "A Heuristic for Optimizing the Physical Layout and Network Topology of Integrated 3D Multi-chip Systems Under Temperature Constraints"
+summary: A Heuristic for Optimizing the Physical Layout and Network Topology of Integrated 3D Multi-chip Systems Under Temperature Constraints
 ---
 
 __Summary__
