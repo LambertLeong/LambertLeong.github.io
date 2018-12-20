@@ -5,7 +5,7 @@ published: true
 image: images/stega.png
 title: Parallel Steganographic Encryption
 permalink: projects/parallel_steganographic_encryption
-date: 2018
+date: 2018-04-20
 labels:
  
   - Security

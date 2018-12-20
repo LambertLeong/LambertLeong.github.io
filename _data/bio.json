@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Lambert Leong",
-    "label": "Computer Science Graduate Student & Biopolymers Researcher",
+    "label": "Bioengineering PhD Research Assistant",
     "picture": "https://LambertLeong.github.io/images/profile2d.jpg ",
     "email": "lamberttleong@gmail.com",
     "phone": "",
-    "website": "https://LambertLeong.github.io",
-    "summary": "Currently working towards a Masters in computer science while conducting research at a bio-tech company called Eyegenix.  I received my Bachelors in biology and have work experience in biological, medical, and biomedical research. I am motivated by data driven research. I enjoy developing software and hope to work in an environment that allows me to continue to utilize both my backgrounds in biology and computer science.",
+    "website": "https://lambertleong.com",
+    "summary": "Currently working at the University of Hawaii Cancer Center as a PhD student in the Molecular Bioscience and Bio-Engineering(MBBE) department.  I received my Masters in computer science where I focused on high performance computing and simulation.  My Bachelors degree is in biology and have work experience in biological, medical, and biomedical research. I am motivated by data driven research. I enjoy developing software and hope to work in an environment that allows me to continue to utilize both my backgrounds in biology and computer science.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -37,12 +37,12 @@
       ]
     },
     {
-      "name": "Data Driven Research",
+      "name": "Data Science",
       "keywords": [
       ]
     },
     {
-      "name": "Biocomputing",
+      "name": "Machine/Deep Learning",
       "keywords": [
       ]
     }
@@ -53,27 +53,26 @@
       "level": "",
       "keywords": [
         "Python",
+        "Matlab",
         "C",
         "C++",
         "Java",
         "Javascript",
         "Shell",
-        "SQL",
+        "SQL"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "Machine Learning (scikit-learn)",
-        "R",
-        "Vim",
-        "Windows 10",
-        "Linux",
-        "Microsoft Office Suites",
         "Git",
+        "Linux",
+        "Windows 10",
+        "Microsoft Office Suites",
+        "Vim",
         "Adobe Suites",
-        "MacOS",
+        "MacOS"
       ]
     }
   ],
@@ -82,8 +81,8 @@
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science",
       "studyType": "M.S.",
-      "startDate": "2015-08-24",
-      "endDate": "Present",
+      "startDate": "2016-08-24",
+      "endDate": "2018-12-15",
       "gpa": "3.84",
       "courses": [
         "Algorithms",
@@ -95,12 +94,12 @@
         "Network Science",
         "Security & Cryptography",
         "Social Informatics",
-        "Software Engineering I & II",
+        "Software Engineering I & II"
       ]
     },
     {
       "institution": "University of Oregon, Eugene, OR",
-      "area": "Biology, Minor,chemistry",
+      "area": "Biology, Minor, chemistry",
       "studyType": "B.S.",
       "startDate": "2010-09-24",
       "endDate": "2014-06-14",
@@ -123,14 +122,28 @@
   ],
   "work": [
     {
+      "company": "University of Hawaii Cancer Center, Shepherd Research Lab (SRL)",
+      "position": "Research Assistant",
+      "website": "http://www.uhcancercenter.org/",
+      "startDate": "2018-11-05",
+      "endDate": "Present",
+      "summary": "Medical Imaging Development",
+      "highlights": [
+        "Software Development",
+        "Novel image bio-marker research",
+        "Data analysis"
+      ]
+    },
+    {
       "company": "Eyegenix LLC",
       "position": "Researcher",
       "website": "http://www.eyegenix.com/",
       "startDate": "2015-08-03",
       "endDate": "2018-10-31",
-      "summary": "Cell & Tissue Culture, Manufacturing",
+      "summary": "Artificial Cornea Development",
       "highlights": [
         "Biocompatibility testing/assays of manufactured products",
+        "Cell & tissue culture, manufacturing",
         "Maintaining human cell lines",
         "Aseptic technique",
         "Grant writing and reporting",
@@ -139,7 +152,7 @@
         "Data analysis",
       ]
     },
-  {
+    {
       "company": "Social Science Research Institute (SSRI), University of Hawaii at Manoa",
       "position": "Graduate Research Assistant",
       "website": "http://www.ssri.hawaii.edu/pages/SSRI_REPS.html",
