@@ -13,9 +13,11 @@ labels:
   - HPC
   - MPI
   - C/C++
+  - DAC
   
 summary: A Heuristic for Optimizing the Physical Layout and Network Topology of Integrated 3D Multi-chip Systems Under Temperature Constraints
 ---
+\* Research findings are published in [Design Automation Conference (DAC)](https://www.dac.com/) 2019.
 
 __Summary__
 
@@ -92,10 +94,5 @@ debugging parallel code.  My concurrent and parallel programming skills greatly
 improved during the course of my thesis.  My ability to write scientifically and
 technically as well as present my findings were skills that I attribute to my
 thesis work.  
-
-*Copy of my thesis to be posted following defense
-
-** Results from this work are up for publication.  Inquire via email for actual
-results
 
 <br/>
