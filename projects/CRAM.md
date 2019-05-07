@@ -17,7 +17,7 @@ summary: Developed an app in my software engineering class that can be used to o
 
 **Summary**
 
-Me and my team was tasked with using the Meteor framework to build a web application.  We developed an app to organize study sessions for students and we called it CRAM.  The app was finished and later deployed with [galaxy](https://www.meteor.com/galaxy/signup) hosting.
+My team and I was tasked with using the Meteor framework to build a web application.  We developed an app to organize study sessions for students and we called it CRAM.  The app was finished and later deployed with [galaxy](https://www.meteor.com/galaxy/signup) hosting.
 
 __Contribution__
 
