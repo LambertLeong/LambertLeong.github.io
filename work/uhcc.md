@@ -28,7 +28,7 @@ As a PhD Graduate Research Assistant under [John Shepherd](https://shepherdresea
   <img class="ui image medium right floated round image" src="../images/real_processed_sinogram.png">
 </div>
 
-- _Breast Thickness Tomosynthesis_ - Breast density is a biomarker that is associated with cancer risk.  Accurate point thickness measurments of the breast are necissary for calculating density.  We use nine views from a sinogram to solve and inverse problem and derive point thickness measurments.
+- _Breast Thickness Tomosynthesis_ - Breast density is a biomarker that is associated with cancer risk.  Accurate point thickness measurments of the breast are necissary for calculating density.  We use nine views from a sinogram to solve and inverse problem and derive point thickness measurments.   
 
     - I developed an unsupervised machine learning model using PCA to characterize sinograms resulting from breast of different thickness, widths, and densities.  
 - _[3CB](https://3cb.shepherdresearchlab.org/)_ - 3 Compartment Breast of 3CB is a project that can render breast lesions specific to the three major components that make  up breast tissue.  These components include water, lipid, and protien and quantifying the amount of each component helps to assess cancer risk and need for biopsies.
