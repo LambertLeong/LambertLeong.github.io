@@ -1,7 +1,7 @@
 ---
 layout: work
 type: work
-published: true
+published: false
 image: images/uh.png
 title: Social Science Research Institiute
 permalink: work/ssri

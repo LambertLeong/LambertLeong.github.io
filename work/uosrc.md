@@ -1,7 +1,7 @@
 ---
 layout: work
 type: work
-published: true
+published: false
 image: images/uofo.png
 title: University of Oregon SRC
 permalink: work/uosrc

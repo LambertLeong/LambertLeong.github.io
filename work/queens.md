@@ -1,7 +1,7 @@
 ---
 layout: work
 type: work
-published: true
+published: false
 image: images/queens_medical_center_transparent.png
 title: Queen's Medical Center
 permalink: work/queens_medical_center
