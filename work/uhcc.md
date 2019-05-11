@@ -19,7 +19,7 @@ summary: From Nov 2018 to present, I worked at the University of Hawaii Cancer C
 
 __Responsibilities__
 
-As a PhD Graduate Research Assistant under [John Shepherd](https://shepherdresearchlab.org/about/our-team/john-shepherd/) PhD, I conduct imaging research which is primarily focused on breast cancer. Our research group is focused on discovering novel imaging bio-markers to detect cancer and asses risk.  Machine and deep learning are big components of my research as it is a powerful tool for analyzing high dimensionality data that is images.  My background in high performance computing and software engineering allows me to fully leverage our GPU clusters to rapidly build and train machine learning models.  
+As a PhD Graduate Research Assistant under [John Shepherd](https://shepherdresearchlab.org/about/our-team/john-shepherd/) PhD, I conduct imaging research which is primarily focused on breast cancer. Our research group seeks to discover novel imaging bio-markers to detect cancer and asses risk.  Machine and deep learning are big components of my research as it is a powerful tool for analyzing high dimensionality data that is images.  My background in high performance computing and software engineering allows me to fully leverage our GPU clusters to rapidly build and train machine learning models.  
 
 
 **Projects**
