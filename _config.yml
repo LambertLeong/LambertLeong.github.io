@@ -23,3 +23,8 @@ theme-bio: theme-bio-builtin-1.html
 markdown: kramdown
 include: [_data]
 
+plugins: [jekyll-mermaid]
+
+mermaid:
+  src: 'js/mermaid.min.js'
+  src_config: 'js/mermaid_config.js'
