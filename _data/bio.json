@@ -10,7 +10,7 @@
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "",
+      "city": "Phone Number",
       "countryCode": "",
       "region": ""
     },
@@ -79,11 +79,23 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science",
+      "area": "Molecular Biosciences and Bioengineering (MBBE)",
+      "studyType": "Ph.D.",
+      "startDate": "2019-01-08",
+      "endDate": "present",
+      "gpa": "3.85",
+      "courses": [
+        "Biological Instraments",
+        "Machine Learning"
+      ]
+    },
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (ICS)",
       "studyType": "M.S.",
       "startDate": "2016-08-24",
       "endDate": "2018-12-15",
-      "gpa": "3.84",
+      "gpa": "3.85",
       "courses": [
         "Algorithms",
         "Bioinformatics",
@@ -238,6 +250,15 @@
     {
       "name": "Available upon request",
       "reference": ""
+    }
+  ],
+  "publications": [
+    {
+      "name":"Sparse 3-D NoCs with Inductive Coupling",
+      "author": "M. Koibuchi, L. Leong, T. Totoki, N Niwa, H Matsutani, H. Amana, H. Casanova",
+      "publisher": "Design Automation Conference (DAC)",
+      "releaseDate": "2019-06",
+      "website": "https://dl.acm.org/citation.cfm?id=3316781.3317913"
     }
   ]
 }
