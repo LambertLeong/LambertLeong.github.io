@@ -13,6 +13,7 @@ labels:
     - R&D
     - Manufacturing
     - Medical Device, Class II
+tags: cornea artificial polymer 
 summary: Eyegenix LLC was a start up located in Honolulu Hawaii with the mission to cure corneal blindness. The cornea is the most transplanted organ worldwide and at Eyegenix we developed a bio-synthetic transplantable cornea.  Our class II medical device's advantage over donor corneas in that host versus graft interactions were non-issue.  
 ---
 
