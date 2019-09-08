@@ -2,7 +2,7 @@
 layout: work
 type: work
 published: true
-image: images/uhcc.jpg
+image: images/work/uhcc.jpg
 title: University of Hawaii Cancer Center
 permalink: work/uhcc
 date: 2019
@@ -25,7 +25,7 @@ As a PhD Graduate Research Assistant under [John Shepherd](https://shepherdresea
 **Projects**
 
 <div class="ui images">
-  <img class="ui image medium right floated round image" src="../images/real_processed_sinogram.png">
+  <img class="ui image medium right floated round image" src="../images/projects/real_processed_sinogram.png">
 </div>
 
 - _Breast Thickness Tomosynthesis_ - Breast density is a biomarker that is associated with cancer risk.  Accurate point thickness measurements of the breast are necessary for calculating density.  We use nine views from a sinogram to solve and inverse problem and derive point thickness measurements.   

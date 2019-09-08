@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/stega.png
+image: images/projects/stega.png
 title: Parallel Steganographic Encryption
 permalink: projects/parallel_steganographic_encryption
 date: 2018
@@ -35,7 +35,7 @@ encode and decode the secret data.
 
 <table class="ui fluid floated right medium image"> <caption
 align="bottom">Visual representation of our data securing protocol </caption>
-<tr><td><img src="../images/stega.png" /></td></tr> </table>
+<tr><td><img src="../images/projects/stega.png" /></td></tr> </table>
 
 In this project with [Ryan Tanaka](https://ryantanaka.github.io/) we propose a
 fast method to both hide and secure secret data.  We explore combining

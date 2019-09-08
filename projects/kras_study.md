@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/UsaXUpTx_400x400.png
+image: images/projects/UsaXUpTx_400x400.png
 title: Analysis of KRAS and BRAF mutant colorectal cancers in a multiracial population
 permalink: projects/Analysis_of_KRAS_and_BRAF_mutant_colorectal_cancers_in_a_multiracial_population
 date: 2012
@@ -14,7 +14,7 @@ labels:
 summary: Study that looked at pattern and trends of certian gene mutations and their correlation to survival rates for a multiracial population.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/UsaXUpTx_400x400.png">
+<img class="ui medium right floated rounded image" src="../images/projects/UsaXUpTx_400x400.png">
 
 Hawaii is often referred to as the melting pot because of its racial and cultural diversity.  As a result, the diverse sample population has been the subject of research for many fields, one of which being cancer.  Studies have shown that genetic variation associated with a multiracial population can have value as indicators of prognosis.  This project evaluated the genetic variation of colorectal cancer (CRC) patients in Hawaii.    
 

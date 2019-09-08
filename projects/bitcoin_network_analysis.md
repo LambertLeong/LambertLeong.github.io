@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/btc_network_sample.gif
+image: images/projects/btc_network_sample.gif
 title: Bitcoin Network Analysis
 permalink: projects/bitcoin_network_analysis
 date: 2016
@@ -31,7 +31,7 @@ During this period, in 2016, sources claimed that the number of btc users was gr
 <table class="ui fluid large floated left image">
 <caption align="bottom">Power-law analysis looking for scale free networks with igraph and R.
 </caption>
-<tr><td><img src="../images/powerlaw_btc.png" /></td></tr>
+<tr><td><img src="../images/projects/powerlaw_btc.png" /></td></tr>
 </table>
 
 <br/>
@@ -49,7 +49,7 @@ Using a websocket API provided by [Blockchain.info](https://www.blockchain.com/a
 <table class="ui fluid large floated right image">
 <caption align="bottom">Two biggest community structures visualized using Gephi
 </caption>
-<tr><td><img src="../images/linkcomzoom.png" /></td></tr>
+<tr><td><img src="../images/projects/linkcomzoom.png" /></td></tr>
 </table>
 <br/>
 

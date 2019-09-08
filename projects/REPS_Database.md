@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/database.png
+image: images/projects/database.png
 title: Database Construction for Social Science Research Institute, Research and Evaluation for Public Safety Project
 permalink: projects/REPS_database
 date: 2017

@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/og-image-logo.png
+image: images/projects/og-image-logo.png
 title: Study Session App Built with Meteor
 permalink: projects/cram
 date: 2016
@@ -33,12 +33,12 @@ Link to Github app page:
 <a href="https://cram-colleague.github.io/">CRAM APP PROJECT PAGE</a>
 
 <div class="ui fluid images">
-  <img class="ui image" src="../images/home_login.png">
+  <img class="ui image" src="../images/projects/home_login.png">
 </div>
 
 
 <!--div class="ui fluid small images"-->
-  <img class="ui image" src="../images/personal_c.png">
+  <img class="ui image" src="../images/projects/personal_c.png">
 <!--/div-->
 
 

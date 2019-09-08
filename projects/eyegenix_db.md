@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/images.jpg
+image: images/projects/images.jpg
 title: Inventory Database
 permalink: projects/Inventory_Database
 date: 2015
@@ -14,7 +14,7 @@ summary: A database class project with real world application and the ability to
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/eyegenix.png">
+  <img class="ui image" src="../images/projects/eyegenix.png">
 </div>
 
 As a researcher at Eygenix LLC, I am a constant user of many chemicals.  Several excel spreadsheets are used for keeping track of the inventory of chemicals.  These many spread sheets are unwieldly and present many problems.  For example, entries can easily be deleted, altered, and duplicated, all of which would lead to database anomalies.  A proper inventory program would help to remedy these issues.

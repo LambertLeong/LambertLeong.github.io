@@ -2,7 +2,7 @@
 layout: work
 type: work
 published: true
-image: images/eyegenix_square_logo.png
+image: images/work/eyegenix_square_logo.png
 title: Eyegenix LLC
 permalink: work/eyegenix
 date: 2018

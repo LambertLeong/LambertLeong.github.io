@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/2000px-DNA_microarray.svg.png
+image: images/projects/2000px-DNA_microarray.svg.png
 title: Genomic Analyzer Validation
 permalink: projects/genomic_analyzer_validation
 date: 2011
@@ -14,7 +14,7 @@ summary: Performed an ih-house validation of Autogenomics' Infinti Analyzer on K
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/s1draftversion1image7a02a01.jpg">
+  <img class="ui image" src="../images/projects/s1draftversion1image7a02a01.jpg">
 </div>
 
 KRAS and BRAF are genetic mutations often screened for in colorectal cancer (CRC) patients.  Having one of these mutations often indicates a less favorable prognosis as patients with these genetic mutation often do not respond well to anti-epidermal growth factor receptor(EGFR) chemotherapies.  Therefore, alternative treatment paths must be explored when treating patients with KRAS and BRAF gene mutations.  

@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: false
-image: images/og-image-logo.png
+image: images/projects/og-image-logo.png
 title: Test
 permalink: projects/gantt
 date: 2019

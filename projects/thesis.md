@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/13chip50.gif
+image: images/projects/13chip50.gif
 title: Thesis
 permalink: projects/thesis
 date: 2018
@@ -39,7 +39,7 @@ offer a significantly greater bandwidth than those presented in common cluster
 architecture such as Gigabit Ethernet or Infiniband.
 
 <div class="ui images">
-  <img class="ui image medium right floated round image" src="../images/13chip50.gif">
+  <img class="ui image medium right floated round image" src="../images/projects/13chip50.gif">
 </div>
 
 The challenges we had when constructing these systems is heat build up due to
