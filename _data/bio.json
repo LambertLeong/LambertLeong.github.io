@@ -32,8 +32,6 @@
     {
       "name": "High Performance Computing",
       "keywords": [
-        "OpenMP",
-        "OpenMPI"
       ]
     },
     {
@@ -43,6 +41,11 @@
     },
     {
       "name": "Machine/Deep Learning",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Medical Imaging",
       "keywords": [
       ]
     }
