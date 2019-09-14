@@ -17,8 +17,10 @@ labels:
   
 summary: A Heuristic for Optimizing the Physical Layout and Network Topology of Integrated 3D Multi-chip Systems Under Temperature Constraints
 ---
-Research findings a part of work published in [Design Automation Conference
+Research findings are part of work published in [Design Automation Conference
 (DAC)](https://dl.acm.org/citation.cfm?id=3316781.3317913) 2019.
+
+Thesis can be found [HERE](http://hdl.handle.net/10125/62292)
 
 __Summary__
 
