@@ -2,7 +2,7 @@
   "basics": {
     "name": "Lambert Leong",
     "label": "Bioengineering PhD Research Assistant",
-    "picture": "https://LambertLeong.github.io/images/landing_page/profile2d.jpg",
+    "picture": "../images/landing_page/profile2d.jpg",
     "email": "lamberttleong@gmail.com",
     "phone": "(541)583-0787",
     "website": "https://lambertleong.com",
