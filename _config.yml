@@ -18,6 +18,7 @@ theme-projects: theme-projects-builtin-1.html
 theme-essays: theme-bio-builtin-1.html
 theme-work: theme-work-builtin-2.html
 theme-bio: theme-bio-builtin-1.html
+theme-extra: theme-extra.html
 
 # YOU NORMALLY NEVER CHANGE THE FOLLOWING
 markdown: kramdown
