@@ -15,7 +15,7 @@ bio-page-label: Resume
 # Defining your own custom theme variations is easy. See the documentation.
 theme-home: theme-home-builtin-2.html
 theme-projects: theme-projects-builtin-1.html
-theme-essays: theme-bio-builtin-1.html
+theme-essays: theme-essays-builtin-2.html
 theme-work: theme-work-builtin-2.html
 theme-bio: theme-bio-builtin-1.html
 theme-extra: theme-extra.html
@@ -24,8 +24,8 @@ theme-extra: theme-extra.html
 markdown: kramdown
 include: [_data]
 
-plugins: [jekyll-mermaid]
+#plugins: [jekyll-mermaid]
 
-mermaid:
-  src: 'js/mermaid.min.js'
-  src_config: 'js/mermaid_config.js'
+#mermaid:
+#  src: 'js/mermaid.min.js'
+#  src_config: 'js/mermaid_config.js'

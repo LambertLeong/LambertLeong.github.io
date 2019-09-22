@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: false
+published: False
 title: Thoughts on JavaScript
 image: 
 date: 2016-09-01
