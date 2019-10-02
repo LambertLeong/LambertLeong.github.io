@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: True
-image: images/projects/
+image: images/projects/written_digit.gif
 title: Digit Recognition From Wrist Movements and Security Concerns with Smart Wrist Wearable IOT Devices
 permalink: projects/handwriting_hicss
 date: 2019
