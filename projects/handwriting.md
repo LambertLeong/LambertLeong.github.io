@@ -7,6 +7,8 @@ title: Digit Recognition From Wrist Movements and Security Concerns with Smart W
 permalink: projects/handwriting_hicss
 date: 2019
 labels:
+  - Artificial Intelligence
+  - A.I.
   - Machine Learning
   - Cyber Security
   - Wearable IOT
