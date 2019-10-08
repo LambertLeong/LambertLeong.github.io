@@ -3,7 +3,7 @@ layout: project
 type: project
 published: true
 image: images/projects/13chip50.gif
-title: Thesis
+title: Masters Thesis
 permalink: projects/thesis
 date: 2018
 labels:

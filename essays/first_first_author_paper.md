@@ -50,9 +50,9 @@ Systems (HICSS)](https://hicss.hawaii.edu) where it was peer reviewed and
 accepted with mandatory changes.  The necessary changes were made, as per the
 reviewer requests, and was finally accepted for presentation in January 2020.
 
-The abstract of my paper can be found [__HERE__](https://lambertleong.com/hicss_abstract)
+The abstract of my paper can be found [__HERE__](../project_extra/hicss_abstract)
 
-The project page can be found [__HERE__](https://lambertleong.com/handwriting_hicss)
+The project page can be found [__HERE__](../projects/handwriting_hicss)
 
 __Writing Process__
 

@@ -270,5 +270,13 @@
       "releaseDate": "2020-01",
       "website": "https://lambertleong.com/hicss_abstract"
     }
+  ],
+  "awards": [
+  {
+  "title":"Trainee Travel Award",
+  "date": "9/22/19",
+  "awarder":"University of Hawaii Cancer Center",
+  "summary": "Awarded $2500 to travel to RSNA in Chicago to present my abstract"
+  }
   ]
 }

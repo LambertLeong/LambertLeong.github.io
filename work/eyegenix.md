@@ -19,9 +19,6 @@ summary: Eyegenix LLC was a start up located in Honolulu Hawaii with the mission
 
 ---
 
-*Content is being modified and is under construction.  Please feel free to take
-a look at other experiences and other pages.*
-
 **Overview**
 
 I worked for Eyegenix from 2015 to 2018 as a researcher.  Eyegenix was a biotech
@@ -49,7 +46,22 @@ produced tangible and testible results.
 
 **Biocompatibility Testing** 
 
-I was originally hired to performe cell and tissue culture task.  Two
-biocompatibility assays were develped to assess how BECs will perform in-vivo.
-Test were performed in a bio-safety level 2 rated lab using imortalized human
- and primary rabbit cornea cells.
+I was originally hired to performe cell and tissue culture task.  Test were
+performed in a bio-safety level 2 rated lab using imortalized human and primary
+rabbit cornea epithelial cells. Two biocompatibility assays were develped to
+assess how BECs will perform in-vivo.  
+
+The first test was called a direct contact assay which tested the accute
+bio-compatibility of our BEC.  Cells were placed on the BEC and left to grow for
+a seven days.  After 7 days, the living cells were quantified using spectoscopy
+and MTT.  The second assay was the cell migration assay which evaluated how well
+BEC materials promote cell migration to cover the material.  An area in the
+middle of the test BEC was occluded and cells were places on the covered portion
+of the bec.  Image analysis with the NIH's imageJ was used to quantify migration
+rates over the BEC surface.  Images were taken under a microscope at periodic
+time points.
+
+While working in tissues culture, I was able to practice and improve my wet lab
+skills.  Contamination is always a conern when performing tissue culture and I
+was able to perfect my sterile technique.  I also learned to maintain a proper
+inventory as well as a clean and sterile work space.

@@ -7,6 +7,24 @@ layout: default
 <div style="padding-top: 20px" class="ui container ">
   <p>I'm sorry, that URL could not be found. Perhaps you were looking for one of the following:</p>
 
+   <h3>Projects</h3>
+  <ul>
+    {% assign project_pages = site.pages | where: "type", "project" | sort:
+"date" | reverse %}
+    {% for page in project_pages %}
+    <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+ <h3>Experience</h3>
+  <ul>
+    {% assign work_pages = site.pages | where: "type", "work" | sort:
+"date" | reverse %}
+    {% for page in work_pages %}
+    <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+
   <h3>Essays</h3>
   <ul>
     {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
@@ -15,13 +33,24 @@ layout: default
     {% endfor %}
   </ul>
 
-  <h3>Projects</h3>
+   <h4>Projects Extras</h4>
   <ul>
-    {% assign project_pages = site.pages | where: "type", "project" | sort: "title" %}
-    {% for page in project_pages %}
+    {% assign project_extra_pages = site.pages | where: "type", "project_extra" | sort:
+"date" | reverse %}
+    {% for page in project_extra_pages %}
     <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
     {% endfor %}
   </ul>
+
+   <h4>Experience Extras</h4>
+  <ul>
+    {% assign work_extra_pages = site.pages | where: "type", "work_extra" | sort:
+"date" | reverse %}
+    {% for page in work_extra_pages %}
+    <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+
 
 </div>
 

@@ -1,10 +1,10 @@
 ---
-layout: extra
-type: extra
+layout: project_extra
+type: project_extra
 published: true
 image: images/extra/hicss_logo.png
-title: Digit Recognition From Wrist Movements and Security Concerns with Smart Wrist Wearable IOT Devices
-permalink: hicss_abstract
+title: ABSTRACT - Digit Recognition From Wrist Movements and Security Concerns with Smart Wrist Wearable IOT Devices
+permalink: project_extra/hicss_abstract
 date: 2019
 labels:
  

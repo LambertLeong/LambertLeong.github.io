@@ -20,9 +20,10 @@ labels:
 summary: Built a machine learning model to identify digits being written users who are wearing smart wrist devices.
 
 ---
-Manuscript found at [Digit Recognition From Wrist Movements and Security Concerns with Smart Wrist Wearable IOT Devices](https://lambertleong.com/hicss_abstract).
+Manuscript found at [Digit Recognition From Wrist Movements and Security
+Concerns with Smart Wrist Wearable IOT Devices](../project_extra/hicss_abstract).
 
-Abstract found [HERE](https://lambertleong.com/hicss_abstract)
+Abstract found [HERE](../project_extra/hicss_abstract)
 
 __Summary__
 
@@ -82,7 +83,7 @@ During this project I was intimately involved in the hardware and I learned how
 to write efficient code for embedded hardware for which speed was important.  
 
 This project was also an exercise in machine learning.  In my current
-[job](https://lambertleong.com/work/uhcc) I have assumed more of a data
+[job](../work/uhcc) I have assumed more of a data
 scientist role rather than a software developer role. Machine learning has
 become an important part of what I do for work.  This project allowed me to
 practice and hone my machine learning skills.  I gained further experience in
@@ -92,6 +93,6 @@ The finding from this project were written up into a formal manuscript and was
 accepted by [Hawaii International Conference on Science Systems
 (HICSS)](https://hicss.hawaii.edu) for their 2020 proceedings.  The manuscript
 writing and review process was also a learning experience that is detailed
-[HERE](https://lambertleong.com/essays/my_first_paper).
+[HERE](../essays/my_first_paper).
 
 <br>
