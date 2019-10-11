@@ -36,6 +36,10 @@ that presented similar work.  I believed that my work was novel and that it
 would be a valuable contribution to the scientific community and so I began the
 process of taking it to publication.
 
+* The abstract of my paper can be found [__HERE__](../project_extra/hicss_abstract)
+
+* The project page can be found [__HERE__](../projects/handwriting_hicss)
+
 __Summary__
 
 In my manuscript I showed that it is possible to use the data from smart wrist
@@ -49,10 +53,6 @@ They manuscript was submitted to [Hawaii International Conference on Science
 Systems (HICSS)](https://hicss.hawaii.edu) where it was peer reviewed and
 accepted with mandatory changes.  The necessary changes were made, as per the
 reviewer requests, and was finally accepted for presentation in January 2020.
-
-The abstract of my paper can be found [__HERE__](../project_extra/hicss_abstract)
-
-The project page can be found [__HERE__](../projects/handwriting_hicss)
 
 __Writing Process__
 
@@ -121,4 +121,4 @@ my efforts.
 [__Support My Efforts Here__](https://www.gofundme.com/f/present-and-publish-my-first-scientific-paper?rcid=r01-156919193564-7cf71a2fcd054b2c&pc=ot_co_campmgmt_w)
 
 <!--img class="ui tiny left circular floated image" src="../images/G0058272 (2).JPG"-->
-
+<br>
