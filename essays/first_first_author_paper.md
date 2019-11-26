@@ -19,22 +19,22 @@ labels:
 There seems to be a particular stigma in academia with regards to publishing
 work.  I was led, early on, to believe that in order to get something published
 you needed to have a powerful name attached to your work.  In other words, new
-publishing individuals would need to have co-authors on their papers who have
-accumulated a good amount of academic clout over the course of their career.  As
-a result, I thought it was near impossible to publish good quality work that was
-independent of a lab, advisor, or any established co-author.
+publishing individuals would need to have co-authors on their papers who have a
+significant academic presense.  As a result, I thought it was near impossible to
+publish good quality work that was independent of a lab, advisor, or any
+established co-author.
 
-Earlier this year (2019) I started a project that was used to satisfy two of the
-classes that I was in.  The project was enjoyable and I had stumbled upon some
-interesting results.  Further independent work on this project lead to remarkable
-results that I felt were worthy of a publication.  I presented my results to a
-few professors and fellow grad students and I asked them if my results were
-publish worthy.  The response I received was unanimous and I was told that it
-was not worth my time and that other have done what I had done already.  My
-literature searches came up short however, and I was not able to find papers
-that presented similar work.  I believed that my work was novel and that it
-would be a valuable contribution to the scientific community and so I began the
-process of taking it to publication.
+Earlier this year (2019) I started a project that was used to satisfy two
+requirements for classes that I was in.  The project was enjoyable and I had
+stumbled upon some interesting results.  Further independent work on this
+project lead to remarkable results that I felt were worthy of a publication.  I
+presented my results to a few professors and fellow grad students and asked them
+for input.  The response I received was pretty unanimous
+and I was told that it was not worth my time and that other have done what I had
+done already.  My literature searches came up short however, and I was not able
+to find papers that presented similar work.  I believed that my work was novel
+and that it would be a valuable contribution to the scientific community and so
+I began the process of taking it to publication.
 
 * The abstract of my paper can be found [__HERE__](../project_extra/hicss_abstract)
 
@@ -61,9 +61,9 @@ project.  In that project the main focus was on machine learning and the
 building of hardware.  Security was not an issue which we focused on when we
 first started this project.  In any case, we thought it was an interesting and
 important angle for the manuscript.  We felt that our results could have a more
-significant contribution to security field as opposed to the machine learning
-and wearable IOT field.  Admittedly, HICSS is a fairly broad conference and
-there are different track to which papers can be submitted.  Each track also
+significant contribution to the security field as opposed to the machine learning
+and wearable IOT fields.  Admittedly, HICSS is a fairly broad conference and
+there are different tracks to which papers can be submitted.  Each track also
 consist of several mini-tracks as well.  Our manuscript was submitted to the
 Machine Learning and CyberSecurity mini-track within the Software and Technology
 track.  While software development and machine learning are topics I have good
@@ -77,31 +77,31 @@ Manuscripts submitted to HICSS are subject to peer review.  Since this was my
 first paper that I submitted on my own this was also the first time that I was
 exposed to the peer review process.  Three subject matter experts and the track
 chair reviewed my manuscript.  Manuscripts were scored on a rubric from 1 to 5
-where 5 was best.  One reviewer gave me a near perfect review and the other two
-reviews were average and sub-average.  Since my manuscript was submitted under the
-Machine Learning and Cybersecurity track, two security experts reviewed my
-manuscript.  The reviews from these two were harsh and both stated that I need
-to cite more sources around security.  In retrospect, my related work section
-was on the weaker side.  Although I was told not to waste my time on this paper
-because other have done similar things, I found it difficult to find previous
-work related to my work.  I had difficulty finding previous work that focused on
-machine learning, wearable IOT, and security.  As a result I focused my search
-on high quality papers that encompass at least two of the three topic that
-concerns my paper.   
+where 5 was best.  One reviewer gave me a near perfect review and the reviews
+from th other two reviewers were average to sub-average.  Since my manuscript
+was submitted under the machine learning and cybersecurity track, two security
+experts reviewed my manuscript.  The reviews from these two were strict and they
+both stated that I need to cite more sources around security.  In retrospect, my
+related work section was on the weaker side.  Although I was told not to waste
+my time on this paper because other have done similar things, I found it
+difficult to find papers related to my work.  I had difficulty finding previous
+work that focused on all three topics which include machine learning, wearable
+IOT, and security.  As a result I focused my search on high quality papers that
+encompass at least two of the three topic that concerns my paper.   
 
 Reviewers suggested potential papers to cite by providing direct URL links to
 papers.  However, upon further investigation into these papers I discovered
-that those suggested papers were written by the reviewers themselves.  This put
-a bad taste in my mouth because it felt like the reviewers were soliciting
-citations which felt extremely unethical.  The chair reviewer stated that
+that those suggested papers were written by the reviewers themselves.  This
+made me feel uneasey because it felt like the reviewers were soliciting
+citations which felt extremely unethical.  The mini-track chair stated, "that
 although reviewer suggest articles to use, authors are not required to use them
-if they do not pertain to the work at hand.  It felt like the chair reviewer
-just stated that to cover reviewers who may have suggested article for citation
+if they do not pertain to the work at hand".  It felt like the mini-track chair
+just stated that to account for instances where reviewers suggeste article for citation
 whether for ethical or unethical reasons.  Since this was my first peer review
 process I was unsure if this was a common occurrence.  The suggested articles did
 not directly relate to my work however, I felt that if I did not include it the
 reviewers may ultimately reject my paper upon second review.  I ultimately found
-a way to work the reviewer suggested citation articles into my manuscript and
+a way to work the reviewer suggested articles into my manuscript and
 the manuscript was accepted.
 
 __Finding Funding__

@@ -38,6 +38,20 @@ detect when users are running, walking, sleeping, etc.  In this project we explo
 hypothesis that wearable IOT hardware can recognize fine motor task, such as
 handwriting digits.
 
+<div class="ui images">
+  <div class="ui large black ribbon label">
+	Prototype of our data collection device mounted on a participants wrist
+  </div>
+  <img class="rotate180 ui image large center floated round image"
+src="../images/projects/hand_write_proto.jpg">
+</div>
+
+<!--div class="field">
+  <div class="ui pointing red basic label">
+	Prototype of our data collection device mounted on a participants wrist
+  </div>
+</div-->
+
 We built a custom device equipped with an accelerometer and a gyroscope to
 collect the data.  The hardware components fall under the Arduino family and
 thus we wrote the hardware code using Arduino's IDE.  Volunteers were recruited
