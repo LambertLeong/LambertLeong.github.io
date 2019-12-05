@@ -4,7 +4,7 @@ type: essay
 published: True
 title: My First Publication
 permalink: essays/my_first_paper
-image: 
+image: ../images/extra/hicss_logo.png
 date: 2019-09-22
 labels:
   - Publishing
@@ -20,7 +20,7 @@ There seems to be a particular stigma in academia with regards to publishing
 work.  I was led, early on, to believe that in order to get something published
 you needed to have a powerful name attached to your work.  In other words, new
 publishing individuals would need to have co-authors on their papers who have a
-significant academic presense.  As a result, I thought it was near impossible to
+significant academic presence.  As a result, I thought it was near impossible to
 publish good quality work that was independent of a lab, advisor, or any
 established co-author.
 
@@ -30,7 +30,7 @@ stumbled upon some interesting results.  Further independent work on this
 project lead to remarkable results that I felt were worthy of a publication.  I
 presented my results to a few professors and fellow grad students and asked them
 for input.  The response I received was pretty unanimous
-and I was told that it was not worth my time and that other have done what I had
+and I was told that it was not worth my time and that others have done what I had
 done already.  My literature searches came up short however, and I was not able
 to find papers that presented similar work.  I believed that my work was novel
 and that it would be a valuable contribution to the scientific community and so
@@ -78,12 +78,12 @@ first paper that I submitted on my own this was also the first time that I was
 exposed to the peer review process.  Three subject matter experts and the track
 chair reviewed my manuscript.  Manuscripts were scored on a rubric from 1 to 5
 where 5 was best.  One reviewer gave me a near perfect review and the reviews
-from th other two reviewers were average to sub-average.  Since my manuscript
+from the other two reviewers were average to sub-average.  Since my manuscript
 was submitted under the machine learning and cybersecurity track, two security
 experts reviewed my manuscript.  The reviews from these two were strict and they
 both stated that I need to cite more sources around security.  In retrospect, my
 related work section was on the weaker side.  Although I was told not to waste
-my time on this paper because other have done similar things, I found it
+my time on this paper because others have done similar things, I found it
 difficult to find papers related to my work.  I had difficulty finding previous
 work that focused on all three topics which include machine learning, wearable
 IOT, and security.  As a result I focused my search on high quality papers that
@@ -92,7 +92,7 @@ encompass at least two of the three topic that concerns my paper.
 Reviewers suggested potential papers to cite by providing direct URL links to
 papers.  However, upon further investigation into these papers I discovered
 that those suggested papers were written by the reviewers themselves.  This
-made me feel uneasey because it felt like the reviewers were soliciting
+made me feel uneasy because it felt like the reviewers were soliciting
 citations which felt extremely unethical.  The mini-track chair stated, "that
 although reviewer suggest articles to use, authors are not required to use them
 if they do not pertain to the work at hand".  It felt like the mini-track chair
