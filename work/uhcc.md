@@ -46,8 +46,9 @@ views from a sinogram to solve and inverse problem and derive point thickness
 measurements.   
 
     - I developed an unsupervised machine learning model using PCA to
-      characterize sinograms resulting from breast of different thickness,
-widths, and densities.  
+      characterize sinograms resulting from breast of different thickness, widths, and densities.  
+	- [Work was presented in an abstract detailed
+	  __HERE__](../essays/rsna_2019)
 - _[3CB](https://shepherdresearchlab.org/research/3cb/)_ - 3 Compartment Breast
   of 3CB is a project that can render breast lesions specific to the three major
 components that make  up breast tissue.  These components include water, lipid,
