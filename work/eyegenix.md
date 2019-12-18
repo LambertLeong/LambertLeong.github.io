@@ -44,6 +44,17 @@ goal to improve strength, elasticity, biocompatibility, and clarity.  Deriving
 new formulations allowed me to exercise my biochemistry knowledge in a way that
 produced tangible and testible results.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4379410432613892"
+     data-ad-slot="8398952705"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 **Biocompatibility Testing** 
 
 I was originally hired to performe cell and tissue culture task.  Test were
@@ -65,3 +76,14 @@ While working in tissues culture, I was able to practice and improve my wet lab
 skills.  Contamination is always a conern when performing tissue culture and I
 was able to perfect my sterile technique.  I also learned to maintain a proper
 inventory as well as a clean and sterile work space.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4379410432613892"
+     data-ad-slot="8398952705"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

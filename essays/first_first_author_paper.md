@@ -49,6 +49,17 @@ Data was collected by having volunteers write numbers while wearing our device.
 I built a machine learning model with the collected data and showed that it had
 great accuracy.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4379410432613892"
+     data-ad-slot="8398952705"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 They manuscript was submitted to [Hawaii International Conference on Science
 Systems (HICSS)](https://hicss.hawaii.edu) where it was peer reviewed and
 accepted with mandatory changes.  The necessary changes were made, as per the
@@ -119,6 +130,17 @@ excuse to not attend and I am exploring different avenues to help support
 my efforts.  
 
 [__Support My Efforts Here__](https://www.gofundme.com/f/present-and-publish-my-first-scientific-paper?rcid=r01-156919193564-7cf71a2fcd054b2c&pc=ot_co_campmgmt_w)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4379410432613892"
+     data-ad-slot="8398952705"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <!--img class="ui tiny left circular floated image" src="../images/G0058272 (2).JPG"-->
 <br>
