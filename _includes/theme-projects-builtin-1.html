@@ -4,6 +4,9 @@
     {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
     {% for page in project_pages %}
       {% unless page.draft %}
+        {% include project-card.html page=page %}
+      {% endunless %}
+    {% endfor %}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block"
@@ -14,8 +17,17 @@
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-        {% include project-card.html page=page %}
-      {% endunless %}
-    {% endfor %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="+3p+pc+w-24+f3"
+     data-ad-client="ca-pub-4379410432613892"
+     data-ad-slot="2863856310"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
   </div>
 </div>
