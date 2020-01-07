@@ -36,9 +36,9 @@ to find papers that presented similar work.  I believed that my work was novel
 and that it would be a valuable contribution to the scientific community and so
 I began the process of taking it to publication.
 
-* The abstract of my paper can be found [__HERE__](../project_extra/hicss_abstract)
+* [The abstract of my paper can be found __HERE__](../project_extra/hicss_abstract)
 
-* The project page can be found [__HERE__](../projects/handwriting_hicss)
+* [The project page can be found __HERE__](../projects/handwriting_hicss)
 
 __Summary__
 
@@ -63,7 +63,9 @@ great accuracy.
 They manuscript was submitted to [Hawaii International Conference on Science
 Systems (HICSS)](https://hicss.hawaii.edu) where it was peer reviewed and
 accepted with mandatory changes.  The necessary changes were made, as per the
-reviewer requests, and was finally accepted for presentation in January 2020.
+reviewer requests, and was finally accepted for presentation in January 2020.  
+
+[Manuscript can be found __HERE__](http://hdl.handle.net/10125/64532)
 
 __Writing Process__
 
@@ -100,6 +102,7 @@ work that focused on all three topics which include machine learning, wearable
 IOT, and security.  As a result I focused my search on high quality papers that
 encompass at least two of the three topic that concerns my paper.   
 
+<!--
 Reviewers suggested potential papers to cite by providing direct URL links to
 papers.  However, upon further investigation into these papers I discovered
 that those suggested papers were written by the reviewers themselves.  This
@@ -114,6 +117,7 @@ not directly relate to my work however, I felt that if I did not include it the
 reviewers may ultimately reject my paper upon second review.  I ultimately found
 a way to work the reviewer suggested articles into my manuscript and
 the manuscript was accepted.
+-->
 
 __Finding Funding__
 

@@ -21,9 +21,9 @@ summary: Built a machine learning model to identify digits being written users w
 
 ---
 Manuscript found at [Digit Recognition From Wrist Movements and Security
-Concerns with Smart Wrist Wearable IOT Devices](../project_extra/hicss_abstract).
+Concerns with Smart Wrist Wearable IOT Devices](http://hdl.handle.net/10125/64532).
 
-Abstract found [HERE](../project_extra/hicss_abstract)
+[Abstract found HERE](../project_extra/hicss_abstract)
 
 __Summary__
 
@@ -105,8 +105,9 @@ data preprocessing, model building, model tuning, and cross validation.
 
 The finding from this project were written up into a formal manuscript and was
 accepted by [Hawaii International Conference on Science Systems
-(HICSS)](https://hicss.hawaii.edu) for their 2020 proceedings.  The manuscript
+(HICSS)](https://hicss.hawaii.edu) for their 2020 proceedings.  
+<!--The manuscript
 writing and review process was also a learning experience that is detailed
-[HERE](../essays/my_first_paper).
+[HERE](../essays/my_first_paper).-->
 
 <br>
