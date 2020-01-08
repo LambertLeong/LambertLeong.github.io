@@ -25,6 +25,8 @@ Concerns with Smart Wrist Wearable IOT Devices](http://hdl.handle.net/10125/6453
 
 [Abstract found HERE](../project_extra/hicss_abstract)
 
+[Presentation found HERE](../docs/hicss_2020_presentation.pdf)
+
 __Summary__
 
 In this project we explore topics in three big areas in computer science which
