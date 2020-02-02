@@ -5,7 +5,7 @@ published: true
 image: images/projects/btc_network_sample.gif
 title: Bitcoin Network Analysis
 permalink: projects/bitcoin_network_analysis
-date: 2016
+date: 2017
 labels:
  
   - R
@@ -20,9 +20,11 @@ summary: Sampling and network analysis of the rapidly growing Bitcoin exchange a
 
 ---
 
+[__Write up found HERE__](../docs/lleong_snap_shot_samplings_of_the_bitcoin_transaction_network.pdf)
+
 __Summary__
 
-In late 2016 Bitcoin, btc, was gaining popularity as the major cryptocurrency and many began to acquire and exchanges the cryptocurrency.  One of the draws of btc and other cryptocurrencies is the anonymity that is afforded to the those involved in transactions.  While all transactions are public and recorded on the blockchain only addresses and accounts are visible.  Peoples identities can be detracted from a particular address.  In addition, wallets allowed users to generate new addresses at, virtually, any time.  
+In late 2017 Bitcoin, btc, was gaining popularity as the major cryptocurrency and many began to acquire and exchanges the cryptocurrency.  One of the draws of btc and other cryptocurrencies is the anonymity that is afforded to the those involved in transactions.  While all transactions are public and recorded on the blockchain only addresses and accounts are visible.  Peoples identities can be detracted from a particular address.  In addition, wallets allowed users to generate new addresses at, virtually, any time.  
 
 During this period, in 2016, sources claimed that the number of btc users was growing exponentially.  This trend was also extrapolated to the number of btc transaction that occurred on the blockchain.  However, during this time btc was still not respected as an actual currency and it was difficult to exchange it like money.  As a result we expected to see many users but few interactions between them.  In this project I took snap shots of the blockchain and performed network analyses to characterize the network, behavior, and explore hypotheses and claims made about the network. 
 
