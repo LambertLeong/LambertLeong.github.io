@@ -49,17 +49,6 @@ Data was collected by having volunteers write numbers while wearing our device.
 I built a machine learning model with the collected data and showed that it had
 great accuracy.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4379410432613892"
-     data-ad-slot="8398952705"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 They manuscript was submitted to [Hawaii International Conference on Science
 Systems (HICSS)](https://hicss.hawaii.edu) where it was peer reviewed and
 accepted with mandatory changes.  The necessary changes were made, as per the
@@ -101,6 +90,17 @@ difficult to find papers related to my work.  I had difficulty finding previous
 work that focused on all three topics which include machine learning, wearable
 IOT, and security.  As a result I focused my search on high quality papers that
 encompass at least two of the three topic that concerns my paper.   
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4379410432613892"
+     data-ad-slot="8398952705"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <!--
 Reviewers suggested potential papers to cite by providing direct URL links to
