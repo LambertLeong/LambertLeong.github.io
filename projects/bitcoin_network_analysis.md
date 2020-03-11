@@ -20,7 +20,7 @@ summary: Sampling and network analysis of the rapidly growing Bitcoin exchange a
 
 ---
 
-[__Write up found HERE__](../docs/lleong_snap_shot_samplings_of_the_bitcoin_transaction_network.pdf)
+[__Write up found HERE__](../docs/lleong_snapshot_samplings_of_the_bitcoin_transaction_network.pdf)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
