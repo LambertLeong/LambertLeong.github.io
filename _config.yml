@@ -25,6 +25,8 @@ theme-work_extra: theme-work_extra.html
 markdown: kramdown
 include: [_data]
 
+plugins: 
+- jekyll-latex 
 #plugins: [jekyll-mermaid]
 
 #mermaid:

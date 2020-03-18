@@ -1,132 +1,14 @@
 ---
-layout: project
-type: project
-published: true
-image: images/projects/btc_network_sample.gif
-title: Bitcoin Network Analysis
-permalink: projects/bitcoin_network_analysis
-date: 2017
+layout: project_extra
+type: project_extra
+published: false
+image: images/extra/hicss_logo.png
+title: ABSTRACT - Digit Recognition From Wrist Movements and Security Concerns with Smart Wrist Wearable IOT Devices
+permalink: project_extra/btc_webpaper
+date: 2019
 labels:
 
-  - R
-  - Gephi
-  - Data collection/analysis
-  - Network Analysis
-  - igraph
-  - bitcoin
-  - blockchain
-
-summary: Sampling and network analysis of the rapidly growing Bitcoin exchange and blockchain network. Cover GIF shows growth of the network over 6 hours
-
----
-
-[__Write up found HERE__](../docs/lleong_snapshot_samplings_of_the_bitcoin_transaction_network.pdf)
-
-__Web Version at bottom__
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4379410432613892"
-     data-ad-slot="8398952705"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-__Summary__
-
-In late 2017 Bitcoin, btc, was gaining popularity as the major cryptocurrency
-and many began to acquire and exchanges the cryptocurrency.  One of the draws
-of btc and other cryptocurrencies is the anonymity that is afforded to the
-those involved in transactions.  While all transactions are public and recorded
-on the blockchain only addresses and accounts are visible.  Peoples identities
-can be detracted from a particular address.  In addition, wallets allowed users
-to generate new addresses at, virtually, any time.  
-
-During this period, in 2016, sources claimed that the number of btc users was
-growing exponentially.  This trend was also extrapolated to the number of btc
-transaction that occurred on the blockchain.  However, during this time btc was
-still not respected as an actual currency and it was difficult to exchange it
-like money.  As a result we expected to see many users but few interactions
-between them.  In this project I took snap shots of the blockchain and
-performed network analyses to characterize the network, behavior, and explore
-hypotheses and claims made about the network.
-
-**Contributions**
-
-<table class="ui fluid large floated left image">
-<caption align="bottom">Power-law analysis looking for scale free networks with igraph and R.
-</caption>
-<tr><td><img src="../images/projects/powerlaw_btc.png" /></td></tr>
-</table>
-
-<br/>
-
-Using a websocket API provided by
-[Blockchain.info](https://www.blockchain.com/api) I was able to sample
-blockchain transaction data which included, sender/receiver addresses, amount,
-hash difficulty, etc.  I was only concerned with the sender, receiver, and the
-amount of btc sent.  I took three samples of the network which included a one,
-two, and six hour sample.  The data, containing a little over 13,000 records
-was parsed and converted into a .graphml file for analysis.  Using the igraph
-package with R I looked at the following network characteristics, transitivity,
-average degree, average distance, reciprocity, degree distribution, and maximal
-cliques.  In addition, on the largest network, I evaluated community
-structures.
-
-<!--figure>
-<div class="ui images">
-  <img class="ui image medium right floated round image" src="../images/btc_comms.gif">
-  <caption alight="bottom">caption</caption>
-  <figcaption>This is the figure caption</figcaption>
-</div>
-</figure-->
-
-<table class="ui fluid large floated right image">
-<caption align="bottom">Two biggest community structures visualized using Gephi
-</caption>
-<tr><td><img src="../images/projects/linkcomzoom.png" /></td></tr>
-</table>
-<br/>
-
-The graph file was then ported over to [Gephi](https://gephi.org/) mainly for
-visualization purposes.  Network analysis was also performed with Gephi because
-previous experiences taught me that Gephi metrics vary slightly from those
-gather by igraph.  Gephi and igraph sometimes, for certain network metrics,
-utilize slightly different algorithms and thus, different values result.  Gephi
-helped with the visualization of influential players in the network as well as
-community structures.
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4379410432613892"
-     data-ad-slot="8398952705"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-__Learned__
-
-From my work on this project I was able to analyze the btc network and
-characterize it.  More importantly, I was able to develop skills in working
-with API's, parsing large data, analyzing that data, and presenting it with
-visual aids such as igraph and Gephi.  These skills are applicable in many
-other situations that require the gathering, analysis, and
-presentation/visualization of large amounts of data.  R is a powerful
-statistics tool and I foresee my skills with it being useful in my pursuit
-toward data driven research.  Networks are ever present and being able to
-recognize and analyze them is an important skill.  
-
-<br/>
-
-__WEB VERSION BELOW__
-
----
+summary: Abstract from manuscript accepted at Hawaii International Conference on System Science(HICSS.
 ---
 
 <h3>Abstract</h3>
@@ -151,7 +33,7 @@ inferred. Future work is needed and being done to gather more
 comprehensive data so that the bitcoin transaction network can be
 better analyzed.
 
-  <h3 class="sectionHead"><span class="titlemark">1    </span> <a
+  <h3 class="sectionHead"><span class="titlemark">1    </span> <a 
  id="x1-10001"></a>Introduction</h3>
 The
 invention of the internet has helped to provide a new platform for the exchange
@@ -210,7 +92,7 @@ sampling criterion would allow analysis to be done on a smaller sub-graph from
 which, conclusions can be drawn and extrapolated to the network as a whole.
 Running a network analysis on a representative sub-graph would be more efficient
 and computationally favorable than the whole, growing, bitcoin network.  <!--l.
-59--><p class="indent" >    <hr class="figure"><div class="figure"
+59--><p class="indent" >    <hr class="figure"><div class="figure" 
 >
 
 
@@ -218,7 +100,7 @@ and computationally favorable than the whole, growing, bitcoin network.  <!--l.
 
 <!--l. 62--><p class="noindent" ><!--l. 64--><p class="noindent" ><img
 src="figures/trans.png" alt="PIC"  
-> <a
+> <a 
  id="x1-1001r1"></a>
 
 <br>
@@ -226,11 +108,11 @@ src="figures/trans.png" alt="PIC"
 transactions  over  time  grows  as  an  exponential</span> <span
 class="LinLibertineTB-tlf-t-1x-x-80">function</span> <!--l. 71--><p
 class="noindent" ><img src="figures/address.png" alt="PIC"  
-> <a
- id="x1-1002r2"></a>
+> <a 
+ id="x1-1002r2"></a> 
 <br>
 <span class="LinLibertineTB-tlf-t-1x-x-80">Number of
-unique Bitcoin addresses growth over time</span> <br /> <div class="caption"
+unique Bitcoin addresses growth over time</span> <br /> <div class="caption" 
 ><span class="id">Figure&#x00A0;2:  </span><span  
 class="content">Growth  in  the  number  of  transactions  and  unique
 addresses imply the growth in bitcoin users and
@@ -244,7 +126,7 @@ we use specific tools to analyses the network. In Section&#x00A0;<a
 href="#x1-60003">3<!--tex4ht:ref: sec:results --></a> we report our finding at
 different sampling intervals. Lastly, we discuss our findings and conclusion in
 Section&#x00A0;<a href="#x1-90004">4<!--tex4ht:ref: sec:conclusion --></a>.
-<h3 class="sectionHead"><span class="titlemark">2    </span> <a
+<h3 class="sectionHead"><span class="titlemark">2    </span> <a 
 
  id="x1-20002"></a> Methods</h3>
 <!--l. 5--><p class="noindent" >BTCs are constantly being exchanged and moving throughout the
@@ -258,9 +140,9 @@ updated as new transactions are confirmed. Updates occur on every
 ledger on every node participating in the network and thus every
 node is in consensus with each other on the current status of the
 ledger.
-<!--l. 15--><p class="noindent" ><span class="subsectionHead"><span class="titlemark"><span
-class="LinLibertineTB-tlf-t-1x-x-90">2.1    </span></span> <a
- id="x1-30002.1"></a><span
+<!--l. 15--><p class="noindent" ><span class="subsectionHead"><span class="titlemark"><span 
+class="LinLibertineTB-tlf-t-1x-x-90">2.1    </span></span> <a 
+ id="x1-30002.1"></a><span 
 class="LinLibertineTB-tlf-t-1x-x-90">Data Collection.</span></span>
 <!--l. 17--><p class="indent" >  While we could have joined the blockchain network and downloaded a
 copy of the public ledger to build our network graph, we felt that it
@@ -284,28 +166,28 @@ one hour and two hour samples were taken. The resulting one
 hour and two hour samples are sub sets of the six hour sample
 with the one hour sample also being a subset of the two hour
 sample.
-<!--l. 36--><p class="noindent" ><span class="subsectionHead"><span class="titlemark"><span
-class="LinLibertineTB-tlf-t-1x-x-90">2.2    </span></span> <a
- id="x1-40002.2"></a><span
+<!--l. 36--><p class="noindent" ><span class="subsectionHead"><span class="titlemark"><span 
+class="LinLibertineTB-tlf-t-1x-x-90">2.2    </span></span> <a 
+ id="x1-40002.2"></a><span 
 class="LinLibertineTB-tlf-t-1x-x-90">Graph Generation.</span></span>
 <!--l. 38--><p class="indent" >  The csv files for the one, two, and six hour samplings were
-imported into Gephi&#x00A0;[<a
+imported into Gephi&#x00A0;[<a 
 href="#Xgephi">4</a>] to generate a graph of the sampled BTC
 network. The csv files were imported as edge list where the sending
 address corresponded to the "source" and the receiving address
 corresponded to the "target". The amount was converted from Satoshis
-to BTCs, 1 BTC = <span
-class="LinLibertineT-tlf-ot-1x-x-90">1</span>x<span
-class="LinLibertineT-tlf-ot-1x-x-90">10</span><sup><span
-class="ntxsy-7x-x-73"></span><span
+to BTCs, 1 BTC = <span 
+class="LinLibertineT-tlf-ot-1x-x-90">1</span>x<span 
+class="LinLibertineT-tlf-ot-1x-x-90">10</span><sup><span 
+class="ntxsy-7x-x-73"></span><span 
 class="LinLibertineT-tlf-ot-1x-x-73">8</span></sup> Satoshi, and stored as a float, an edge
 attribute. Graph files were exported as .graphml for further data
 processing.
-<!--l. 46--><p class="noindent" ><span class="subsectionHead"><span class="titlemark"><span
-class="LinLibertineTB-tlf-t-1x-x-90">2.3    </span></span> <a
- id="x1-50002.3"></a><span
+<!--l. 46--><p class="noindent" ><span class="subsectionHead"><span class="titlemark"><span 
+class="LinLibertineTB-tlf-t-1x-x-90">2.3    </span></span> <a 
+ id="x1-50002.3"></a><span 
 class="LinLibertineTB-tlf-t-1x-x-90">Network Analysis.</span></span>                                   <!--l. 48--><p class="indent" >    Graph metrics were analyzed with R utilizing the igraph,
-     poweRlaw, and linkcomm packages&#x00A0;[<a
+     poweRlaw, and linkcomm packages&#x00A0;[<a 
 href="#Xigraph">5</a>]. Transitivity, average
      degree, average distance, reciprocity, degree distribution, and
      maximal cliques were measured for each snapshot graph and
@@ -315,16 +197,16 @@ href="#Xigraph">5</a>]. Transitivity, average
      evaluated for the presence of communities. Using the linkcomm
      package and the getlinkcommunities, by Alex T. Kalinka, we
      were able to generate community's nodes that linked to every
-     node of a particular community&#x00A0;[<a
+     node of a particular community&#x00A0;[<a 
 href="#Xigraph">5</a>]. Investigating community
      structures in the giant connected component may reveal BTC user
      financial behavior; in particular who exchanges money with
      whom.
-          <h3 class="sectionHead"><span class="titlemark">3    </span> <a
+          <h3 class="sectionHead"><span class="titlemark">3    </span> <a 
  id="x1-60003"></a>Results</h3>
      <!--l. 4--><p class="noindent" >There was a positive correlation between the sampling time and the
      amount of observed transactions. As mentioned previously in
-     Section&#x00A0;<a
+     Section&#x00A0;<a 
 href="#x1-10001">1<!--tex4ht:ref: sec:intro --></a>, the numbers of transactions are increasing at an exponential
      rate. We plotted the number of edges, obtained in our sampling, over
      the duration of six hours. Transactions are indicated by an edge
@@ -333,23 +215,23 @@ href="#x1-10001">1<!--tex4ht:ref: sec:intro --></a>, the numbers of transactions
      in an increase in both the number of transactions, indicated
      by the number of edges, and the number of active addresses,
      indicated by the number of nodes. These results are shown in
-     Figure&#x00A0;<a
+     Figure&#x00A0;<a 
 href="#x1-6001r3">3<!--tex4ht:ref: fig:sampling --></a>.
-     <!--l. 15--><p class="indent" >    <hr class="figure"><div class="figure"
+     <!--l. 15--><p class="indent" >    <hr class="figure"><div class="figure" 
 >
 
 
-<a
+<a 
  id="x1-6001r3"></a>
 
-<!--l. 17--><p class="noindent" ><img
+<!--l. 17--><p class="noindent" ><img 
 src="figures/sample_metric.png" alt="PIC"  
 >
-<br /> <div class="caption"
+<br /> <div class="caption" 
 ><span class="id">Figure&#x00A0;3: </span><span  
 class="content">As we take longer samples, the network grows. Nodes
 <span id="textcolor1">(BLUE)</span>  indicate  new  addresses,  and  edges  <span id="textcolor2">(RED)</span>  indicates  new
-transactions. R<sup><span
+transactions. R<sup><span 
 class="LinLibertineT-tlf-ot-1x-x-73">2</span></sup>  values for best fit lines for nodes and edges are
 0.997 and 0.996 respectively</span></div><!--tex4ht:label?: x1-6001r3 -->
 
@@ -357,13 +239,13 @@ class="LinLibertineT-tlf-ot-1x-x-73">2</span></sup>  values for best fit lines f
 
 <!--l. 22--><p class="indent" >  <hr class="endfigure">
 <!--l. 25--><p class="indent" >  The trend line would indicate that the number of transactions are
-growing at a logarithmic pace rather than an exponential one. R<sup><span
+growing at a logarithmic pace rather than an exponential one. R<sup><span 
 class="LinLibertineT-tlf-ot-1x-x-73">2</span></sup>
 values for logarithmic best fit lines for nodes and edges are 0.997 and
 0.996 respectively This is contradictory to what was expected however,
 this discrepancy may be due to the amount of data and sample size.
 Blockchain.info reports an exponential growth in the number of
-transactions over the whole life span of BTC&#x00A0;[<a
+transactions over the whole life span of BTC&#x00A0;[<a 
 href="#Xblockchain.com">1</a>]. Our sampling
 window could be the limiting factor and perhaps, we would
 start to see an exponential growth trend for a longer sampling
@@ -372,7 +254,7 @@ duration.
 overall general exponential growth trend but the transaction rate
 seems to fluctuate if observed form the perspective of weeks and
 months. There is a level of volatility when it comes to the prices or
-exchange rate of BTC&#x00A0;[<a
+exchange rate of BTC&#x00A0;[<a 
 href="#Xecon">13</a>]. Price volatility could correlate to these
 fluctuations and periods of lower transaction volumes. A six hour
 sampling window does not appear to be a long enough time frame to
@@ -383,9 +265,9 @@ about the overall growth rate of transactions. A smaller sampling
 window, such as the 6 hours for which we took our samples, may be
 useful when analyzing how the network is growing in the near or short
 term.
-<!--l. 48--><p class="noindent" ><span class="subsectionHead"><span class="titlemark"><span
-class="LinLibertineTB-tlf-t-1x-x-90">3.1    </span></span> <a
- id="x1-70003.1"></a><span
+<!--l. 48--><p class="noindent" ><span class="subsectionHead"><span class="titlemark"><span 
+class="LinLibertineTB-tlf-t-1x-x-90">3.1    </span></span> <a 
+ id="x1-70003.1"></a><span 
 class="LinLibertineTB-tlf-t-1x-x-90">Snapshot Network Analysis Results and Comparisons.</span></span>
 <!--l. 50--><p class="indent" >  Network analysis was performed on all three graphs with the
 purpose of investigating changes as the time and the size of the sample
@@ -393,35 +275,35 @@ network increased as well as for comparison to previously reported
 findings. Analyzing the difference in resulting graph metrics would
 help in determining an appropriate sampling window that would yield
 a sample graph that is representative of the network as a whole.
-Table&#x00A0;<a
+Table&#x00A0;<a 
 href="#x1-7001r1">1<!--tex4ht:ref: tab:data_count --></a> contains the metrics calculated for all three network
 graphs.
 
 
 
-<!--l. 59--><p class="indent" >  <a
- id="x1-7001r1"></a><hr class="float"><div class="float"
+<!--l. 59--><p class="indent" >  <a 
+ id="x1-7001r1"></a><hr class="float"><div class="float" 
 >
 
- <div class="caption"
+ <div class="caption" 
 ><span class="id">Table&#x00A0;1:  </span><span  
 class="content">Graph  metrics  for  one,  two,  and  six  our  sampling
 snapshots calculated using igraph and R</span></div><!--tex4ht:label?: x1-7001r1 -->
  <!--tex4ht:inline--><div class="tabular">
-<table id="TBL-1" class="tabular"
+<table id="TBL-1" class="tabular" 
 cellspacing="0" cellpadding="0"  
-><colgroup id="TBL-1-1g"><col
-id="TBL-1-1"></colgroup><colgroup id="TBL-1-2g"><col
-id="TBL-1-2"><col
-id="TBL-1-3"><col
+><colgroup id="TBL-1-1g"><col 
+id="TBL-1-1"></colgroup><colgroup id="TBL-1-2g"><col 
+id="TBL-1-2"><col 
+id="TBL-1-3"><col 
 id="TBL-1-4"></colgroup><tr  
  style="vertical-align:baseline;" id="TBL-1-1-"><td  style="white-space:nowrap; text-align:center;" id="TBL-1-1-1"  
 class="td11"> Sampling Duration  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-1-1-2"  
 class="td11">1 Hour</td><td  style="white-space:nowrap; text-align:center;" id="TBL-1-1-3"  
 class="td11">2 Hour</td><td  style="white-space:nowrap; text-align:right;" id="TBL-1-1-4"  
 class="td11">6 Hour</td>
-</tr><tr
-class="hline"><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr
+</tr><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr 
 class="hline"><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-1-2-"><td  style="white-space:nowrap; text-align:center;" id="TBL-1-2-1"  
 class="td11">      Nodes            </td><td  style="white-space:nowrap; text-align:left;" id="TBL-1-2-2"  
@@ -456,7 +338,7 @@ class="td11">      Tryads            </td><td  style="white-space:nowrap; text-a
 class="td11">2          </td><td  style="white-space:nowrap; text-align:center;" id="TBL-1-7-3"  
 class="td11">  8     </td><td  style="white-space:nowrap; text-align:right;" id="TBL-1-7-4"  
 class="td11">    34</td>
-</tr><tr
+</tr><tr 
 class="hline"><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-1-8-"><td  style="white-space:nowrap; text-align:center;" id="TBL-1-8-1"  
 class="td11">    Reciprocity        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-1-8-2"  
@@ -495,44 +377,44 @@ class="td11">                  </td></tr></table>                               
 
   </div><hr class="endfloat" />
 
-<!--l. 89--><p class="indent" >  <a
- id="x1-7005r5"></a><hr class="float"><div class="float"
+<!--l. 89--><p class="indent" >  <a 
+ id="x1-7005r5"></a><hr class="float"><div class="float" 
 >
 
 
 
-<!--l. 94--><p class="noindent" ><img
+<!--l. 94--><p class="noindent" ><img 
 src="figures/1hour.png" alt="PIC"  
-> <a
+> <a 
  id="x1-7002r1"></a>
-<span
+<span 
 class="LinLibertineTB-tlf-t-1x-x-80">Graph sampling after one hour</span>
-<img
+<img 
 src="figures/2hour.png" alt="PIC"  
-> <a
+> <a 
  id="x1-7003r2"></a>
-<span
+<span 
 class="LinLibertineTB-tlf-t-1x-x-80">Graph sampling after two hours</span>
-<img
+<img 
 src="figures/6hour.png" alt="PIC"  
-> <a
+> <a 
  id="x1-7004r3"></a>
-<span
+<span 
 class="LinLibertineTB-tlf-t-1x-x-80">Graph sampling after six hours</span>
- <div class="caption"
+ <div class="caption" 
 ><span class="id">Figure&#x00A0;5: </span><span  
 class="content">Visualizations of one, two, and six hour sample graphs, from left to right. Graph density increases as collection time increases</span></div><!--tex4ht:label?: x1-7005r5 -->
 
   <hr class="endfloat" />
 
-<!--l. 119--><p class="indent" >  <a
- id="x1-7006r6"></a><hr class="float"><div class="float"
+<!--l. 119--><p class="indent" >  <a 
+ id="x1-7006r6"></a><hr class="float"><div class="float" 
 >
 
-<img
+<img 
 src="figures/degree_dist_log_log.png" alt="PIC"  
 >
-<br /> <div class="caption"
+<br /> <div class="caption" 
 ><span class="id">Figure&#x00A0;6: </span><span  
 class="content">Log-Log degree distribution of one, two, and six hour networks, from left to right. </span></div><!--tex4ht:label?: x1-7006r6 -->
 
@@ -588,7 +470,7 @@ number of transactions constantly being received. The rarity of
 reciprocity is reflected in the zero value obtained for all sample
 graphs.
 <!--l. 170--><p class="indent" >  Visual representations of each samples size graph, density,
-and connections are show in Figure&#x00A0;<a
+and connections are show in Figure&#x00A0;<a 
 href="#x1-7005r5">5<!--tex4ht:ref: fig:graphs --></a>. The density of the graph
 increase as sampling time increases. Dark black spots are star like
 structures consisting of clusters of nods around a single node
@@ -597,21 +479,21 @@ these central nodes which increase the size of the black spots.          However
      degree node to another. Nodes with high degree seem to increase
      their degree as more nodes join the network which exhibits
      characteristics of preferential attachment and implies a possible scale
-     free network&#x00A0;[<a
-href="#Xbarabasi">3</a>,&#x00A0;<a
+     free network&#x00A0;[<a 
+href="#Xbarabasi">3</a>,&#x00A0;<a 
 href="#Xrich">7</a>].
 
 
-<!--l. 180--><p class="indent" >  <a
- id="x1-7007r7"></a><hr class="float"><div class="float"
+<!--l. 180--><p class="indent" >  <a 
+ id="x1-7007r7"></a><hr class="float"><div class="float" 
 >
 
 
 
-<img
+<img 
 src="figures/degree_dist_lin_lin.png" alt="PIC"  
 >
-<br /> <div class="caption"
+<br /> <div class="caption" 
 ><span class="id">Figure&#x00A0;7: </span><span  
 class="content">Lin-Lin degree distribution of one, two, and six hour networks, from left to right.</span></div><!--tex4ht:label?: x1-7007r7 -->
 
@@ -621,16 +503,16 @@ class="content">Lin-Lin degree distribution of one, two, and six hour networks, 
 
 
 
-<!--l. 186--><p class="indent" >  <a
- id="x1-7008r8"></a><hr class="float"><div class="float"
+<!--l. 186--><p class="indent" >  <a 
+ id="x1-7008r8"></a><hr class="float"><div class="float" 
 >
 
 
 
-<img
+<img 
 src="figures/powerlaw_plots.png" alt="PIC"  
 >
-<br /> <div class="caption"
+<br /> <div class="caption" 
 ><span class="id">Figure&#x00A0;8: </span><span  
 class="content">Plot of one, two, and six hour network degree distributions with exponential(Red), log normal(Green), power-law(Blue), and
 Poisson(Orange) best fit lines, from left to right. </span></div><!--tex4ht:label?: x1-7008r8 -->
@@ -639,21 +521,21 @@ Poisson(Orange) best fit lines, from left to right. </span></div><!--tex4ht:labe
 
   </div><hr class="endfloat" />
 <!--l. 192--><p class="indent" >  Scale free networks are characterized by having a power-law degree
-distribution. We investigated the degree distribution in Figure&#x00A0;<a
+distribution. We investigated the degree distribution in Figure&#x00A0;<a 
 href="#x1-7007r7">7<!--tex4ht:ref: fig:powerlaw2 --></a>. Here
 we see that the degree distribution for all sample networks is
 heavily tailed to the right which is characteristic of power-law
 distributions.
 <!--l. 198--><p class="indent" >  The degree distributions for each graph was plotted in conjunction
 with exponential, log normal, power law, and Poisson best fit lines.
-Results in Figure&#x00A0;<a
+Results in Figure&#x00A0;<a 
 href="#x1-7008r8">8<!--tex4ht:ref: fig:degree_dist --></a> would indicate that the one hour and two hour
-graphs do not fit any particular trend. However, when <span
+graphs do not fit any particular trend. However, when <span 
 class="nxlmi-x-x-90">X</span>min was set at
 4, the six hour distribution seemed to fit the power law distribution.
 Kolmogorov-Smirnov test results in a p value of 0.46 which indicates
 that we cannot reject the hypothesis that the six hour distribution fits a
-power law&#x00A0;[<a
+power law&#x00A0;[<a 
 href="#Xigraph">5</a>].
 <!--l. 207--><p class="indent" >  Evidence of a power law distribution were seen in our largest graph
 which was sampled for the longest period of time. It would appear that
@@ -667,33 +549,33 @@ power law is more apparent.
 were interested in the presence of communities. We extracted the
 largest connected component from the sample graphs. This left us with
 graphs that excluded the many isolated pairs of nodes. Metrics were
-calculated and are shown in Table&#x00A0;<a
+calculated and are shown in Table&#x00A0;<a 
 href="#x1-7009r2">2<!--tex4ht:ref: tab:data_count2 --></a>.
 
 
 
-<!--l. 219--><p class="indent" >  <a
- id="x1-7009r2"></a><hr class="float"><div class="float"
+<!--l. 219--><p class="indent" >  <a 
+ id="x1-7009r2"></a><hr class="float"><div class="float" 
 >
 
 
 
- <div class="caption"
+ <div class="caption" 
 ><span class="id">Table&#x00A0;2: </span><span  
 class="content">Graph metrics for giant component subgraph calculated
 using igrap</span></div><!--tex4ht:label?: x1-7009r2 -->
  <!--tex4ht:inline--><div class="tabular">
-<table id="TBL-2" class="tabular"
+<table id="TBL-2" class="tabular" 
 cellspacing="0" cellpadding="0"  
-><colgroup id="TBL-2-1g"><col
-id="TBL-2-1"></colgroup><colgroup id="TBL-2-2g"><col
-id="TBL-2-2"><col
-id="TBL-2-3"><col
+><colgroup id="TBL-2-1g"><col 
+id="TBL-2-1"></colgroup><colgroup id="TBL-2-2g"><col 
+id="TBL-2-2"><col 
+id="TBL-2-3"><col 
 id="TBL-2-4"></colgroup><tr  
  style="vertical-align:baseline;" id="TBL-2-1-"><td  style="white-space:nowrap; text-align:center;" id="TBL-2-1-1"  
-class="td11"><!--tex4ht:inline--><div class="tabular"> <table id="TBL-3" class="tabular"
+class="td11"><!--tex4ht:inline--><div class="tabular"> <table id="TBL-3" class="tabular" 
 cellspacing="0" cellpadding="0"  
-><colgroup id="TBL-3-1g"><col
+><colgroup id="TBL-3-1g"><col 
 id="TBL-3-1"></colgroup><tr  
  style="vertical-align:baseline;" id="TBL-3-1-"><td  style="white-space:nowrap; text-align:center;" id="TBL-3-1-1"  
 class="td00">Connect Component</td></tr><tr  
@@ -702,8 +584,8 @@ class="td00"> Sampling Duration</td></tr></table>                               
 class="td11">1 Hour</td><td  style="white-space:nowrap; text-align:center;" id="TBL-2-1-3"  
 class="td11">2 Hour</td><td  style="white-space:nowrap; text-align:right;" id="TBL-2-1-4"  
 class="td11">6 Hour</td>
-</tr><tr
-class="hline"><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr
+</tr><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr 
 class="hline"><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-2-2-"><td  style="white-space:nowrap; text-align:center;" id="TBL-2-2-1"  
 class="td11">                        Nodes                                                 </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-2-2"  
@@ -738,7 +620,7 @@ class="td11">                        Tryads                                     
 class="td11">0          </td><td  style="white-space:nowrap; text-align:center;" id="TBL-2-7-3"  
 class="td11">  3     </td><td  style="white-space:nowrap; text-align:right;" id="TBL-2-7-4"  
 class="td11">    20</td>
-</tr><tr
+</tr><tr 
 class="hline"><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-2-8-"><td  style="white-space:nowrap; text-align:center;" id="TBL-2-8-1"  
 class="td11">                      Reciprocity                                             </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-8-2"  
@@ -776,31 +658,31 @@ class="td11">                                                      </td></tr></t
 
 
   </div><hr class="endfloat" />
-<!--l. 247--><p class="indent" >  <hr class="figure"><div class="figure"
+<!--l. 247--><p class="indent" >  <hr class="figure"><div class="figure" 
 >
 
 
 
-<a
+<a 
  id="x1-7012r10"></a>
 
 
 
-<!--l. 250--><p class="noindent" ><!--l. 252--><p class="noindent" ><img
+<!--l. 250--><p class="noindent" ><!--l. 252--><p class="noindent" ><img 
 src="figures/bigcom1.png" alt="PIC"  
-> <a
+> <a 
  id="x1-7010r1"></a>
-<span
+<span 
 class="LinLibertineTB-tlf-t-1x-x-80">Large  community  in  which  many  nodes  share  only  one  edge</span>
-<span
+<span 
 class="LinLibertineTB-tlf-t-1x-x-80">with one of the two main nodes</span>
-<!--l. 259--><p class="noindent" ><img
+<!--l. 259--><p class="noindent" ><img 
 src="figures/bigcom2.png" alt="PIC"  
-> <a
+> <a 
  id="x1-7011r2"></a>
-<span
+<span 
 class="LinLibertineTB-tlf-t-1x-x-80">Large community which has a more decentralized shape</span>
-<br /> <div class="caption"
+<br /> <div class="caption" 
 ><span class="id">Figure&#x00A0;10:  </span><span  
 class="content">Two  of  the  largest  communities  from  the  six  hour
 sample.  Nodes  are  sized  by  the  number  of  edges.  Bigger  nodes
@@ -809,9 +691,9 @@ have  more  edges.  Green  colors  indicate  that  a  higher  in  degree
 BTC)</span></div><!--tex4ht:label?: x1-7012r10 -->
 
 <!--l. 266--><p class="indent" >  <hr class="endfigure">
-<!--l. 270--><p class="noindent" ><span class="subsectionHead"><span class="titlemark"><span
-class="LinLibertineTB-tlf-t-1x-x-90">3.2    </span></span> <a
- id="x1-80003.2"></a><span
+<!--l. 270--><p class="noindent" ><span class="subsectionHead"><span class="titlemark"><span 
+class="LinLibertineTB-tlf-t-1x-x-90">3.2    </span></span> <a 
+ id="x1-80003.2"></a><span 
 class="LinLibertineTB-tlf-t-1x-x-90">Analysis of Six Hour Snapshot Giant Components.</span></span>
 <!--l. 272--><p class="indent" >  Directedness was not taken into account when extracting the giant
 components from each graph. Each sub graph is significantly smaller
@@ -824,33 +706,33 @@ graphs.
 <!--l. 280--><p class="indent" >  Our analysis showed that the six hour graph showed to be the best
 representative sample network. Therefore, we chose to run community
 detection on the six hour giant component subgraph. The resulting
-graphs can be viewed in the appendix. Figures&#x00A0;<a
+graphs can be viewed in the appendix. Figures&#x00A0;<a 
 href="#x1-7012r10">10<!--tex4ht:ref: fig:linkgraphs --></a> are sub graphs of the
-graph, Figure&#x00A0;<a
+graph, Figure&#x00A0;<a 
 href="#x1-10001r11">11<!--tex4ht:ref: fig:bigcomm --></a>, in the appendix.
 <!--l. 285--><p class="indent" >  Both graphs represent the two biggest communities contained in
 the six hour giant component graphs and they have slightly
-different structure. Figure&#x00A0;<a
+different structure. Figure&#x00A0;<a 
 href="#x1-7010r1">9a<!--tex4ht:ref: fig:1hour --></a> illustrates a community in which
 many nodes share edges with one central node. This creates a
 star like structure seen in most of the other communities. The
-second community in Figure&#x00A0;<a
+second community in Figure&#x00A0;<a 
 href="#x1-7011r2">9b<!--tex4ht:ref: fig:2hour --></a> does not contain a single node
 with a high degree. Most of the nodes have the same degree and
 yet they form a community. This would imply that the nodes
 are more interconnected to each other, as there is no distinct
-hub or authority. Figure&#x00A0;<a
+hub or authority. Figure&#x00A0;<a 
 href="#x1-7011r2">9b<!--tex4ht:ref: fig:2hour --></a> represents more of a decentralized
 community.
 <!--l. 295--><p class="indent" >  Community structures provide clues as to what types of individual
 or entity may be contained within a network. For communities that
-resemble that of Figure&#x00A0;<a
+resemble that of Figure&#x00A0;<a 
 href="#x1-7010r1">9a<!--tex4ht:ref: fig:1hour --></a>, it is possible that the high degree node may
 be a type of vendor or a spender depending whether or not there is a
 high in-degree or out-degree. A high in-degree would mean
 that one address is receiving a lot of transactions while a high
 out-degree would mean that an address is paying a lot of other
-individuals. Figure&#x00A0;<a
+individuals. Figure&#x00A0;<a 
 href="#x1-7011r2">9b<!--tex4ht:ref: fig:2hour --></a> resembles a different type of community. It is
 difficult to draw conclusions about the nature of the nodes in
 this community. Gambling is one possible instance in which
@@ -862,11 +744,11 @@ each other. Further analysis is needed to determine the nature
 of the individuals but community detection is a good starting
 point.
 
-  <h3 class="sectionHead"><span class="titlemark">4    </span> <a
+  <h3 class="sectionHead"><span class="titlemark">4    </span> <a 
  id="x1-90004"></a>Conclusion</h3>
 <!--l. 4--><p class="noindent" >The six hour sample graph seemed to provide a sample graph that was
 most representative of the reported nature of the bitcoin transaction
-network&#x00A0;[<a
+network&#x00A0;[<a 
 href="#Xkoshy2014">8</a>]. Modeling the
 network growth with the one, two and six hour subgraphs did not
 seem to be a reliable means of evaluating long term growth of the
@@ -881,9 +763,9 @@ the network's overall growth.
   window in order to get a better snap shot of the network. A longer
   sample window may be beneficial and provide a more definitive
   distribution.
-  <!--l. 20--><p class="noindent" ><span class="subsectionHead"><span class="titlemark"><span
-class="LinLibertineTB-tlf-t-1x-x-90">4.1    </span></span> <a
- id="x1-100004.1"></a><span
+  <!--l. 20--><p class="noindent" ><span class="subsectionHead"><span class="titlemark"><span 
+class="LinLibertineTB-tlf-t-1x-x-90">4.1    </span></span> <a 
+ id="x1-100004.1"></a><span 
 class="LinLibertineTB-tlf-t-1x-x-90">Possible Future Work.</span></span>
   <!--l. 21--><p class="indent" >    A deeper investigation into the owners of each address would aid
   in a more comprehensive analysis of the bitcoin transaction
@@ -929,14 +811,14 @@ class="LinLibertineTB-tlf-t-1x-x-90">Possible Future Work.</span></span>
   network to protect individual
 
 
-<!--l. 111--><p class="indent" >  <a
- id="x1-10001r11"></a><hr class="float"><div class="float"
+<!--l. 111--><p class="indent" >  <a 
+ id="x1-10001r11"></a><hr class="float"><div class="float" 
 >
 
-<img
+<img 
 src="figures/reifylinkcom.png" alt="PIC"  
 >
-<br /> <div class="caption"
+<br /> <div class="caption" 
 ><span class="id">Figure&#x00A0;11: </span><span  
 class="content">Communities from the six hour sample. Nodes are sized by the number of edges. Bigger nodes have more edges. Green colors
 indicate that a higher in degree (recieving BTC) while pink represents a higher out degree (sending BTC)</span></div><!--tex4ht:label?: x1-10001r11 -->
@@ -944,199 +826,201 @@ indicate that a higher in degree (recieving BTC) while pink represents a higher 
 
 
   </div><hr class="endfloat" />
-<!--l. 5--><p class="indent" >  References<a
- id="likesection.2"></a><a
+<!--l. 5--><p class="indent" >  References<a 
+ id="likesection.2"></a><a 
  id="Q1-1-27"></a>
    <div class="thebibliography">
    <p class="bibitem" ><span class="biblabel">
- <a
- id="Xblockchain.com"></a><span
-class="LinLibertineT-tlf-t-1x-x-70">[1]</span> <span class="bibsp"><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span
+ <a 
+ id="Xblockchain.com"></a><span 
+class="LinLibertineT-tlf-t-1x-x-70">[1]</span> <span class="bibsp"><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span 
 class="LinLibertineT-tlf-t-1x-x-70">[n.d.].                      Bitcoin       Charts       &       Graphs       -       Blockchain.</span>
-   <a
-href="https://www.blockchain.com/charts" class="url" ><span
+   <a 
+href="https://www.blockchain.com/charts" class="url" ><span 
 class="LinLibertineT-tlf-t-1x-x-70">https://www.blockchain.com/charts</span></a>
    </p>
 <p class="bibitem" ><span class="biblabel">
- <a
- id="Xandreas"></a><span
-class="LinLibertineT-tlf-t-1x-x-70">[2]</span> <span class="bibsp"><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span
-class="LinLibertineT-tlf-t-1x-x-70">Andreas</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;M  Antonopoulos.  2014.      </span><span
+ <a 
+ id="Xandreas"></a><span 
+class="LinLibertineT-tlf-t-1x-x-70">[2]</span> <span class="bibsp"><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span 
+class="LinLibertineT-tlf-t-1x-x-70">Andreas</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;M  Antonopoulos.  2014.      </span><span 
 class="LinLibertineTI-tlf-t-1x-x-70">Mastering  Bitcoin:  unlocking  digital</span>
-   <span
-class="LinLibertineTI-tlf-t-1x-x-70">cryptocurrencies</span><span
+   <span 
+class="LinLibertineTI-tlf-t-1x-x-70">cryptocurrencies</span><span 
 class="LinLibertineT-tlf-t-1x-x-70">. " O'Reilly Media, Inc.".</span>
    </p>
 <p class="bibitem" ><span class="biblabel">
- <a
- id="Xbarabasi"></a><span
-class="LinLibertineT-tlf-t-1x-x-70">[3]</span> <span class="bibsp"><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span
-class="LinLibertineT-tlf-t-1x-x-70">Albert-L</span><span
-class="LinLibertineT-tlf-t-1x-x-70">aszl</span><span
-class="LinLibertineT-tlf-t-1x-x-70">o Barab</span><span
-class="LinLibertineT-tlf-t-1x-x-70">asi et</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;al</span><span
-class="LinLibertineT-tlf-t-1x-x-70">.</span> <span
-class="LinLibertineT-tlf-t-1x-x-70">2016.  </span><span
-class="LinLibertineTI-tlf-t-1x-x-70">Network science</span><span
+ <a 
+ id="Xbarabasi"></a><span 
+class="LinLibertineT-tlf-t-1x-x-70">[3]</span> <span class="bibsp"><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span 
+class="LinLibertineT-tlf-t-1x-x-70">Albert-L</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">aszl</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">o Barab</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">asi et</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;al</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">.</span> <span 
+class="LinLibertineT-tlf-t-1x-x-70">2016.  </span><span 
+class="LinLibertineTI-tlf-t-1x-x-70">Network science</span><span 
 class="LinLibertineT-tlf-t-1x-x-70">.  Cambridge university</span>
-   <span
+   <span 
 class="LinLibertineT-tlf-t-1x-x-70">press.</span>
    </p>
    <p class="bibitem" ><span class="biblabel">
- <a
- id="Xgephi"></a><span
-class="LinLibertineT-tlf-t-1x-x-70">[4]</span> <span class="bibsp"><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span
+ <a 
+ id="Xgephi"></a><span 
+class="LinLibertineT-tlf-t-1x-x-70">[4]</span> <span class="bibsp"><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span 
 class="LinLibertineT-tlf-t-1x-x-70">Mathieu Bastian, Sebastien Heymann, and Mathieu Jacomy. 2009.   Gephi:</span>
-   <span
-class="LinLibertineT-tlf-t-1x-x-70">an  open  source  software  for  exploring  and  manipulating  networks.  In  </span><span
+   <span 
+class="LinLibertineT-tlf-t-1x-x-70">an  open  source  software  for  exploring  and  manipulating  networks.  In  </span><span 
 class="LinLibertineTI-tlf-t-1x-x-70">Third</span>
-   <span
-class="LinLibertineTI-tlf-t-1x-x-70">international AAAI conference on weblogs and social media</span><span
+   <span 
+class="LinLibertineTI-tlf-t-1x-x-70">international AAAI conference on weblogs and social media</span><span 
 class="LinLibertineT-tlf-t-1x-x-70">.</span>
    </p>
    <p class="bibitem" ><span class="biblabel">
- <a
- id="Xigraph"></a><span
-class="LinLibertineT-tlf-t-1x-x-70">[5]</span> <span class="bibsp"><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span
-class="LinLibertineT-tlf-t-1x-x-70">Gabor Csardi, Tamas Nepusz, et</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;al</span><span
-class="LinLibertineT-tlf-t-1x-x-70">.</span> <span
+ <a 
+ id="Xigraph"></a><span 
+class="LinLibertineT-tlf-t-1x-x-70">[5]</span> <span class="bibsp"><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span 
+class="LinLibertineT-tlf-t-1x-x-70">Gabor Csardi, Tamas Nepusz, et</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;al</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">.</span> <span 
 class="LinLibertineT-tlf-t-1x-x-70">2006.  The igraph software package for</span>
-   <span
-class="LinLibertineT-tlf-t-1x-x-70">complex network research. </span><span
-class="LinLibertineTI-tlf-t-1x-x-70">InterJournal, complex systems </span><span
+   <span 
+class="LinLibertineT-tlf-t-1x-x-70">complex network research. </span><span 
+class="LinLibertineTI-tlf-t-1x-x-70">InterJournal, complex systems </span><span 
 class="LinLibertineT-tlf-t-1x-x-70">1695, 5 (2006), 1-9.</span>
    </p>
  <p class="bibitem" ><span class="biblabel">
- <a
- id="Xgraph_ana_btc"></a><span
-class="LinLibertineT-tlf-t-1x-x-70">[6]</span> <span class="bibsp"><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span
-class="LinLibertineT-tlf-t-1x-x-70">Michael   Fleder,   Michael</span><span
+ <a 
+ id="Xgraph_ana_btc"></a><span 
+class="LinLibertineT-tlf-t-1x-x-70">[6]</span> <span class="bibsp"><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span 
+class="LinLibertineT-tlf-t-1x-x-70">Michael   Fleder,   Michael</span><span 
 class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;S   Kester,   and   Sudeep   Pillai.   2015.       Bitcoin</span>
-   <span
-class="LinLibertineT-tlf-t-1x-x-70">transaction graph analysis. </span><span
-class="LinLibertineTI-tlf-t-1x-x-70">arXiv preprint arXiv:1502.01657 </span><span
+   <span 
+class="LinLibertineT-tlf-t-1x-x-70">transaction graph analysis. </span><span 
+class="LinLibertineTI-tlf-t-1x-x-70">arXiv preprint arXiv:1502.01657 </span><span 
 class="LinLibertineT-tlf-t-1x-x-70">(2015).</span>
    </p>
-   <p class="bibitem" ><span class="biblabel">                                                <a
- id="Xrich"></a><span
-class="LinLibertineT-tlf-t-1x-x-70">[7]</span> <span class="bibsp"><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span
-class="LinLibertineT-tlf-t-1x-x-70">D</span><span
-class="LinLibertineT-tlf-t-1x-x-70">aniel Kondor, M</span><span
-class="LinLibertineT-tlf-t-1x-x-70">arton P</span><span
-class="LinLibertineT-tlf-t-1x-x-70">osfai, Istv</span><span
-class="LinLibertineT-tlf-t-1x-x-70">an Csabai, and G</span><span
+   <p class="bibitem" ><span class="biblabel">                                                <a 
+ id="Xrich"></a><span 
+class="LinLibertineT-tlf-t-1x-x-70">[7]</span> <span class="bibsp"><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span 
+class="LinLibertineT-tlf-t-1x-x-70">D</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">aniel Kondor, M</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">arton P</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">osfai, Istv</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">an Csabai, and G</span><span 
 class="LinLibertineT-tlf-t-1x-x-70">abor Vattay. 2014.  Do</span>
-                                                     <span
+                                                     <span 
 class="LinLibertineT-tlf-t-1x-x-70">the rich get richer? An empirical analysis of the Bitcoin transaction network.</span>
-                                                     <span
-class="LinLibertineTI-tlf-t-1x-x-70">PloS one </span><span
+                                                     <span 
+class="LinLibertineTI-tlf-t-1x-x-70">PloS one </span><span 
 class="LinLibertineT-tlf-t-1x-x-70">9, 2 (2014).</span>
                                                      </p>
                                                      <p class="bibitem" ><span class="biblabel">
-                                                   <a
- id="Xkoshy2014"></a><span
-class="LinLibertineT-tlf-t-1x-x-70">[8]</span> <span class="bibsp"><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span
+                                                   <a 
+ id="Xkoshy2014"></a><span 
+class="LinLibertineT-tlf-t-1x-x-70">[8]</span> <span class="bibsp"><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span 
 class="LinLibertineT-tlf-t-1x-x-70">Philip  Koshy,  Diana  Koshy,  and  Patrick  McDaniel.  2014.    An  analysis  of</span>
-                                                     <span
-class="LinLibertineT-tlf-t-1x-x-70">anonymity in bitcoin using p2p network traffic. In </span><span
+                                                     <span 
+class="LinLibertineT-tlf-t-1x-x-70">anonymity in bitcoin using p2p network traffic. In </span><span 
 class="LinLibertineTI-tlf-t-1x-x-70">International Conference on</span>
-                                                     <span
-class="LinLibertineTI-tlf-t-1x-x-70">Financial Cryptography and Data Security</span><span
+                                                     <span 
+class="LinLibertineTI-tlf-t-1x-x-70">Financial Cryptography and Data Security</span><span 
 class="LinLibertineT-tlf-t-1x-x-70">. Springer, 469-485.</span>
                                                      </p>
                                                      <p class="bibitem" ><span class="biblabel">
-                                                   <a
- id="Xbitcoin"></a><span
-class="LinLibertineT-tlf-t-1x-x-70">[9]</span> <span class="bibsp"><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span
-class="LinLibertineT-tlf-t-1x-x-70">Satoshi  Nakamoto.  2019.     </span><span
-class="LinLibertineTI-tlf-t-1x-x-70">Bitcoin:  A  peer-to-peer  electronic  cash  system</span><span
+                                                   <a 
+ id="Xbitcoin"></a><span 
+class="LinLibertineT-tlf-t-1x-x-70">[9]</span> <span class="bibsp"><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span 
+class="LinLibertineT-tlf-t-1x-x-70">Satoshi  Nakamoto.  2019.     </span><span 
+class="LinLibertineTI-tlf-t-1x-x-70">Bitcoin:  A  peer-to-peer  electronic  cash  system</span><span 
 class="LinLibertineT-tlf-t-1x-x-70">.</span>
-                                                     <span
+                                                     <span 
 class="LinLibertineT-tlf-t-1x-x-70">Technical Report. Manubot.</span>
                                                      </p>
                                                      <p class="bibitem" ><span class="biblabel">
-                                                   <a
- id="Xanonymityanalysis"></a><span
-class="LinLibertineT-tlf-t-1x-x-70">[10]</span> <span class="bibsp"><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span
+                                                   <a 
+ id="Xanonymityanalysis"></a><span 
+class="LinLibertineT-tlf-t-1x-x-70">[10]</span> <span class="bibsp"><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span 
 class="LinLibertineT-tlf-t-1x-x-70">Fergal Reid and Martin Harrigan. 2013.   An analysis of anonymity in the</span>
-                                                     <span
-class="LinLibertineT-tlf-t-1x-x-70">bitcoin system. In </span><span
-class="LinLibertineTI-tlf-t-1x-x-70">Security and privacy in social networks</span><span
+                                                     <span 
+class="LinLibertineT-tlf-t-1x-x-70">bitcoin system. In </span><span 
+class="LinLibertineTI-tlf-t-1x-x-70">Security and privacy in social networks</span><span 
 class="LinLibertineT-tlf-t-1x-x-70">. Springer, 197-223.</span>
                                                      </p>
 
                                                      <p class="bibitem" ><span class="biblabel">
-                                                   <a
- id="Xqa_btc_graph"></a><span
-class="LinLibertineT-tlf-t-1x-x-70">[11]</span> <span class="bibsp"><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span
+                                                   <a 
+ id="Xqa_btc_graph"></a><span 
+class="LinLibertineT-tlf-t-1x-x-70">[11]</span> <span class="bibsp"><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span 
 class="LinLibertineT-tlf-t-1x-x-70">Dorit Ron and Adi Shamir. 2013.   Quantitative analysis of the full bitcoin</span>
-                                                     <span
-class="LinLibertineT-tlf-t-1x-x-70">transaction graph. In </span><span
+                                                     <span 
+class="LinLibertineT-tlf-t-1x-x-70">transaction graph. In </span><span 
 class="LinLibertineTI-tlf-t-1x-x-70">International Conference on Financial Cryptography and</span>
-                                                     <span
-class="LinLibertineTI-tlf-t-1x-x-70">Data Security</span><span
+                                                     <span 
+class="LinLibertineTI-tlf-t-1x-x-70">Data Security</span><span 
 class="LinLibertineT-tlf-t-1x-x-70">. Springer, 6-24.</span>
                                                      </p>
                                                      <p class="bibitem" ><span class="biblabel">
-                                                   <a
- id="Xmoney"></a><span
-class="LinLibertineT-tlf-t-1x-x-70">[12]</span> <span class="bibsp"><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span
-class="LinLibertineT-tlf-t-1x-x-70">Don  Tapscott  and  Alex  Tapscott.  2016.     </span><span
+                                                   <a 
+ id="Xmoney"></a><span 
+class="LinLibertineT-tlf-t-1x-x-70">[12]</span> <span class="bibsp"><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span 
+class="LinLibertineT-tlf-t-1x-x-70">Don  Tapscott  and  Alex  Tapscott.  2016.     </span><span 
 class="LinLibertineTI-tlf-t-1x-x-70">Blockchain  revolution:  how  the</span>
-                                                     <span
-class="LinLibertineTI-tlf-t-1x-x-70">technology behind bitcoin is changing money, business, and the world</span><span
+                                                     <span 
+class="LinLibertineTI-tlf-t-1x-x-70">technology behind bitcoin is changing money, business, and the world</span><span 
 class="LinLibertineT-tlf-t-1x-x-70">. Penguin.</span>
                                                      </p>
                                                      <p class="bibitem" ><span class="biblabel">
-                                                   <a
- id="Xecon"></a><span
-class="LinLibertineT-tlf-t-1x-x-70">[13]</span> <span class="bibsp"><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span
-class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span
+                                                   <a 
+ id="Xecon"></a><span 
+class="LinLibertineT-tlf-t-1x-x-70">[13]</span> <span class="bibsp"><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span><span 
+class="LinLibertineT-tlf-t-1x-x-70">&#x00A0;</span></span></span><span 
 class="LinLibertineT-tlf-t-1x-x-70">David Yermack. 2015. Is Bitcoin a real currency? An economic appraisal. In</span>
-                                                     <span
-class="LinLibertineTI-tlf-t-1x-x-70">Handbook of digital currency</span><span
+                                                     <span 
+class="LinLibertineTI-tlf-t-1x-x-70">Handbook of digital currency</span><span 
 class="LinLibertineT-tlf-t-1x-x-70">. Elsevier, 31-43.</span>
                                                    </p>
                                                      </div>
                                                     <div class="addresses"></div>
+
+
