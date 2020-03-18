@@ -195,6 +195,17 @@ user's wallet can generate new sending and receiving addresses to further
 maintain a level of anonymity&#x00A0;[<a href="#Xandreas">2</a>,&#x00A0;<a
 href="#Xbitcoin">9</a>].  
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4379410432613892"
+     data-ad-slot="8398952705"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <!--l. 43--><p class="indent" >    Since its genesis,
 bitcoin has gained popularity and traction. As a result, the number of bitcoin
 addresses and the number of transactions have continued to increase at an
@@ -284,6 +295,18 @@ one hour and two hour samples were taken. The resulting one
 hour and two hour samples are sub sets of the six hour sample
 with the one hour sample also being a subset of the two hour
 sample.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4379410432613892"
+     data-ad-slot="8398952705"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <!--l. 36--><p class="noindent" ><span class="subsectionHead"><span class="titlemark"><span
 class="LinLibertineTB-tlf-t-1x-x-90">2.2    </span></span> <a
  id="x1-40002.2"></a><span
@@ -566,6 +589,18 @@ longer sampling would probably have led to more triads and
 possibly greater maximal cliques. However, it is just as likely that
 the number of pairs of nodes would have increased at a similar
 rate.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4379410432613892"
+     data-ad-slot="8398952705"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <!--l. 151--><p class="indent" >  Reciprocity was also low. This was expected for this type of
 network. It is unlikely that a node would reciprocate an edge because
 that would be like person A sending 1 BTC to person B in the first
@@ -842,6 +877,18 @@ are more interconnected to each other, as there is no distinct
 hub or authority. Figure&#x00A0;<a
 href="#x1-7011r2">9b<!--tex4ht:ref: fig:2hour --></a> represents more of a decentralized
 community.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4379410432613892"
+     data-ad-slot="8398952705"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <!--l. 295--><p class="indent" >  Community structures provide clues as to what types of individual
 or entity may be contained within a network. For communities that
 resemble that of Figure&#x00A0;<a
@@ -908,6 +955,18 @@ class="LinLibertineTB-tlf-t-1x-x-90">Possible Future Work.</span></span>
   especially "regulars", would have to constantly check that the
   address is current and that they are sending money to the right
   address.
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-4379410432613892"
+       data-ad-slot="8398952705"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
   <!--l. 41--><p class="indent" >    Individuals are allowed to have multiple bitcoin wallets just as
   someone may have multiple bank accounts or credit cards. Multiple
   wallets per individual would lead to a similar phenomenon to
