@@ -20,9 +20,38 @@ summary: Sampling and network analysis of the rapidly growing Bitcoin exchange a
 
 ---
 
-[__Write up found HERE__](../docs/lleong_snapshot_samplings_of_the_bitcoin_transaction_network.pdf)
+---
+__Support future research__
+<div class="ui centered images small round image">
+  <img src="../images/projects/btc_qr.png">
 
-__Web Version at bottom__
+<!--a class="ui large orange image label">
+  <img src="../images/projects/btc_logo.jpeg">
+	BTC address:
+  <div class="detail small">
+       1MU21L4Niyss1HoPeaYgkNT8vn5meJrYeD 
+  </div>
+</a-->
+
+  <div class="ui pointing orange basic label">
+       btc address: 1MU21L4Niyss1HoPeaYgkNT8vn5meJrYeD 
+   </div>
+</div>
+
+---
+<a href="#webv">__Web Version of Write Up HERE__</a>
+
+---
+
+__Summary__
+
+In late 2017 Bitcoin, btc, was gaining popularity as the major cryptocurrency
+and many began to acquire and exchanges the cryptocurrency.  One of the draws
+of btc and other cryptocurrencies is the anonymity that is afforded to the
+those involved in transactions.  While all transactions are public and recorded
+on the blockchain only addresses and accounts are visible.  Peoples identities
+can be detracted from a particular address.  In addition, wallets allowed users
+to generate new addresses at, virtually, any time.  
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
@@ -34,16 +63,6 @@ __Web Version at bottom__
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
-__Summary__
-
-In late 2017 Bitcoin, btc, was gaining popularity as the major cryptocurrency
-and many began to acquire and exchanges the cryptocurrency.  One of the draws
-of btc and other cryptocurrencies is the anonymity that is afforded to the
-those involved in transactions.  While all transactions are public and recorded
-on the blockchain only addresses and accounts are visible.  Peoples identities
-can be detracted from a particular address.  In addition, wallets allowed users
-to generate new addresses at, virtually, any time.  
 
 During this period, in 2016, sources claimed that the number of btc users was
 growing exponentially.  This trend was also extrapolated to the number of btc
@@ -62,7 +81,6 @@ hypotheses and claims made about the network.
 <tr><td><img src="../images/projects/powerlaw_btc.png" /></td></tr>
 </table>
 
-<br/>
 
 Using a websocket API provided by
 [Blockchain.info](https://www.blockchain.com/api) I was able to sample
@@ -89,7 +107,6 @@ structures.
 </caption>
 <tr><td><img src="../images/projects/linkcomzoom.png" /></td></tr>
 </table>
-<br/>
 
 The graph file was then ported over to [Gephi](https://gephi.org/) mainly for
 visualization purposes.  Network analysis was also performed with Gephi because
@@ -122,12 +139,14 @@ statistics tool and I foresee my skills with it being useful in my pursuit
 toward data driven research.  Networks are ever present and being able to
 recognize and analyze them is an important skill.  
 
+[__Write Up found HERE__](../docs/lleong_snapshot_samplings_of_the_bitcoin_transaction_network.pdf)
 <br/>
 
-__WEB VERSION BELOW__
 
 ---
 ---
+<a id="webv">__WEB VERSION__</a>
+
 
 <h3>Abstract</h3>
 
@@ -1199,3 +1218,5 @@ class="LinLibertineT-tlf-t-1x-x-70">. Elsevier, 31-43.</span>
                                                    </p>
                                                      </div>
                                                     <div class="addresses"></div>
+
+
