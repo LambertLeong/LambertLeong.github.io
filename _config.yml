@@ -31,6 +31,10 @@ plugins:
 permalinks: pretty
 
 # Archives
+category_archive:
+  type: liquid
+  path: /categories/
+
 jekyll-archives:
   enabled:
     - categories
