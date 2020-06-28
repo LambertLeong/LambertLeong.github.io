@@ -7,7 +7,7 @@ favicon: /assets/images/landing_page/favicon.ico
 paginate: 6
 baseurl:
 email: 'lamberttleong@gmail.com'
-google_analytics:
+google_analytics: UA-121492082-1
 disqus:
 sharethis:
 
