@@ -33,7 +33,7 @@ permalinks: pretty
 # Archives
 category_archive:
   type: liquid
-  path: /category/
+  path: category/
 
 jekyll-archives:
   enabled:
