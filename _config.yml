@@ -1,15 +1,15 @@
 # Site
 name: Lambert Leong
 description: Professional Protfolio
-meta_description: Lambert Leong Professional Portfolio
+meta_description: Lambert Leong's Professional Portfolio
 logo: /assets/images/landing_page/logo.png
 favicon: /assets/images/landing_page/favicon.ico
 paginate: 6
 baseurl:
 email: 'lamberttleong@gmail.com'
-google_analytics:
-disqus:
-sharethis:
+google_analytics: UA-121492082-1
+disqus: lambertleong
+sharethis: lamberttleong@gmail.com
 
 # Authors
 authors:
@@ -31,12 +31,12 @@ plugins:
 permalinks: pretty
 
 # Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: 'category/:name/'
+#jekyll-archives:
+#  enabled:
+#    - categories
+#  layout: archive
+#  permalinks:
+#    category: 'category/:name/'
 
 # Other
 markdown: kramdown
@@ -44,7 +44,7 @@ highlighter: rouge
 
 # SEO
 twitter:
-  username:
+  username: leonglambert
   card: summary
 
 facebook:

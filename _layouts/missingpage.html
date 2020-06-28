@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<section class="row recent-posts">
+
+<!--div style="padding-top: 20px" class="ui container "-->
+<div class="col-md-8 col-lg-8">
+
+  <h3>I'm sorry, that URL could not be found. Perhaps you were looking for one of the following:</h3>
+
+  <br>
+
+  <h4>Projects</h4>
+  <ul>
+    {% assign posts = site.posts | where: "categories", "projects"  %}
+    {% for page in posts %}
+    <li ><a style="color:blue" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+<h4>Experience</h4>
+  <ul>
+    {% assign posts = site.posts | where: "categories", "experience"  %}
+    {% for page in posts %}
+    <li ><a style="color:blue" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+<h4>Thoughts</h4>
+  <ul>
+    {% assign posts = site.posts | where: "categories", "thoughts"  %}
+    {% for page in posts %}
+    <li ><a style="color:blue" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h4>Test</h4>
+  <ul>
+    {% assign posts = assets.docs  %}
+    {% for page in posts %}
+    <li ><a style="color:blue" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+</div>
+
+
+<!-- Sidebar -->
+<div class="col-md-4 col-lg-4">
+  {% include sidebar.html %}
+</div>
+<!-- End Sidebar -->
+</section>

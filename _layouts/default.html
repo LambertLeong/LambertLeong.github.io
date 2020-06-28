@@ -28,6 +28,7 @@
 
     <!--link rel="stylesheet" href="/path/to/folder/css/academicons.min.css"/-->
 
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ef96309678aaf0012f25cba&product=inline-share-buttons' async='async'></script>
 
     {% seo %}
 
@@ -49,6 +50,27 @@
         ga('create', '{{site.google_analytics}}', 'auto');
         ga('send', 'pageview');
     </script-->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121492082-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-121492082-1');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Ad Sense -->
+    <script data-ad-client="ca-pub-4379410432613892" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M8JBFKS');</script>
+    <!-- End Google Tag Manager -->
 
 </head>
 
@@ -89,17 +111,18 @@ endcapture %}
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link"
-                       href="{{ site.baseurl }}/category/projects/">Projects</a>
+                    <!--a class="nav-link" href="{{ site.baseurl }}/category/projects/">Projects</a-->
+                    <a class="nav-link" href="{{ site.baseurl }}/projects">Projects</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ site.baseurl }}/category/experience/">Experience</a>
+                    <!--a class="nav-link" href="{{ site.baseurl }}/category/experience/">Experience</a-->
+                    <a class="nav-link" href="{{ site.baseurl }}/experience">Experience</a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link"
-                       href="{{ site.baseurl }}/category/thoughts/">Thoughts</a>
+                       href="{{ site.baseurl }}/thoughts">Thoughts</a>
                 </li>
 
                 <li class="nav-item">
@@ -196,6 +219,9 @@ endcapture %}
                         <h5 class="title">Resources</h5>
                         <ul>
                             <li>
+                                <a href="{{ site.baseurl }}/contact">Contact</a>
+                            </li>
+                            <li>
                                 <a href="{{ site.baseurl }}/sitemap.xml">SiteMap</a>
                             </li>
                             <li><a href="{{ site.baseurl }}/feed.xml">Live
@@ -211,11 +237,11 @@ endcapture %}
                     <div class="footer-widget">
                         <h5 class="title">Catgory</h5>
                         <ul>
-                            <li><a href="/category/blog/">Blogs</a></li>
-                            <li><a href="#">Code</a></li>
-                            <li><a href="#">Tech</a></li>
-                            <li><a href="#">Linux</a></li>
-                            <li><a href="#">Personal</a></li>
+                            <li><a href="{{ site.baseurl }}/about">About</a></li>
+                            <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
+                            <li><a href="{{ site.baseurl }}/experience">Experience</a></li>
+                            <li><a href="{{ site.baseurl }}/thoughts">Thoughts</a></li>
+                            <li><a href="/assets/docs/lambertleong_resume.pdf">Resume</a></li>
                         </ul>
                     </div>
                 </div>
@@ -224,7 +250,7 @@ endcapture %}
                     <div class="footer-widget textwidget">
                         <h5 class="title">About Me</h5>
                         <p>My name is Lambert Leong and I currently conduct medical imaging research.
-                        I have a degrees in both biology and computer science. </p>
+                        Here some of my stuff. </p>
                     </div>
                 </div>
             </div>

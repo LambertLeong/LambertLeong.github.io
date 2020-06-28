@@ -1,19 +1,22 @@
 ---
 layout: post
 cover: assets/images/projects/UsaXUpTx_400x400.png
-title: Analysis of KRAS and BRAF mutant colorectal cancers in a multiracial population
+title: Analysis of KRAS and BRAF mutant colorectal cancers in a multi-ethnic population
 date: 2012-07-08
 categories: projects
 author: Lambert
 featured: false
 permalink: projects/Analysis_of_KRAS_and_BRAF_mutant_colorectal_cancers_in_a_multiracial_population
 comments: true
+summary: Study that looked at patterns and trends of certain gene mutations and their correlation to survival rates for  multiracial population.
+description: Study that looked at patterns and trends of certain gene mutations and their correlation to survival rates for  multiracial population.
 labels:
   - Cancer Research
   - Statistical Analysis
   - Data Analysis
   - Abstract
-description: Study that looked at pattern and trends of certian gene mutations and their correlation to survival rates for a multiracial population.
+  - genetics
+  - genomics
 ---
 
 <!--img class="ui medium right floated rounded image" src="/assets/images/projects/UsaXUpTx_400x400.png"-->

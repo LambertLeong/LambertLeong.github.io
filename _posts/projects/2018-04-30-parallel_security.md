@@ -6,10 +6,11 @@ date: 2018-04-30
 categories: projects
 author: Lambert
 featured: false
-permalink: projects/parallel_steganographic_encryption
+permalink: projects/parallel-steganographic-encryption
 comments: true
+summary: We explore HPC techniques in the realm of security to improve the speed and increase security. 
+description:  We developed a fast method to hide secret, encrypted data in images. This parallel steganography.
 labels:
- 
   - Security
   - Steganography
   - Encryption 
@@ -17,7 +18,6 @@ labels:
   - C/C++
   - Parallel Programming
   
-summary: We explore HPC techniques in the realm of security to improve the speed and increase security. 
 ---
 
 __Summary__

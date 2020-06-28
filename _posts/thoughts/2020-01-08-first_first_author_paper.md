@@ -1,13 +1,14 @@
 ---
 layout: post
-cover: assets/images/essays/hicss_logo.png
+cover: assets/images/essays/hicss_logo.jpg
 title: My First Independent Publication
 date: 2020-01-08
 categories: thoughts
 author: Lambert
 featured: false
-permalink: thoughts/my_first_paper
+permalink: thoughts/my-first-independent-paper
 comments: true
+description: The first time I published my own independent research as a first author and principal investigator.
 labels:
   - Publishing
   - Conference Paper
@@ -91,17 +92,6 @@ difficult to find papers related to my work.  I had difficulty finding previous
 work that focused on all three topics which include machine learning, wearable
 IOT, and security.  As a result I focused my search on high quality papers that
 encompass at least two of the three topic that concerns my paper.   
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4379410432613892"
-     data-ad-slot="8398952705"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 <!--
 Reviewers suggested potential papers to cite by providing direct URL links to
