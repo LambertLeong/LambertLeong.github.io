@@ -1,34 +1,61 @@
-# Site settings
+# Site
+name: Lambert Leong
+description: Professional Protfolio
+meta_description: Lambert Leong Professional Portfolio
+logo: /assets/images/landing_page/logo.png
+favicon: /assets/images/landing_page/favicon.ico
+paginate: 6
+baseurl:
+email: 'lamberttleong@gmail.com'
+google_analytics:
+disqus:
+sharethis:
 
-# REQUIRED CHANGES
-# Edit next line, providing your own name.
-title: Lambert Leong | Professional Portfolio
-# Edit next line, replacing 'techfolios' with your github username
-url: "https://lambertleong.github.io"
-# Edit next line so that baseurl is "" if your repo is <username>.github.io
-baseurl: ""
+# Authors
+authors:
+  Lambert:
+    name: Lambert
+    display_name: Lambert Leong
+    image: /assets/images/lambert_prof_2020_2.jpg
+    email: lamberttleong@gmail.com
+    web: lambertleong.com
+    twitter:
+    description: Hi, I am Lambert Leong.
 
-# OPTIONAL CHANGES
-# You might want to change the bio page label to something else, such as CV
-bio-page-label: Resume
-# You might want to change the theme associated with one or more sections of the site.
-# Defining your own custom theme variations is easy. See the documentation.
-theme-home: theme-home-builtin-2.html
-theme-projects: theme-projects-builtin-1.html
-theme-essays: theme-essays-builtin-2.html
-theme-work: theme-work-builtin-2.html
-theme-bio: theme-bio-builtin-1.html
-theme-project_extra: theme-project_extra.html
-theme-work_extra: theme-work_extra.html
+# Plugins
+plugins:
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-seo-tag
 
-# YOU NORMALLY NEVER CHANGE THE FOLLOWING
+permalinks: pretty
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: 'category/:name/'
+
+# Other
 markdown: kramdown
-include: [_data]
+highlighter: rouge
 
-plugins: 
-- jekyll-latex 
-#plugins: [jekyll-mermaid]
+# SEO
+twitter:
+  username:
+  card: summary
 
-#mermaid:
-#  src: 'js/mermaid.min.js'
-#  src_config: 'js/mermaid_config.js'
+facebook:
+  app_id:
+  publisher:
+  admins:
+
+social:
+name: Lambert Leong
+links:
+    - https://twitter.com/
+    - https://www.facebook.com/
+    - https://www.linkedin.com/
+    - https://github.com/

@@ -1,4 +1,7 @@
-source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
-gem 'jekyll-mermaid', '~> 1.0'
-gem 'jekyll-latex'
+source "https://rubygems.org"
+
+group :jekyll_plugins do
+  gem 'jekyll-archives'
+  gem 'jekyll-paginate'
+  gem 'jekyll-seo-tag'
+end
