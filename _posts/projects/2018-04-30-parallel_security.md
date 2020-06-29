@@ -9,7 +9,6 @@ featured: false
 permalink: projects/parallel_steganographic_encryption
 comments: true
 labels:
- 
   - Security
   - Steganography
   - Encryption 
