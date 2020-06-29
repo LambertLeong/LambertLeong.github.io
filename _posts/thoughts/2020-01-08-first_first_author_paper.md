@@ -1,6 +1,6 @@
 ---
 layout: post
-cover: assets/images/essays/hicss_logo.png
+cover: assets/images/essays/hicss_logo.jpg
 title: My First Independent Publication
 date: 2020-01-08
 categories: thoughts

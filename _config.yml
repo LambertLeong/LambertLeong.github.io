@@ -8,8 +8,8 @@ paginate: 6
 baseurl:
 email: 'lamberttleong@gmail.com'
 google_analytics: UA-121492082-1
-disqus:
-sharethis:
+disqus: lambertleong
+sharethis: lamberttleong@gmail.com
 
 # Authors
 authors:
@@ -31,12 +31,12 @@ plugins:
 permalinks: pretty
 
 # Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: 'category/:name/'
+#jekyll-archives:
+#  enabled:
+#    - categories
+#  layout: archive
+#  permalinks:
+#    category: 'category/:name/'
 
 # Other
 markdown: kramdown
