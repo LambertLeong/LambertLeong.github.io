@@ -6,8 +6,9 @@ date: 2020-01-08
 categories: thoughts
 author: Lambert
 featured: false
-permalink: thoughts/my_first_paper
+permalink: thoughts/my-first-independent-paper
 comments: true
+description: The first time I published my own independent research as a first author and principal investigator.
 labels:
   - Publishing
   - Conference Paper

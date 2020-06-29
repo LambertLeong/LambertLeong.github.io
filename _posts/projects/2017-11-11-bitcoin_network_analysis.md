@@ -8,6 +8,8 @@ author: Lambert
 featured: true
 permalink: /projects/bitcoin_network_analysis
 comments: true
+summary: Sampling and network analysis of the rapidly growing Bitcoin exchange and blockchain network. Cover GIF shows growth of the network over 6 hours
+description: Sampling and network analysis of the rapidly growing Bitcoin (BTC) exchange and blockchain network. Cover GIF shows growth of the network over 6 hours
 labels:
   - R
   - Gephi
@@ -17,7 +19,6 @@ labels:
   - bitcoin
   - blockchain
 
-summary: Sampling and network analysis of the rapidly growing Bitcoin exchange and blockchain network. Cover GIF shows growth of the network over 6 hours
 ---
 <a href="#webv">__Web Version of Write Up HERE__</a>
 ---

@@ -2,23 +2,21 @@
 layout: post
 cover: assets/images/projects/database.png
 title: Database Construction for Social Science Research Institute, Research and Evaluation for Public Safety Project
-title: Parallel Steganographic Encryption
-title: Parallel Steganographic Encryption
 date: 2017-06-18
 categories: projects
 author: Lambert
 permalink: projects/REPS_database
 featured: false
 comments: true
+summary: As a research assistant, I aggregated data from various tables to construct a relational, SQL, database.  I was required to write queries, analyze data, and organize the results to make them visually appealing.
+description: As a research assistant, I aggregated data from various tables to construct a relational, SQL, database.  I was required to write queries, analyze data, and organize the results to make them visually appealing.
 labels:
-
   - Database
   - SQL
   - Access 
   - Excel
   - SPSS
   
-summary: As a research assistant, I aggregated data from various tables to construct a relational, SQL, database.  I was required to write queries, analyze data, and organize the results to make them visually appealing.
 ---
 
 __Summary__
