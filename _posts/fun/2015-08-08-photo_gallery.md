@@ -10,6 +10,8 @@ permalink: fun/photo-gallery
 comments: true
 summary: A small preview of my home, Hawaii, from my perspective. I enjoy being outdoors which includes hiking and going to the beach.  While I am outdoors
  I see many beautiful sights which I try to capture in my photos.
+description: A small preview of my home, Hawaii, from my perspective. I enjoy being outdoors which includes hiking and going to the beach.  While I am outdoors
+ I see many beautiful sights which I try to capture in my photos.
 labels:
   - Photography
   - Hawaii
@@ -19,7 +21,12 @@ labels:
   - Gallery
   - Surf
   - Outdoors
+tags: photograhy hawaii nature beach hike ocean gallery photo surf outdoors
 ---
+
+I enjoy going outside and exploring my beautiful home of Hawaii. Since good cameras have become cheaper
+ and more accessible, I have started taking picture where every I go.  Here are a few examples of photos
+ I have taken printed on canvas and metal.
 
 <!-- Container for the image gallery -->
 <div class="container">
@@ -42,7 +49,7 @@ labels:
   
   <div class="mySlides">
     <div class="numbertext">4 / 8</div>
-      <img src="/assets/images/fun/photo_gallery/all_elements.jpg" style="width:100%">
+      <img src="/assets/images/fun/photo_gallery/all_elements_front.jpg" style="width:100%">
   </div>
 
   <div class="mySlides">
@@ -86,7 +93,7 @@ labels:
       <img class="demo cursor" src="/assets/images/fun/photo_gallery/secret_spot.jpg" style="width:100%" onclick="currentSlide(3)" alt="'Secret Spot'  (11x14in canvas)">
     </div>    
     <div class="column">
-      <img class="demo cursor" src="/assets/images/fun/photo_gallery/all_elements.jpg" style="width:100%" onclick="currentSlide(4)" alt="'All Elements' (11x14in canvas)">
+      <img class="demo cursor" src="/assets/images/fun/photo_gallery/all_elements_front.jpg" style="width:100%" onclick="currentSlide(4)" alt="'All Elements' (11x14in canvas)">
     </div> 
     <div class="column">
       <img class="demo cursor" src="/assets/images/fun/photo_gallery/aqua_drops.jpg" style="width:100%" onclick="currentSlide(5)" alt="'Aqua Drops' (11x14in canvas)">
@@ -102,3 +109,6 @@ labels:
     </div>
   </div>
 </div>
+<br>
+<h5>If you like what you see and would like to purchase a print, email or <a href="{{ site.baseurl }}/contact">contact</a> me to inquire about pricing!</h5>
+<br>
