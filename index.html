@@ -55,7 +55,9 @@ description: Lambert Leong's portfolio which includes research, projects, my tho
                 <div class="masonrygrid row listrecent">
                     {% for post in paginator.posts %}
                     {% unless post.featured == true %}
+                    {% unless post.hide == true %}
                     {% include postbox.html %}
+                    {% endunless %}
                     {% endunless %}
                     {% endfor %}
                 </div>

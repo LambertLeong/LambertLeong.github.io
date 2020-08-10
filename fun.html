@@ -1,0 +1,34 @@
+---
+layout: default
+title: Fun
+---
+
+<!-- Begin List Posts
+================================================== -->
+<section class="row recent-posts">
+  <div class="col-md-8 col-lg-8">
+    <div class="section-title">
+      <h2><span>Archive-{{ page.type }} '{{ page.title }}'</span></h2>
+    </div>
+    <div align="justify">
+      test
+      <p>
+        TODO text
+      </p>
+    </div>
+    <div class="masonrygrid row listrecent">
+      {% assign posts = site.posts | where: "categories", "fun"  %}
+
+      {% for post in posts  %}
+      {% include postbox.html %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Sidebar -->
+  <div class="col-md-4 col-lg-4">
+    {% include sidebar.html %}
+  </div>
+  <!-- End Sidebar -->
+
+</section>
