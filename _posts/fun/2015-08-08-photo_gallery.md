@@ -1,7 +1,7 @@
 ---
 layout: post
 cover: assets/images/fun/photo_gallery/all_elements.jpg
-title:  Photos From Home
+title:  Photos From My Home Hawaii
 date: 2015-11-05
 categories: fun
 author: Lambert
@@ -25,7 +25,7 @@ tags: photograhy hawaii nature beach hike ocean gallery photo surf outdoors
 ---
 
 I enjoy going outside and exploring my beautiful home of Hawaii. Since good cameras have become cheaper
- and more accessible, I have started taking picture where every I go.  Here are a few examples of photos
+ and more accessible, I have started taking picture where ever I go.  Here are a few examples of photos
  I have taken printed on canvas and metal.
 
 <!-- Container for the image gallery -->
