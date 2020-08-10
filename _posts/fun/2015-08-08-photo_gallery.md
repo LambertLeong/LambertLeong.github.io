@@ -1,15 +1,15 @@
 ---
 layout: post
 cover: assets/images/fun/photo_gallery/all_elements.jpg
-title:  The Photographer and Photo Gallery
-date: 2018-11-05
+title:  Photos From Home
+date: 2015-11-05
 categories: fun
 author: Lambert
 featured: false
 permalink: fun/photo-gallery
 comments: true
-description: "I enjoy being outdoors which includes hiking and going to the beach.  While I am outdoors
- I see many beautiful sights which I try to capture in my photos"
+summary: A small preview of my home, Hawaii, from my perspective. I enjoy being outdoors which includes hiking and going to the beach.  While I am outdoors
+ I see many beautiful sights which I try to capture in my photos.
 labels:
   - Photography
   - Hawaii
@@ -20,8 +20,6 @@ labels:
   - Surf
   - Outdoors
 ---
-
-test
 
 <!-- Container for the image gallery -->
 <div class="container">
@@ -67,11 +65,9 @@ test
       <img src="/assets/images/fun/photo_gallery/undertow.jpg" style="width:100%">
   </div>
 
-  
-
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <a style="color:white" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a style="color:white" class="next" onclick="plusSlides(1)">&#10095;</a>
 
   <!-- Image text -->
   <div class="caption-container">
