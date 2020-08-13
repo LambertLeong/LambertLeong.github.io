@@ -56,12 +56,13 @@ imageZoom("myimage", "myresult");
 imageZoom("myimage2", "myresult2");
 </script>
 <br>
+
 Final Remarks:
 
-Increase your healthspan via exercise, diet, etc.  This is not focused on as a recommendation because the results 
-of wearing a mask and social distancing are more obvious and immediate.  However, everyone, unfortunately, 
-will have an adverse health event.  The healthier you are when you encounter and adverse health event the 
-better your chances of coming out of it.
+Increase your healthspan via exercise, diet, etc.  This is not often focused on as a recommendation because the results 
+of wearing a mask and social distancing are more obvious and immediate.  Everyone, unfortunately, 
+will have some adverse health event.  The healthier you are (i.e. better healthspan) when you encounter an adverse health event, the 
+better your chances are of coming out of it and regaining your healthspan.
 
 <br>
 Data sources: [Hawaii Data](https://www.hawaiidata.org/) and [Honolulu Magazine](http://www.honolulumagazine.com/Honolulu-Magazine/August-2020/A-COVID-19-Timeline-How-Honolulu-Got-To-This-Point/)
