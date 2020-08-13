@@ -1,6 +1,6 @@
 ---
 layout: post
-cover: assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline.png
+cover: assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline2.png
 title: What data says about Hawaii's COVID19 response
 date: 2020-08-12
 categories: thoughts
@@ -18,7 +18,7 @@ __More Data and Interpretation Coming Soon__
 
 [__Download Full Case Chart HERE__](/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline.png)
 <div class="img-zoom-container">
-  <img id="myimage" src="/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline.png" width="100%" 
+  <img id="myimage" src="/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline2.png" width="100%" 
   height="auto" alt="Hawaii COVID-19 Case Timeline">
   <br>
   <!--p>
@@ -32,7 +32,7 @@ __More Data and Interpretation Coming Soon__
 
 [__Download Full New Case Chart HERE__](/assets/images/essays/hawaii_covid/hawaii_covid19_newcase_timeline.png)
 <div class="img-zoom-container">
-  <img id="myimage2" src="/assets/images/essays/hawaii_covid/hawaii_covid19_newcase_timeline.png" width="100%" 
+  <img id="myimage2" src="/assets/images/essays/hawaii_covid/hawaii_covid19_newcase_timeline2.png" width="100%" 
   height="auto" alt="Hawaii COVID-19 New Case Timeline">
   <br>
   <!--p>
