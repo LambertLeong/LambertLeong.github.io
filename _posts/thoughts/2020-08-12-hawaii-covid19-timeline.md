@@ -1,6 +1,6 @@
 ---
 layout: post
-cover: assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline2.png
+cover: assets/images/essays/hawaii_covid/case_count.gif
 title: What data says about Hawaii's COVID19 response
 date: 2020-08-14
 categories: thoughts
