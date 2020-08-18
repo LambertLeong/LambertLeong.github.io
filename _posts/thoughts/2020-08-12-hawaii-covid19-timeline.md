@@ -2,7 +2,7 @@
 layout: post
 cover: assets/images/essays/hawaii_covid/case_count.gif
 title: What data says about Hawaii's COVID19 response
-date: 2020-08-14
+date: 2020-08-18
 categories: thoughts
 author: Lambert
 featured: True
