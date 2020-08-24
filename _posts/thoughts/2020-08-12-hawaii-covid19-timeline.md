@@ -2,7 +2,7 @@
 layout: post
 cover: assets/images/essays/hawaii_covid/case_count.gif
 title: What data says about Hawaii's COVID19 response
-date: 2020-08-20
+date: 2020-08-24
 categories: thoughts
 author: Lambert
 featured: True
@@ -10,7 +10,7 @@ permalink: thoughts/hawaii-covid19-timeline
 comments: true
 description: Chart of Hawaii's events in relation to novel corona virus (COVID-19) cases
 labels:
-  - 
+  -
 ---
 
 __More Data and Interpretation Coming Soon__
@@ -25,7 +25,7 @@ Things to consider/note:
 
 [__Download Full Case Chart HERE__](/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline.png)
 <div class="img-zoom-container">
-  <img id="myimage" src="/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline2.png" width="100%" 
+  <img id="myimage" src="/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline2.png" width="100%"
   height="auto" alt="Hawaii COVID-19 Case Timeline">
   <br>
   <!--p>
@@ -43,7 +43,7 @@ imageZoom("myimage", "myresult");
 
 [__Download Full New Case Chart HERE__](/assets/images/essays/hawaii_covid/hawaii_covid19_newcase_timeline.png)
 <div class="img-zoom-container">
-  <img id="myimage2" src="/assets/images/essays/hawaii_covid/hawaii_covid19_newcase_timeline2.png" width="100%" 
+  <img id="myimage2" src="/assets/images/essays/hawaii_covid/hawaii_covid19_newcase_timeline2.png" width="100%"
   height="auto" alt="Hawaii COVID-19 New Case Timeline">
   <br>
   <!--p>
@@ -61,9 +61,9 @@ imageZoom("myimage2", "myresult2");
 
 Final Remarks:
 
-Increase your healthspan via exercise, diet, etc.  This is not often focused on as a recommendation because the results 
-of wearing a mask and social distancing are more obvious and immediate.  Everyone, unfortunately, 
-will have some adverse health event.  The healthier you are (i.e. better healthspan) when you encounter an adverse health event, the 
+Increase your healthspan via exercise, diet, etc.  This is not often focused on as a recommendation because the results
+of wearing a mask and social distancing are more obvious and immediate.  Everyone, unfortunately,
+will have some adverse health event.  The healthier you are (i.e. better healthspan) when you encounter an adverse health event, the
 better your chances are of coming out of it and regaining your healthspan.
 
 <br>
