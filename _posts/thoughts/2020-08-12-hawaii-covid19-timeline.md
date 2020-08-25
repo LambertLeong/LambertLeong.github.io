@@ -23,40 +23,69 @@ Things to consider/note:
 - There is a delay in reporting which is not yet adjusted for in the following plots
 
 
+
+<!--div class="zoom">
+    <img id="test" src="/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline2.png" width="100%"
+      height="auto" alt="Hawaii COVID-19 Case Timeline">
+</div-->
+
+
 [__Download Full Case Chart HERE__](/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline.png)
-<div class="img-zoom-container">
+
+<div class="img-magnifier-container">
+  <a href="/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline.png">
+  <img id="myimage1" src="img_girl.jpg" src="/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline2.png" width="100%" height="auto" alt="Hawaii COVID-19 Case Timeline">
+  </a>
+</div>
+<script>
+/* Execute the magnify function: */
+magnify("myimage1", 2.5);
+/* Specify the id of the image, and the strength of the magnifier glass: */
+</script>
+
+<!--div class="img-zoom-container">
   <img id="myimage" src="/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline2.png" width="100%"
   height="auto" alt="Hawaii COVID-19 Case Timeline">
   <br>
-  <!--p>
-  Zoom Below
-  </p-->
+
   <br>
   <div id="myresult" class="img-zoom-result"></div>
 </div>
 
 <script>
 imageZoom("myimage", "myresult");
-</script>
+</script-->
 
 <br>
 
 [__Download Full New Case Chart HERE__](/assets/images/essays/hawaii_covid/hawaii_covid19_newcase_timeline.png)
-<div class="img-zoom-container">
+
+<div class="img-magnifier-container">
+  <a href="/assets/images/essays/hawaii_covid/hawaii_covid19_newcase_timeline.png">
+  <img id="myimage2" src="/assets/images/essays/hawaii_covid/hawaii_covid19_newcase_timeline2.png" width="100%"
+                    height="auto" alt="Hawaii COVID-19 New Case Timeline">
+  </a>
+</div>
+<script>
+/* Execute the magnify function: */
+magnify("myimage2", 2.5);
+/* Specify the id of the image, and the strength of the magnifier glass: */
+</script>
+
+
+<!--div class="img-zoom-container">
   <img id="myimage2" src="/assets/images/essays/hawaii_covid/hawaii_covid19_newcase_timeline2.png" width="100%"
   height="auto" alt="Hawaii COVID-19 New Case Timeline">
   <br>
-  <!--p>
-  Zoom Below
-  </p-->
+
   <br>
   <div id="myresult2" class="img-zoom-result"></div>
 </div>
 
 <script>
-<!--imageZoom("myimage", "myresult");-->
+<imageZoom("myimage", "myresult");>
 imageZoom("myimage2", "myresult2");
-</script>
+</script-->
 <br>
 
 Final Remarks:
