@@ -2,7 +2,7 @@
 layout: post
 cover: assets/images/essays/hawaii_covid/case_count.gif
 title: What data says about Hawaii's COVID19 response
-date: 2020-08-24
+date: 2020-09-01
 categories: thoughts
 author: Lambert
 featured: True
@@ -88,7 +88,7 @@ imageZoom("myimage2", "myresult2");
 </script-->
 <br>
 
-Final Remarks:
+Things to think about:
 
 Increase your healthspan via exercise, diet, etc.  This is not often focused on as a recommendation because the results
 of wearing a mask and social distancing are more obvious and immediate.  Everyone, unfortunately,
