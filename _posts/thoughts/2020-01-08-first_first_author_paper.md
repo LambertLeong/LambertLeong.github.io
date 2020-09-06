@@ -9,6 +9,7 @@ featured: false
 permalink: thoughts/my-first-independent-paper
 comments: true
 description: The first time I published my own independent research as a first author and principal investigator.
+summary: The first time I published my own independent research.
 labels:
   - Publishing
   - Conference Paper

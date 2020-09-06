@@ -9,6 +9,7 @@ featured: True
 permalink: thoughts/hawaii-covid19-timeline
 comments: true
 description: Chart of Hawaii's events in relation to novel corona virus (COVID-19) cases
+summary: Chart of Hawaii's events in relation to novel corona virus (COVID-19) cases
 labels:
   -
 ---
