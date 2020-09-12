@@ -1,7 +1,7 @@
 ---
 layout: post
 cover: assets/images/essays/hawaii_covid/case_count.gif
-title: What data says about Hawaii's COVID19 response
+title: What the data says about Hawaii's COVID19 response
 date: 2020-09-01
 categories: thoughts
 author: Lambert
@@ -23,7 +23,7 @@ Things to consider/note:
 - There is a delay in test results which is not yet adjusted for in the following plots
 - There is a delay in reporting which is not yet adjusted for in the following plots
 
-
+Charts and data update, atleast, every week.
 
 <!--div class="zoom">
     <img id="test" src="/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline2.png" width="100%"
@@ -32,6 +32,7 @@ Things to consider/note:
 
 
 [__Download Full Case Chart HERE__](/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline.png)
+<br>
 
 <div class="img-magnifier-container">
   <a href="/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline.png">
@@ -60,6 +61,7 @@ imageZoom("myimage", "myresult");
 <br>
 
 [__Download Full New Case Chart HERE__](/assets/images/essays/hawaii_covid/hawaii_covid19_newcase_timeline.png)
+<br>
 
 <div class="img-magnifier-container">
   <a href="/assets/images/essays/hawaii_covid/hawaii_covid19_newcase_timeline.png">
