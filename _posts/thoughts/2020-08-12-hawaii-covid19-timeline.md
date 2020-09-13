@@ -11,11 +11,13 @@ comments: true
 description: Chart of Hawaii's events in relation to novel corona virus (COVID-19) cases
 summary: Chart of Hawaii's events in relation to novel corona virus (COVID-19) cases
 labels:
-  -
+  - covid19
+  - corona
+  - hawaii
 ---
 
-__More Data and Interpretation Coming Soon__
 
+__More Data and Interpretation Coming Soon__
 
 Here is the data, make your own conclusions.
 
