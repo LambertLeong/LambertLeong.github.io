@@ -9,20 +9,34 @@ featured: False
 published: True
 permalink: thoughts/election2020-social-media-trends
 comments: true
-description: Trending political hashtags and the relationship to the 2020 presidentail election
-summary: Trending political hashtags and the relationship to the 2020 presidentail election
+description: Trending political (democrat & republican) hashtags and the relationship to the 2020 presidentail election
+summary: Trending political (democrat & republican) hashtags and the relationship to the 2020 presidentail election
 labels:
-  -
+  - election
+  - president
+  - 2020
+  - democrat
+  - republican
+tags:
+  - election
+  - president
+  - 2020
+  - democrat
+  - republican
 ---
 
-__More Data and Interpretation Coming Soon__
+The 2016 election showed us the effects that social media had on the presidential election. Here we 
+can look at trending twitter hashtags as they relate to one of the two major political parties as we near
+the 2020 election. It is believed, by some, that any press is good press and this may be true for
+twitter trends as well.  
 
+__More Data and Interpretation Coming Soon__
 
 Here is the data, make your own conclusions.
 
 Data provided by [@igetthetags](https://twitter.com/igetthetags) ![Twitter][1.2]
 
-Charts and data update, atleast, every week.
+Charts and data update, at least, every week.
 
 <!--div class="zoom">
     <img id="test" src="/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline2.png" width="100%"

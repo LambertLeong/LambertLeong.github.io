@@ -23,7 +23,7 @@ Things to consider/note:
 - There is a delay in test results which is not yet adjusted for in the following plots
 - There is a delay in reporting which is not yet adjusted for in the following plots
 
-Charts and data update, atleast, every week.
+Charts and data update, at least, every week.
 
 <!--div class="zoom">
     <img id="test" src="/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline2.png" width="100%"
