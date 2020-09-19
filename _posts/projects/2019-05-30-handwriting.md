@@ -18,9 +18,9 @@ labels:
 
 ---
 Manuscript found at [Digit Recognition From Wrist Movements and Security
-Concerns with Smart Wrist Wearable IOT Devices](https://www.researchgate.net/publication/339028093_Digit_Recognition_From_Wrist_Movements_and_Security_Concerns_with_Smart_Wrist_Wearable_IOT_Devices).
+Concerns with Smart Wrist Wearable IOT Devices](https://www.researchgate.net/publication/339028093_Digit_Recognition_From_Wrist_Movements_and_Security_Concerns_with_Smart_Wrist_Wearable_IOT_Devices){:target="_blank"}.
 
-[Presentation found HERE](/assets/docs/hicss_2020_presentation.pdf)
+[Presentation found HERE](/assets/docs/hicss_2020_presentation.pdf){:target="_blank"}
 
 __Summary__
 

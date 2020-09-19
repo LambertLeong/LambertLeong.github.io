@@ -40,7 +40,7 @@ align="bottom">Visual representation of our data securing protocol </caption>
 <tr><td><img src="/assets/images/projects/stega.png" /></td></tr> </table>
 </center-->
 
-In this project with [Ryan Tanaka](https://ryantanaka.github.io/) we propose a
+In this project with [Ryan Tanaka](https://ryantanaka.github.io/){:target="_blank"} we propose a
 fast method to both hide and secure secret data.  We explore combining
 steganography with encryption to add another level of security to our data.
 Individuals attempting to recover our secret data would have to first recognize
