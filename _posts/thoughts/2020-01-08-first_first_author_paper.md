@@ -41,7 +41,7 @@ and that it would be a valuable contribution to the scientific community and so
 I began the process of taking it to publication.
 
 
-* [The project page can be found __HERE__](../projects/machine_learning_handwriting)
+* [The project page can be found __HERE__](../projects/machine_learning_handwriting){:target="_blank"}
 
 __Summary__
 
@@ -53,11 +53,11 @@ I built a machine learning model with the collected data and showed that it had
 great accuracy.
 
 They manuscript was submitted to [Hawaii International Conference on Science
-Systems (HICSS)](https://hicss.hawaii.edu) where it was peer reviewed and
+Systems (HICSS)](https://hicss.hawaii.edu){:target="_blank"} where it was peer reviewed and
 accepted with mandatory changes.  The necessary changes were made, as per the
 reviewer requests, and was finally accepted for presentation in January 2020.  
 
-[Manuscript can be found __HERE__](https://www.researchgate.net/publication/339028093_Digit_Recognition_From_Wrist_Movements_and_Security_Concerns_with_Smart_Wrist_Wearable_IOT_Devices)
+[Manuscript can be found __HERE__](https://www.researchgate.net/publication/339028093_Digit_Recognition_From_Wrist_Movements_and_Security_Concerns_with_Smart_Wrist_Wearable_IOT_Devices){:target="_blank"}
 
 __Writing Process__
 

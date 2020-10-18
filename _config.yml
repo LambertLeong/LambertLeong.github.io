@@ -4,7 +4,7 @@ description: Professional Protfolio
 meta_description: Lambert Leong's Professional Portfolio
 logo: /assets/images/landing_page/logo.png
 favicon: /assets/images/landing_page/favicon.ico
-paginate: 6
+paginate: 7
 baseurl:
 email: 'lamberttleong@gmail.com'
 google_analytics: UA-121492082-1

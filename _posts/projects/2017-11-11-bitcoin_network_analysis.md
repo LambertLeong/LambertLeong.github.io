@@ -53,7 +53,7 @@ hypotheses and claims made about the network.
 
 
 Using a websocket API provided by
-[Blockchain.info](https://www.blockchain.com/api) I was able to sample
+[Blockchain.info](https://www.blockchain.com/api){:target="_blank"} I was able to sample
 blockchain transaction data which included, sender/receiver addresses, amount,
 hash difficulty, etc.  I was only concerned with the sender, receiver, and the
 amount of btc sent.  I took three samples of the network which included a one,
@@ -78,7 +78,7 @@ structures.
 <tr><td><img src="/assets/images/projects/linkcomzoom.png" /></td></tr>
 </table>
 
-The graph file was then ported over to [Gephi](https://gephi.org/) mainly for
+The graph file was then ported over to [Gephi](https://gephi.org/){:target="_blank"} mainly for
 visualization purposes.  Network analysis was also performed with Gephi because
 previous experiences taught me that Gephi metrics vary slightly from those
 gather by igraph.  Gephi and igraph sometimes, for certain network metrics,
@@ -98,7 +98,7 @@ statistics tool and I foresee my skills with it being useful in my pursuit
 toward data driven research.  Networks are ever present and being able to
 recognize and analyze them is an important skill.  
 
-[__Write Up found HERE__](/assets/docs/lleong_snapshot_samplings_of_the_bitcoin_transaction_network.pdf)
+[__Write Up found HERE__](/assets/docs/lleong_snapshot_samplings_of_the_bitcoin_transaction_network.pdf){:target="_blank"}
 <br/>
 
 ---
