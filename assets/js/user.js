@@ -54,7 +54,7 @@ function imageZoom(imgID, resultID) {
         return {x : x, y : y};
     }
 }
-
+/*
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -85,7 +85,7 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
 }
-
+*/
 function magnify(imgID, zoom) {
     var img, glass, w, h, bw;
     img = document.getElementById(imgID);
