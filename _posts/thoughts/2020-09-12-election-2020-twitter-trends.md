@@ -28,21 +28,20 @@ tags:
   - twitter
   - hashtag
 ---
-__Here is the data, make your own conclusions.__
 
 __TLDR__
-* Social media data is interesting and may indicate election consensus
+* Social media data is interesting with respect to the 2020 presidential election
+* __Here is the data, make your own conclusions.__
 
 
 Oscar Wilde once wrote “The only thing worse than being talked about is not being talked about”. This is
 along the idea that any press is good press and with Trump in 2016 this seemed to be the case.  The 2016 election showed
- us the effects that social media had on Who becomes president and runs the country. Here we 
-can look at trending twitter hashtags as they relate to one of the two major political parties as we near
-the 2020 election.  
+ us that social media can have an effect on who become president and runs the country. Here we
+  look at trending twitter hashtags and terms as they relate to one of the two major political parties leading up to the 2020 election.  
 
 We gathered the top 50 trending topics on Twitter each day for the past year. These topics are presented
-in the form of hashtages (#) and trending words, terms, or phrases.  With this data we can invesitgate
-how many days a topic was trending as well as the changes in volume of that topic.  Tweet data was 
+in the form of hashtages (#) and trending words, terms, or phrases.  With this data we can investigate
+how many days a topic was trending as well as the changes in total tweet volume for a topic.  Tweet data was 
 provided by [@igetthetags](https://twitter.com/igetthetags) ![Twitter][1.2].
 
 
@@ -54,20 +53,19 @@ provided by [@igetthetags](https://twitter.com/igetthetags) ![Twitter][1.2].
 |        Pence       	|  268,170 	|
 
 <br>
-We take no political side and remain objective in our exploration of this data.  In addition, no sentiment
+We take no political side and remain objective in our exploration.  In addition, no sentiment
 analysis was done on all the tweets to determine if they were for or against a particular political party.
-Hence, we reiterate that any press is good press. We used particular search terms to classify a trending
+Hence, we reiterate that any press is good press and consider all mentions to be positive for one party or another. We used particular search terms to classify a trending
 topic into one of two classes; republican or democrat. A hashtag is categorized as democratic if it 
 contains any of the following words: <span style="color:blue">'joebiden', 'biden', 'kamalaharris',
 'harris', 'democrat'</span>.  A hashtag is categorized as republican if it contains any of the 
 following words: <span style="color:red">'donaldtrump', 'trump', 'mikepence', 'pence', 'republican'</span>
-. Remember, hashtags do not contain spaces.
+. Remember, hashtags do not contain spaces and thus our classification terms do not as well.
 
 <img  src="/assets/images/essays/election_tags/election2020_total.png" width="70%" alt="Total tweet political election volume" >
 
 The republicans appear to be ahead with respect to social media "buzz".  Several events and news have
-instigated many tweets.  Below is a timeline of important events and corresponding tweet volumes with
-respect to each party.
+instigated many tweets.  Below is a timeline of important events or news and the corresponding tweet volumes colored by political party.
 
 <!--div class="zoom">
     <img id="test" src="/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline2.png" width="100%"
@@ -75,13 +73,11 @@ respect to each party.
 </div-->
 
 
-[__Download Full Case Chart HERE__](/assets/images/essays/election_tags/election2020_tag_timeline.png)
+[__View Full Case Chart HERE__](/assets/images/essays/election_tags/election2020_tag_timeline.png)
 <br>
-
+<br>
 <div class="img-magnifier-container">
-  <a href="/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline.png">
-  <img id="myimage1" src="img_girl.jpg" src="/assets/images/essays/election_tags/election2020_tag_timeline2.png" width="100%" height="auto" alt="Hashtag Election Timeline">
-  </a>
+  <img id="myimage1" src="/assets/images/essays/election_tags/election2020_tag_timeline2.png" width="100%" height="auto" alt="Hashtag Election Timeline">
 </div>
 <script>
 /* Execute the magnify function: */
@@ -90,7 +86,8 @@ magnify("myimage1", 2.5);
 </script>
 <br>
 
-In addition to political classification, we looked at some interesting tweet topics that had high volumes.
+In addition to political classification, we looked at some interesting tweet topics that had high volumes.  The terms
+in the following table stemmed from very polarizing events and spurred many political related tweets.
 
 | Tweets Containing: 	|  Volume 	|
 |--------------------	|--------:	|
@@ -101,11 +98,11 @@ In addition to political classification, we looked at some interesting tweet top
 
 <br>
 
-The corona virus or COVID19 was a difficult obstical that the world faced in 2020.  It was also 
-a polarizing topic that sparked many conversations and tweets with respect to the virus as well as 
-poitics.
+The corona virus or COVID19 was a difficult obstacle that the world faced in 2020.  It was also 
+a "hot" topic that sparked many conversations and tweets with respect to the virus as well as 
+politics.
 
-[__Download Final Count Chart HERE__](/assets/images/essays/election_tags/covid_tags2020.png)
+[__View Final Count Chart HERE__](/assets/images/essays/election_tags/covid_tags2020.png)
 
 <img  src="/assets/images/essays/election_tags/covid_tag.gif" width="100%" alt="Covid19 corona virus tweet volume 2020" >
 

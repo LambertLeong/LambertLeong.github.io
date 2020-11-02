@@ -36,7 +36,7 @@ Charts and data update, at least, every week.
 </div-->
 
 
-[__Download Full Case Chart HERE__](/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline.png){:target="_blank"}
+[__View Full Case Chart HERE__](/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline.png){:target="_blank"}
 <br>
 <br>
 <div class="img-magnifier-container">
@@ -65,7 +65,7 @@ imageZoom("myimage", "myresult");
 
 <br>
 
-[__Download Full New Case Chart HERE__](/assets/images/essays/hawaii_covid/hawaii_covid19_newcase_timeline.png){:target="_blank"}
+[__View Full New Case Chart HERE__](/assets/images/essays/hawaii_covid/hawaii_covid19_newcase_timeline.png){:target="_blank"}
 <br>
 <br>
 <center>
