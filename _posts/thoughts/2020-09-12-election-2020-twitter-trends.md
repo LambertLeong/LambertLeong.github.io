@@ -102,9 +102,9 @@ The corona virus or COVID19 was a difficult obstacle that the world faced in 202
 a "hot" topic that sparked many conversations and tweets with respect to the virus as well as 
 politics.
 
-[__View Final Count Chart HERE__](/assets/images/essays/election_tags/covid_tags2020.png)
+[__View Final Count Chart HERE__](/assets/images/essays/election_tags/covid_tags2020.png )
 
-<img  src="/assets/images/essays/election_tags/covid_tag.gif" width="100%" alt="Covid19 corona virus tweet volume 2020" >
+<img  src="/assets/images/essays/election_tags/covid_tag.gif" width="69%" alt="Covid19 corona virus tweet volume 2020">
 
 <br>
 
