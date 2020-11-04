@@ -2,7 +2,7 @@
 layout: post
 cover: assets/images/essays/election_tags/election_tag.gif
 title: Correlations Between Social Media and the 2020 Presidential Election
-date: 2020-09-11
+date: 2020-11-03
 categories: thoughts
 author: Lambert
 featured: False
@@ -36,8 +36,11 @@ __TLDR__
 
 Oscar Wilde once wrote “The only thing worse than being talked about is not being talked about”. This is
 along the idea that any press is good press and with Trump in 2016 this seemed to be the case.  The 2016 election showed
- us that social media can have an effect on who become president and runs the country. Here we
-  look at trending twitter hashtags and terms as they relate to one of the two major political parties leading up to the 2020 election.  
+ us that social media can have an effect on who become president and runs the country. We also learned in 2016 that polls
+ and approval ratings just didn't cut it and it doesn't tell us much.  After all, Trump polled lower in 2016 and then who 
+ got to run the country?  Here we
+  look at trending twitter hashtags and terms as they relate to one of the two major political parties leading up to the 2020 election.
+  Looking at other data sources and taking different angles can always provide valuable insight to the topic at hand.  
 
 We gathered the top 50 trending topics on Twitter each day for the past year. These topics are presented
 in the form of hashtages (#) and trending words, terms, or phrases.  With this data we can investigate
