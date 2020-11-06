@@ -48,7 +48,7 @@ hypotheses and claims made about the network.
 <table class="ui fluid large floated left image">
 <caption align="bottom">Power-law analysis looking for scale free networks with igraph and R.
 </caption>
-<tr><td><img src="/assets/images/projects/powerlaw_btc.png" /></td></tr>
+<tr><td><img src="/assets/images/projects/powerlaw_btc.png" alt="bitcoin network powerlaw analysis"/></td></tr>
 </table>
 
 
@@ -75,7 +75,7 @@ structures.
 <table class="ui fluid large floated right image">
 <caption align="bottom">Two biggest community structures visualized using Gephi
 </caption>
-<tr><td><img src="/assets/images/projects/linkcomzoom.png" /></td></tr>
+<tr><td><img src="/assets/images/projects/linkcomzoom.png" alt="bitcoin network communities"/></td></tr>
 </table>
 
 The graph file was then ported over to [Gephi](https://gephi.org/){:target="_blank"} mainly for
@@ -105,7 +105,7 @@ recognize and analyze them is an important skill.
 <div>
 <center>
     <h4>Support future research</h4>
-    <img src="/assets/images/projects/btc_qr.png" width="50%">
+    <img src="/assets/images/projects/btc_qr.png" width="50%" alt="bitcoin donation qr code">
     <h5>BTC address: <br>1MU21L4Niyss1HoPeaYgkNT8vn5meJrYeD</h5>
 </center> 
 </div>
@@ -198,11 +198,10 @@ and computationally favorable than the whole, growing, bitcoin network.  <!--l.
 59--><p class="indent" >    <hr class="figure"><div class="figure"
 >
 
-
 <a id="x1-1003r2"></a>
 
 <!--l. 62--><p class="noindent" ><!--l. 64--><p class="noindent" ><img
-src="/assets/images/btc_figures/trans.png" alt="PIC"  
+src="/assets/images/btc_figures/trans.png" alt="cryto transaction graph"  
 > <a
  id="x1-1001r1"></a>
 
@@ -210,10 +209,11 @@ src="/assets/images/btc_figures/trans.png" alt="PIC"
  <span class="LinLibertineTB-tlf-t-1x-x-80">Number  of
 transactions  over  time  grows  as  an  exponential</span> <span
 class="LinLibertineTB-tlf-t-1x-x-80">function</span> <!--l. 71--><p
-class="noindent" ><img src="/assets/images/btc_figures/address.png" alt="PIC"  
+class="noindent" ><img src="/assets/images/btc_figures/address.png" alt="crypto addresses graph"  
 > <a
  id="x1-1002r2"></a>
 <br>
+
 <span class="LinLibertineTB-tlf-t-1x-x-80">Number of
 unique Bitcoin addresses growth over time</span> <br /> <div class="caption"
 ><span class="id">Figure&#x00A0;2:  </span><span  
@@ -221,7 +221,9 @@ class="content">Growth  in  the  number  of  transactions  and  unique
 addresses imply the growth in bitcoin users and
 popularity</span></div><!--tex4ht:label?: x1-1003r2 -->
 
-<!--l. 78--><p class="indent" >  <hr class="endfigure"> <!--l. 81--><p
+<!--l. 78--><p class="indent" >  <hr class="endfigure"> 
+
+<!--l. 81--><p
 class="indent" >  The remainder of the papers is as follows: in
 Section&#x00A0;<a href="#x1-20002">2<!--tex4ht:ref: sec:methods --></a> we
 describe how data is collected, how we generate graphs from that data, and how
@@ -487,22 +489,24 @@ class="td11">                  </td></tr></table>                               
 
 
 
-<!--l. 94--><p class="noindent" ><img
-src="/assets/images/btc_figures/1hour.png" alt="PIC"  
-> <a
+<!--l. 94-->
+<p class="noindent" >
+<img
+src="/assets/images/btc_figures/1hour.png" alt="bitcoin network 1 hour sample" width="70%"> <a
  id="x1-7002r1"></a>
+<br>
 <span
 class="LinLibertineTB-tlf-t-1x-x-80">Graph sampling after one hour</span>
-<img
-src="/assets/images/btc_figures/2hour.png" alt="PIC"  
-> <a
+<img src="/assets/images/btc_figures/2hour.png" alt="bitcoin network 2 hour sample" width="70%"> 
+<a
  id="x1-7003r2"></a>
+ <br>
 <span
 class="LinLibertineTB-tlf-t-1x-x-80">Graph sampling after two hours</span>
-<img
-src="/assets/images/btc_figures/6hour.png" alt="PIC"  
-> <a
+<img src="/assets/images/btc_figures/6hour.png" alt="bitcoin network 6 hour sample" width="70%"> 
+<a
  id="x1-7004r3"></a>
+ <br>
 <span
 class="LinLibertineTB-tlf-t-1x-x-80">Graph sampling after six hours</span>
  <div class="caption"
@@ -774,17 +778,19 @@ class="td11">                                                      </td></tr></t
 
 
 <!--l. 250--><p class="noindent" ><!--l. 252--><p class="noindent" ><img
-src="/assets/images/btc_figures/bigcom1.png" alt="PIC"  
+src="/assets/images/btc_figures/bigcom1.png" alt="big bitcoin community" width="70%"  
 > <a
  id="x1-7010r1"></a>
+    <br>
 <span
 class="LinLibertineTB-tlf-t-1x-x-80">Large  community  in  which  many  nodes  share  only  one  edge</span>
 <span
 class="LinLibertineTB-tlf-t-1x-x-80">with one of the two main nodes</span>
 <!--l. 259--><p class="noindent" ><img
-src="/assets/images/btc_figures/bigcom2.png" alt="PIC"  
+src="/assets/images/btc_figures/bigcom2.png" alt="bit crypto community" width="70%"  
 > <a
  id="x1-7011r2"></a>
+<br>
 <span
 class="LinLibertineTB-tlf-t-1x-x-80">Large community which has a more decentralized shape</span>
 <br /> <div class="caption"

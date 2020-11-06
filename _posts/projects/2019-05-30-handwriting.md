@@ -37,7 +37,7 @@ handwriting digits.
 
   <center>
   <img class="rotate180 ui image large center floated round image"
-src="/assets/images/projects/hand_write_proto.jpg" width="70%">
+src="/assets/images/projects/hand_write_proto.jpg" width="70%" alt="Wrist IOT Security Device">
 <br>
   	Prototype of our data collection device mounted on a participants wrist
   </center>

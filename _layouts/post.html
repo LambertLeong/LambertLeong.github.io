@@ -35,9 +35,13 @@ post_class: post-template
         </div>
 
         <!-- Post Featured cover -->
-        {% if page.cover %}<img class="center featured-cover img-fluid" class="center"
+        {% if page.cover %}
+        <center>
+        <img class="center featured-cover img-fluid" class="center"
                                 src="{{ site.baseurl }}/{{ page.cover }}"
-                                alt="{{ page.title }}" width="80%">{% endif %}
+                                alt="{{ page.title }}" width="70%">
+        </center>
+        {% endif %}
         <!-- End Featured cover -->
         <br><br>
 

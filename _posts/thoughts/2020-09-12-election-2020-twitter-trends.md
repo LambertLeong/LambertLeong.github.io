@@ -5,7 +5,7 @@ title: Correlations Between Social Media and the 2020 Presidential Election
 date: 2020-11-03
 categories: thoughts
 author: Lambert
-featured: False
+featured: True
 published: True
 permalink: thoughts/election2020-social-media-trends
 comments: true
@@ -105,7 +105,7 @@ The corona virus or COVID19 was a difficult obstacle that the world faced in 202
 a "hot" topic that sparked many conversations and tweets with respect to the virus as well as 
 politics.
 
-[__View Final Count Chart HERE__](/assets/images/essays/election_tags/covid_tags2020.png )
+[__View Final Count Chart HERE__](/assets/images/essays/election_tags/covid_tags2020.png ){:target="_blank"}
 
 <img  src="/assets/images/essays/election_tags/covid_tag.gif" width="69%" alt="Covid19 corona virus tweet volume 2020">
 

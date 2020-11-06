@@ -1,7 +1,7 @@
 ---
 layout: post
 cover: assets/images/fun/photo_gallery/all_elements.jpg
-title:  Photos From My Home Hawaii
+title:  Photos From My Home, Hawaii
 date: 2018-11-05
 categories: fun
 author: Lambert
