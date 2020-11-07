@@ -8,13 +8,14 @@ author: Lambert
 featured: true
 permalink: /projects/machine-learning-handwriting
 comments: true
-description: "Built a machine learning model to identify digits being written users who are wearing smart wrist IOT devices."
-summary: Built a machine learning model to identify digits being written users who 
+description: "Built a machine learning AI model to identify digits being written users who are wearing smart wrist IOT devices."
+summary: Built a machine learning AI model to identify digits being written users who 
         are wearing smart wrist IOT devices.
 labels:
     - python
     - IOT
     - Machine Learning 
+    - AI
 
 ---
 Manuscript found at [Digit Recognition From Wrist Movements and Security

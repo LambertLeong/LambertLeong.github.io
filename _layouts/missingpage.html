@@ -14,7 +14,7 @@ layout: default
   <ul>
     {% assign posts = site.posts | where: "categories", "projects"  %}
     {% for page in posts %}
-    <li ><a style="color:blue" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    <li ><a style="color:blue" href="{{ site.baseurl }}{{ page.url }}" target="_blank">{{ page.title }}</a></li>
     {% endfor %}
   </ul>
 <h4>Experience</h4>

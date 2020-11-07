@@ -5,7 +5,7 @@ title: Correlations Between Social Media and the 2020 Presidential Election
 date: 2020-11-03
 categories: thoughts
 author: Lambert
-featured: True
+featured: False
 published: True
 permalink: thoughts/election2020-social-media-trends
 comments: true
@@ -30,7 +30,9 @@ tags:
 ---
 
 __TLDR__
-* Social media data is interesting with respect to the 2020 presidential election
+* Well, we all know the results of the election.  
+* Republican related tweets out numbered democratic related tweets and may indicate higher tweet frequency, more users, and/or people are more inclinded to tweet 
+republican related tweets.
 * __Here is the data, make your own conclusions.__
 
 
@@ -112,14 +114,13 @@ politics.
 <br>
 
 Despite your political leanings, you can admit that the data is interesting.  Social media is a powerful
-information tool and keeping a finger on the pulse of social media may prove to be beneficial.  We will
-see early November!
+information tool and keeping a finger on the pulse may be a good idea.
 
 __More Data and Interpretation Coming Soon__
 
 
 
-Charts and data update, at least, every week.
+
 <br>
 
 <!-- Icons -->

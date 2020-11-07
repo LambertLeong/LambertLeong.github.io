@@ -17,9 +17,7 @@ labels:
 ---
 
 
-__More Data and Interpretation Coming Soon__
-
-Here is the data, make your own conclusions.
+__Here is the data, make your own conclusions__
 
 Things to consider and questions to ask:
 - There is a delay in test results which is not yet adjusted for in the following plots
@@ -28,7 +26,7 @@ Things to consider and questions to ask:
 they have a [false positive](https://www.nytimes.com/2020/08/29/health/coronavirus-testing.html){:target="_blank"}?
 
 
-Charts and data update, at least, every week.
+Charts and data updated weekly!
 
 <!--div class="zoom">
     <img id="test" src="/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline2.png" width="100%"
