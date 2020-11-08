@@ -29,12 +29,13 @@ tags:
   - hashtag
 ---
 
-__TLDR__
-* Well, we all know the results of the election.  
+__TLDR:__  Too Long, Didn't Read
+* Well, we all know the results of the election and social media had an influence on voter turn out.
 * Republican related tweets out numbered democratic related tweets and may indicate higher tweet frequency, more users, and/or people are more inclinded to tweet 
 republican related tweets.
 * __Here is the data, make your own conclusions.__
 
+---
 
 Oscar Wilde once wrote “The only thing worse than being talked about is not being talked about”. This is
 along the idea that any press is good press and with Trump in 2016 this seemed to be the case.  The 2016 election showed
@@ -100,6 +101,8 @@ in the following table stemmed from very polarizing events and spurred many poli
 | Election           	|  467,029 	|
 | BLM                	|   11,295 	|
 | BlackLives         	| 3,322,864 	| 
+| Vote                  | 1,778,889 |
+| Democracy             | 1,172,879 |
 
 <br>
 
