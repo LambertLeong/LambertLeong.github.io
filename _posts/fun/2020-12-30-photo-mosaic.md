@@ -13,15 +13,14 @@ summary: TODO
 description: TODO
 labels:
   - Photography
-  - Hawaii
-  - Nature
-  - Beach
-  - Hike
-  - Gallery
-  - Surf
-  - Outdoors
-tags: photograhy hawaii nature beach hike ocean gallery photo surf outdoors
+  - Image Processing
+  - Photo Mosaic
+  - Software
+  - Data Science
+tags: photograhy imageprocessing image processing mosaic software datascience data science photomosaic
 ---
+
+
 
  <img id="surge_test" class="rotate180 ui image large center floated round image"
 src="/assets/images/fun/photo_mosaic/bubble_wall_480.gif" width="90%" alt="Covid19 Hawaii Surge Testing">
