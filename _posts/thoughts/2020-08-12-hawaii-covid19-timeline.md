@@ -26,7 +26,7 @@ Things to consider and questions to ask:
 they have a [false positive](https://www.nytimes.com/2020/08/29/health/coronavirus-testing.html){:target="_blank"}?
 
 
-Charts and data updated weekly!
+Charts and data updated periodically
 
 <!--div class="zoom">
     <img id="test" src="/assets/images/essays/hawaii_covid/hawaii_covid19_case_timeline2.png" width="100%"
