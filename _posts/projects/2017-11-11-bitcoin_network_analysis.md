@@ -2,7 +2,7 @@
 layout: post
 cover: assets/images/projects/btc_network_sample.gif
 title: Bitcoin Network Analysis
-date: 2017-11-11
+date: 2016-11-11
 categories: projects
 author: Lambert
 featured: true
@@ -18,9 +18,16 @@ labels:
   - igraph
   - bitcoin
   - blockchain
+  - Non Fungible Tokens
+  - NFT
+tags: bitcoin Non Fungible Tokens NFT crypto blockchain
 
 ---
+
+<a href ="https://opensea.io/accounts/th3gr8lambino" target="_blank">__Experiments with Non Fungible Tokens (NFT) HERE__</a> 
+
 <a href="#webv">__Web Version of Write Up HERE__</a>
+
 ---
 
 __Summary__
@@ -98,7 +105,7 @@ statistics tool and I foresee my skills with it being useful in my pursuit
 toward data driven research.  Networks are ever present and being able to
 recognize and analyze them is an important skill.  
 
-[__Write Up found HERE__](/assets/docs/lleong_snapshot_samplings_of_the_bitcoin_transaction_network.pdf){:target="_blank"}
+[__Write Up found HERE__](https://arxiv.org/abs/2003.06068){:target="_blank"}
 <br/>
 
 ---

@@ -27,6 +27,12 @@ tags: photograhy hawaii nature beach hike ocean gallery photo surf outdoors
 I enjoy going outside and exploring my beautiful home of Hawaii. Since good cameras have become cheaper
  and more accessible, I have started taking picture where ever I go.  Here are a few examples of photos
  I have taken printed on canvas and metal.
+ <br>
+<h5>If you like what you see and would like to purchase a print, email or <a href="{{ site.baseurl }}/contact">contact</a> 
+me to inquire about pricing!</h5> 
+
+<h5>Also check out my <a href ="https://opensea.io/accounts/th3gr8lambino" target="_blank">NFT store for digital content</a> </h5>
+<br>
 
 <!-- Container for the image gallery -->
 <div class="container">
@@ -109,6 +115,3 @@ I enjoy going outside and exploring my beautiful home of Hawaii. Since good came
     </div>
   </div>
 </div>
-<br>
-<h5>If you like what you see and would like to purchase a print, email or <a href="{{ site.baseurl }}/contact">contact</a> me to inquire about pricing!</h5>
-<br>
