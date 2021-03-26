@@ -26,13 +26,13 @@ tags: photograhy imageprocessing image processing mosaic software datascience da
 ## Motivation
 
 ## How
-
-
- <img id="photo mosaic stitch" style="display: block; margin-left: auto; margin-right: auto;"
-src="/assets/images/projects/photo_mosaic/bubble_wall_480.gif" width="70%" alt="">
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
 
 <center>
-<div class="row" style="display: table; margin:0 auto;">
+<div class="row" style="display: block; margin-left: auto; margin-right: auto;">
   <div class="column" style="width: 30%; float: left; padding: 5px">
     <img src="/assets/images/projects/photo_mosaic/gum_red.jpg" alt="" style="width:70%">
     <br>
@@ -51,14 +51,34 @@ src="/assets/images/projects/photo_mosaic/bubble_wall_480.gif" width="70%" alt="
 </div>
 </center>
 
-<!--img id="" style="display: block; margin-left: auto; margin-right: auto;"
-src="/assets/images/projects/photo_mosaic/gumwall_grid.png" width="70%" alt=""-->
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
 
 <img id="" style="display: block; margin-left: auto; margin-right: auto;"
 src="/assets/images/projects/photo_mosaic/image_channels.png" width="70%" alt="">
 
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
+
  <img id="" style="display: block; margin-left: auto; margin-right: auto;"
 src="/assets/images/projects/photo_mosaic/img_search.gif" width="70%" alt="">
 
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
 
+<img id="photo mosaic stitch" style="display: block; margin-left: auto; margin-right: auto;"
+src="/assets/images/projects/photo_mosaic/found_img.png" width="50%" alt="">
 
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
+
+<img id="photo mosaic stitch" style="display: block; margin-left: auto; margin-right: auto;"
+src="/assets/images/projects/photo_mosaic/bubble_wall_480.gif" width="70%" alt="">
