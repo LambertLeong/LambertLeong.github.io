@@ -8,7 +8,7 @@ author: Lambert
 featured: false
 permalink: fun/timelapses
 comments: true
-published: true
+published: false
 summary: Turned my love for being outdoors into videos that I hope many will enjoy. I set my camera up, hangout, and get a time lapse.  These time lapse mainly feature my home but also includes other places I have traveled to.
 description: Turned my love for being outdoors into videos that I hope many will enjoy. I set my camera up, hangout, and get a time lapse.  These time lapse mainly feature my home but also includes other places I have traveled to. 
 labels:
