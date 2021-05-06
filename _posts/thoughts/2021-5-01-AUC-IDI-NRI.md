@@ -39,6 +39,7 @@ tags: AUC IDI NRI Python Data Science area under the curve ROC Integrated discri
 * **AUC** is a good starting metric when comparing the performance of two models but it does not always tell the who story 
 * **NRI** looks at the new models ability to correctly reclassify event and nonevents and should be used alongside AUC
 * **IDI** quantifies improvement of discrimination curve slopes and plotting it can provide information AUC alone does not afford.
+* [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4741253.svg)](https://doi.org/10.5281/zenodo.4741253){:target="_blank"}
 
 ---
 
@@ -56,15 +57,19 @@ understanding of improvements within the context of a given problem. We also pre
 
 ### Example: Breast Cancer <a name="head-bc"></a> ###
 
+Code for the following example can be found at [github](https://github.com/LambertLeong/AUC_NRI_IDI_python_functions). 
+
 Breast cancer is the leading cause of cancer death in women world wide. Early detection has helped to lower the mortality
 rate and the earlier a malignancy is identified, the more likely a patient is to survive.  As such, great effort has
 been allocated to developing predictive models to identify cancer.  In this example we use extracted imaging features
 to build models to predict malignancy probability. We use data from the 
 [Diagnostic Wisconsin Breast Cancer Database](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)){:target="_blank"}
-housed at the UCI Machine Learning Repository.
+[[1](#ref-uci)] housed at the UCI Machine Learning Repository.
 
 As mentioned previously, AUC gives equal weight to all thresholds but this may not be practical in the context of 
-breast cancer diagnosis. The [Breast Imaging Reporting and Data System or (BI-RADS)](https://www.cancer.org/cancer/breast-cancer/screening-tests-and-early-detection/mammograms/understanding-your-mammogram-report.html)
+breast cancer diagnosis. The
+ [Breast Imaging Reporting and Data System or (BI-RADS)](https://www.cancer.org/cancer/breast-cancer/screening-tests-and-early-detection/mammograms/understanding-your-mammogram-report.html){:target="_blank"} 
+ [[2](#ref-birads)].
 provides a course of action for a given probability of malignancy.  In short, if the probability of maligancy is greater
 than 2%, a biopsy is recommended. Biopsies are invasive procedures can be physically and mentally detrimental to patients.
 A new breast model would ideally be better at identifying cancers (sensitivity increase) and reducing false positives (specificity increase),
@@ -208,7 +213,7 @@ that the new model with additional features did little to nothing to model malig
 ## Beyond the Area Under the Curve <a name="head-beyond"></a> ##
 
 We present two additional metrics which are commonly used to asses the impact of new features or biomarkers on a model.
-These metrics include the net reclassification index (NRI) and the integrated discrimination improvement (IDI). These 
+These metrics include the net reclassification index (NRI) and the integrated discrimination improvement (IDI) [[3](#ref-pencina)]. These 
 two metrics will help in understanding the actual differences in the two models that may not be obvious in [Figure 1.](#auc_plot)
 
 ### Net Reclassification Index (NRI) <a name="head-nri"></a> ###
@@ -216,7 +221,7 @@ two metrics will help in understanding the actual differences in the two models 
 The NRI is derived by summing the number of NRI<sub>events</sub> and NRI<sub>nonevents</sub>.  In our example, events
  are synonymous to patients with cancer or maligancies and NRI<sub>nonevents</sub> are synonymous to patients who
  do have benign findings. The NRI<sub>events</sub> is the net proportion of patients with events reassigned to a higher 
- risk category and the NRI<sub>nonevents</sub> is the number of patients without events reassigned to a lower risk category.
+ risk category and the NRI<sub>nonevents</sub> is the number of patients without events reassigned to a lower risk category [[4](#ref-pencina2)].
  We compute the NRI using the following Python functions.
  
  ```python:
@@ -298,7 +303,7 @@ def category_free_nri(y_truth,y_ref, y_new):
 
 The IDI is a measure in the change of the discrimination slopes and shows the impact of new biomarkers on a binary predictive
 model.  The IDI is the sum of the integrated sensitivity (IS) and integrated specificity (IP) and like NRI, it separates
-out events and nonevents or in this case cancers and benigns. We use the following code to calculate and plot the IDI curves.
+out events and nonevents or in this case cancers and benigns. We use the following code to calculate and plot the IDI curves [[5](#ref-pickering)].
 
 ```python:
 def area_between_curves(y1,y2):
@@ -412,7 +417,7 @@ right indicating the most improved specificity.  The area between the black and 
 sum of the black and red area equates to the IDI. IDI provides more information that the AUC curves especially with respects to the 
 orange dashed vertical line or the BI-RADS 3/4a border. At this border, the IS or red area is large which indicates that the 
 new model was able to better predict benigns. This border is particularly interesting because it is recommended that all
-patients with BI-RADS 4 or greater receive biopsies. The large area at the 3/4a border shows that adding new features to the new 
+patients with BI-RADS 4 or greater receive biopsies [[6](#ref-leong)]. The large area at the 3/4a border shows that adding new features to the new 
 model increase specificity and potentially prevented 28% more people (NRI<sub>nonevents</sub>=0.28) from being unnecessarily biopsied.  
 
 ## Final Thoughts <a name="head-final"></a> ##
@@ -421,3 +426,26 @@ models.  The NRI and IDI should be used to complement AUC findings and interpret
 researcher who uses Python, it was difficult to find functions and code snippets that computed and plotted NRI and IDI.
 This was my motivation for posting this and I hope that my code can help other in their research, discoveries, and pursuit of 
 better health care solutions. 
+
+### References ###
+
+<a name="ref-uci" href="https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)" target="_blank">[1]</a> 
+Dua, D. and Graff, C, (2019), Irvine, CA: University of California, School of Information and Computer Science, UCI Machine Learning Repository [http://archive.ics.uci.edu/ml].
+
+<a name="ref-birads" href="https://www.cancer.org/cancer/breast-cancer/screening-tests-and-early-detection/mammograms/understanding-your-mammogram-report.html" target="_blank">[2]</a> 
+Understanding mammogram reports: Mammogram results. (n.d.). Retrieved May 06, 2021, from https://www.cancer.org/cancer/breast-cancer/screening-tests-and-early-detection/mammograms/understanding-your-mammogram-report.html
+
+<a name="ref-pencina" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.2929" target="_blank">[3]</a> Pencina, M. J., D'Agostino Sr, R. B., D'Agostino Jr, R. B., & Vasan, R. S., Evaluating the added
+ predictive ability of a new marker: from area under the ROC curve to reclassification and beyond, 
+ (2008), Statistics in medicine, 27(2), 157-172.
+
+<a name="ref-pencina2" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.4085" target="_blank">[4]</a> Pencina, M. J., D'Agostino Sr, R. B., & Steyerberg, E. W., Extensions of net reclassification improvement 
+calculations to measure usefulness of new biomarkers, (2011), Statistics in medicine, 30(1), 11-21.
+
+<a name="ref-pickering" href="https://cjasn.asnjournals.org/content/7/8/1355" target="_blank">[5]</a> Pickering, J. W., & Endre, Z. H., New metrics for assessing diagnostic potential of candidate biomarkers,
+ (2012), Clinical Journal of the American Society of Nephrology, 7(8), 1355-1364.
+ 
+<a name="ref-leong" href="https://www.researchsquare.com/article/rs-292446/v1" target="_blank">[6]</a> Leong, L., Malkov, S., Drukker, K., Niell, B., Sadowski, P., Wolfgruber, T., ... & Shepherd, J., Dual-energy three
+  compartment breast imaging (3CB) for novel compositional biomarkers to improve detection of malignant lesions, (2021).
+  
+  
