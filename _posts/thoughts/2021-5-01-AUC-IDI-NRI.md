@@ -1,7 +1,7 @@
 ---
 layout: post
 cover: assets/images/essays/auc_idi_nri/sunset_girl.jpg
-title:  Area Under the Curve and Beyond
+title:  Area Under the Curve and Beyond with Integrated Discrimination Improvement and Net Reclassification
 date: 2021-05-01
 categories: thoughts
 author: Lambert
