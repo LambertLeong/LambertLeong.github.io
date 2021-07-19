@@ -36,7 +36,7 @@ tags: AUC IDI NRI Python Data Science area under the curve ROC Integrated discri
 ---
 
 ## TLDR ##
-* **AUC** is a good starting metric when comparing the performance of two models but it does not always tell the who story 
+* **AUC** is a good starting metric when comparing the performance of two models but it does not always tell the whole story 
 * **NRI** looks at the new models ability to correctly reclassify event and nonevents and should be used alongside AUC
 * **IDI** quantifies improvement of the slopes of the discrimination curves and plotting it can provide information AUC alone does not afford.
 * [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4741253.svg)](https://doi.org/10.5281/zenodo.4741253){:target="_blank"}
