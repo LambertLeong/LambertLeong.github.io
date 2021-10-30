@@ -5,7 +5,7 @@ title: What the data says about Hawaii's COVID19 response
 date: 2020-09-01
 categories: thoughts
 author: Lambert
-featured: True
+featured: false
 permalink: thoughts/hawaii-covid19-timeline
 comments: true
 description: Chart of Hawaii's events in relation to novel corona virus (COVID-19) cases

@@ -5,7 +5,7 @@ title: Digit Recognition From Wrist Movements and Security Concerns with Smart W
 date: 2019-05-30
 categories: projects
 author: Lambert
-featured: true
+featured: false
 permalink: /projects/machine-learning-handwriting
 comments: true
 description: "Built a machine learning AI model to identify digits being written users who are wearing smart wrist IOT devices."

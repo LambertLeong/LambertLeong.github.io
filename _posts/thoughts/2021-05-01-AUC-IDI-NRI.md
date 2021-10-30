@@ -1,6 +1,6 @@
 ---
 layout: post
-cover: assets/images/essays/auc_idi_nri/sunset_girl.jpg
+cover: assets/images/essays/auc_idi_nri/idi_example.png
 title:  Area Under the Curve and Beyond with Integrated Discrimination Improvement and Net Reclassification
 date: 2021-05-01
 categories: thoughts
@@ -452,7 +452,7 @@ calculations to measure usefulness of new biomarkers, (2011), Statistics in medi
 <a name="ref-pickering" href="https://cjasn.asnjournals.org/content/7/8/1355" target="_blank">[5]</a> Pickering, J. W., & Endre, Z. H., New metrics for assessing diagnostic potential of candidate biomarkers,
  (2012), Clinical Journal of the American Society of Nephrology, 7(8), 1355-1364.
  
-<a name="ref-leong" href="https://www.researchsquare.com/article/rs-292446/v1" target="_blank">[6]</a> Leong, L., Malkov, S., Drukker, K., Niell, B., Sadowski, P., Wolfgruber, T., ... & Shepherd, J., Dual-energy three
+<a name="ref-leong" href="https://www.nature.com/articles/s43856-021-00024-0" target="_blank">[6]</a> Leong, L., Malkov, S., Drukker, K., Niell, B., Sadowski, P., Wolfgruber, T., ... & Shepherd, J., Dual-energy three
   compartment breast imaging (3CB) for novel compositional biomarkers to improve detection of malignant lesions, (2021).
   
   

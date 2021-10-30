@@ -13,7 +13,7 @@
             <div class="col-md-7">
                 <div class="card-block">
                     <h2 class="card-title"><a
-                            href="{{ post.url | absolute_url }}">{{ post.title
+                            href="{{ post.url | absolute_url}}">{{ post.title  | truncatewords: 5
                         }}</a></h2>
                     <!--h4 class="card-text">{{ post.excerpt | strip_html | truncatewords: 20 }}</h4-->
                     <h4 class="card-text">{{ post.summary | strip_html }}</h4>
