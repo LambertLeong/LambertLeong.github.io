@@ -14,9 +14,13 @@ summary: Built a machine learning AI model to identify digits being written user
 labels:
     - python
     - IOT
-    - Machine Learning 
+    - machine learning 
     - AI
-
+    - security
+    - cybersecurity
+    - data science
+    - artificial intelligence
+tags: python security cybersecurity artificalintelligence ai iot python machinelearning datascience
 ---
 Manuscript found at [Digit Recognition From Wrist Movements and Security
 Concerns with Smart Wrist Wearable IOT Devices](https://www.researchgate.net/publication/339028093_Digit_Recognition_From_Wrist_Movements_and_Security_Concerns_with_Smart_Wrist_Wearable_IOT_Devices){:target="_blank"}.
