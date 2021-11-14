@@ -170,7 +170,7 @@ composition could reduce unnecessary biopsies and ameliorate the problem.
 ## What is Next for 3CB <a name="head-next"></a> ##
 
 We are continuing our work and research on 3CB by adapting the protocol to work with CEM machines 
-[1R01CA257652-01A1](https://reporter.nih.gov/search/kYOrRhTpeUyu0DUhEhlo_g/project-details/10316696#description){:target="_blank"}.
+[1R01CA257652-01A1](https://reporter.nih.gov/project-details/10316696){:target="_blank"}.
 Using existing contrast enhanced mammography machines approved by FDA for our 3CB imaging would help accelerate the 
 adoption of the technology.
 
