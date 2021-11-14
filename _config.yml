@@ -1,10 +1,10 @@
 # Site
 name: Lambert Leong
-description: Professional Protfolio
-meta_description: Lambert Leong's Professional Portfolio
+description: Professional Protfolio for Lambert Leong
+meta_description: Professional Portfolio for Lambert Leong
 logo: /assets/images/landing_page/logo.png
 favicon: /assets/images/landing_page/favicon.ico
-paginate: 7
+paginate: 8
 baseurl:
 email: 'lamberttleong@gmail.com'
 google_analytics: UA-121492082-1
@@ -20,7 +20,7 @@ authors:
     email: lamberttleong@gmail.com
     web: lambertleong.com
     twitter:
-    description: Hi, I am Lambert Leong.
+    description: Hi, I am Lambert Leong and I am a cancer researcher and data scientist. I specialize in topics such as artificial intellegence, breast cancer, and medical imaging.
 
 # Plugins
 plugins:

@@ -1,16 +1,16 @@
 ---
 layout: post
 cover: assets/images/projects/nature_commsmed_3cb_icad/heatmap_3cb_breast_lesions.png
-title: Compositional Breast Cancer Imaging with Artificial Intelligence 
-date: 2021-11-13
+title: Compositional Breast Imaging with Artificial Intelligence to Improve Cancer Detection
+date: 2021-11-14
 categories: projects
 author: Lambert
-published: false
+published: true
 featured: false
 permalink: /projects/compositional-breast-cancer-ai
 comments: true
-description: "Compositional breast cancer imageing with artificial intelligence "
-summary: Compositional breast cancer imageing with artificial intelligence .
+description: "We use dual-energy X-ray compositional breast imaging with artificial intelligence and deep learning to improve cancer detection"
+summary: We use dual-energy X-ray compositional breast imaging with artificial intelligence and deep learning to improve cancer detection
 labels:
     - breast cancer
     - X-ray
@@ -21,7 +21,8 @@ labels:
     - AI
     - artificial intelligence
     - deep learning
-tags: breast cancer X-ray mammography radiology CAD machine learning AI artificial intelligence deep learning
+    - python
+tags: breast cancer X-ray mammography radiology CAD machine learning AI artificial intelligence deep learning test
 ---
 
 # TLDR #
@@ -54,15 +55,17 @@ Within the last decade, digital breast tomosynthesis (DBT) has become the standa
 results in a three dimensional (3D) X-ray image while standard mammography provides a 2D image.
 
 <center>
-  <a name="TODO"></a>
-<img src="/assets/images/projects/nature_commsmed_3cb_icad/CAD_delineations.png" width="50%" alt="TODO">
+  <a name="img-CAD"></a>
+<img src="/assets/images/projects/nature_commsmed_3cb_icad/CAD_delineations.png" width="50%" alt="computer-aided detection (CAD) delineates invasive brest cancer">
 <br>
-    Figure X: TODO
+    <b>Figure 1:</b> Computer-aided Detection (CAD) finds masses (green), calcifications (red), and calcifications clusters (blue).
+    The actual cancerous lesion found by the radiologist is in yellow.
 </center>
+<br> 
 
 Images acquired from standard mammography or DBT are reviewed by radiologists who look for suspicious lesions and 
 calcifications. Calcifications in breast tissue are not uncommon and sometimes indicate cancer or a risk of developing
-cancer.  Computer-aided detection or CAD software has been developed and approved by the food and drug administration 
+cancer.  [Computer-aided detection or CAD software](#img-CAD) has been developed and approved by the food and drug administration 
 (FDA) to help assist clinicians with the process of screening images for cancer.  Recent advances in artificial 
 intelligence (AI) has led to drastic improvements in CAD and even the development of AI based CAD software.
 
@@ -80,7 +83,7 @@ specificity has not improved enough meaning it is still difficult to tell a canc
 
 ## What is Compositional Imaging <a name="head-compositional-imaging"></a> ##
 
-Three compartment breast (3CB) imaging is a dual-energy X-ray technique that produces images or maps of the different 
+T[hree compartment breast (3CB) imaging](#img-3cb) is a dual-energy X-ray technique that produces images or maps of the different 
 tissue types within an imaged breast. The 3CB technique was inspired by dual-energy X-ray absorptiometry (DXA) which is
 commonly used to evaluate bone density and body composition. With 3CB, two images are taken in quick succession. One
 image is at a low energy, equivalent to a standard mammogram, and the other image is taken at a higher energy. X-rays 
@@ -89,10 +92,11 @@ high and low energy X-ray images are used to derive the specific tissue types. T
 visualize and quantify the amount of lipid, water, and protein in the breast.
 
 <center>
-  <a name="TODO"></a>
-<img src="/assets/images/projects/nature_commsmed_3cb_icad/invasive_breast_cancer_3cb.png" width="90%" alt="TODO">
+  <a name="img-3cb"></a>
+<img src="/assets/images/projects/nature_commsmed_3cb_icad/invasive_breast_cancer_3cb.png" width="90%" alt="three compartment breast (3cb)_">
 <br>
-    Figure X: TODO
+    <b>Figure 2:</b> Standard mammogram next to its lipid, water, and protein maps derived from dual-energy three compartment breast 
+    (3CB) compositional imaging. 
 </center>
 <br>
 
@@ -110,14 +114,16 @@ and density often results from high fibroglandular tissue or protein. Others hav
 cellular/molecular level and discovered that invasive lesion types tend to consume or metabolize lipids. It is 
 hypothesized that the mechanism for this behavior was due to the aggressive growth nature of invasive breast lesions. 
 Lipids or fats are an energy source and aggressive tumors will consume whatever they can to fuel their rapid growth.  
-As a result, we found that we could pick up on a signal that characterized malignant lesion types. This signal consisted
+As a result, we found that we could pick up on a signal that characterized malignant lesion types. This [signal](#img-comp-sig) consisted
 of cancerous lesions having lower fat or lipid content when compared to the surrounding regions.
 
 <center>
-  <a name="TODO"></a>
-<img src="/assets/images/projects/nature_commsmed_3cb_icad/lesion_compositional_signatures.png" width="90%" alt="TODO">
+  <a name="img-comp_sigs"></a>
+<img src="/assets/images/projects/nature_commsmed_3cb_icad/lesion_compositional_signatures.png" width="90%" alt="breast lesion compositional signatures">
 <br>
-    Figure X: TODO
+    <b>Figure 3:</b>  The lipid, water, and protein signatures were captured at 2, 4, and 6 millimeters from the lesion. 
+    The space between the orange and blue dashed lines show a significant difference in composition for cancerous and non-cancerous 
+    lesion types.  
 </center>
 <br>
 
@@ -129,14 +135,19 @@ from the 3CB technique adds useful diagnostic information to existing clinical p
 and we wanted to see if AI with 3CB could outperform CAD.
 
 <center>
-  <a name="TODO"></a>
-<img src="/assets/images/projects/nature_commsmed_3cb_icad/cad_vs_deeplearnin_auroc.png" width="90%" alt="TODO">
+  <a name="img-auc"></a>
+<img src="/assets/images/projects/nature_commsmed_3cb_icad/cad_vs_deeplearnin_auroc.png" width="90%" alt="3CB adds diagnostic information to improve CAD detection of breast cancer">
 <br>
-    Figure X: TODO
+    <b>Figure 4:</b> Area under the receiver operating characteristic curves (AUC) for CAD and CAD+3CB performance with 
+    95% confidence intervals (CI). The orange line indicates better detection performance for CAD with composition versus CAD
+    alone, shown in blue.
+    <br>
+    <i>*Code used to generate AUC with CI plot detailed <a target="_blank" rel="noopener noreferrer" href="https://lambertleong.medium.com/area-under-the-curve-and-beyond-f87a8ec6937b">HERE</a>
+     or <a target="_blank" rel="noopener noreferrer" href="https://www.lambertleong.com/thoughts/AUC-IDI-NRI">HERE</a></i>
 </center>
 <br>
 
-As you can see from our area under the receiver operating characteristic curves (AUC) that the AI+3CB+CAD model 
+As you can see from our [area under the receiver operating characteristic curves (AUC)](#img-auc) that the AI+3CB+CAD model 
 outperformed CAD alone. This indicates that composition is important and offers additional information not captured 
 solely by CAD. In other words, CAD and radiologists with standard mammography use shape, texture, and morphometry 
 information for identifying cancer. 3CB offers that same information as well as composition which has proven to be 
@@ -145,10 +156,14 @@ reduction in false positives.  As discussed before, there is a biopsy problem an
 composition could reduce unnecessary biopsies and ameliorate the problem.
 
 <center>
-  <a name="TODO"></a>
-<img src="/assets/images/projects/nature_commsmed_3cb_icad/idi_nri_birads_curve.png" width="90%" alt="TODO">
+  <a name="img-IDI"></a>
+<img src="/assets/images/projects/nature_commsmed_3cb_icad/idi_nri_birads_curve.png" width="90%" alt="3CB improves performance by increasing specificity">
 <br>
-    Figure X: TODO
+    <b>Figure 5:</b> Integrated discrimination improvement (IDI) and net reclassification index (NRI) showing that 3CB
+    improves specificity. Metrics are plotted next to Breast Imaging-Reporting and Data System (BI-RADS) cutoffs for clinical reference. 
+        <br>
+        <i>*Code used to generate IDI with NRI plots detailed <a target="_blank" rel="noopener noreferrer" href="https://lambertleong.medium.com/area-under-the-curve-and-beyond-f87a8ec6937b">HERE</a>
+         or <a target="_blank" rel="noopener noreferrer" href="https://www.lambertleong.com/thoughts/AUC-IDI-NRI">HERE</a></i>
 </center>
 <br>
 
@@ -158,3 +173,9 @@ We are continuing our work and research on 3CB by adapting the protocol to work 
 [1R01CA257652-01A1](https://reporter.nih.gov/search/kYOrRhTpeUyu0DUhEhlo_g/project-details/10316696#description){:target="_blank"}.
 Using existing contrast enhanced mammography machines approved by FDA for our 3CB imaging would help accelerate the 
 adoption of the technology.
+
+### References ###
+
+<a name="ref-leong" href="https://www.nature.com/articles/s43856-021-00024-0" target="_blank">[1]</a> Leong, L., Malkov, S., Drukker, K., Niell, B., Sadowski, P., Wolfgruber, T., ... & Shepherd, J., Dual-energy three
+  compartment breast imaging (3CB) for novel compositional biomarkers to improve detection of malignant lesions, (2021).
+  
