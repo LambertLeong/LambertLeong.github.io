@@ -29,9 +29,7 @@ tags: breast cancer X-ray mammography radiology CAD machine learning AI artifici
 
 * Image base deep learning models identified unique signals of screen-detected cancer risk
 * Breast density is a better predictor of interval cancer risk.
-* This post is in direct response to the article entitled, “Deep Learning Predicts Interval and Screening-detected 
-  Cancer from Screening Mammograms: A Case-Case-Control Study in 6369 Women”, published in Radiology and presented at 
-  the Radiological Society of North America (RSNA) 
+* This post is in direct response to the article entitled, “Deep Learning Predicts Interval and Screening-detected Cancer from Screening Mammograms: A Case-Case-Control Study in 6369 Women”, published in Radiology and presented at the Radiological Society of North America (RSNA) 
   
 ---  
 
