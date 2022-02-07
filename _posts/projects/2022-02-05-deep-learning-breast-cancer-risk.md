@@ -101,9 +101,9 @@ negative and contained no visible cancers as determined by expert radiologists.
 Model development took place at the University of Hawaii Cancer Center. A self imposed blind was implemented to account 
 for possible overfitting. The data was split into a train and hold-out test set and the test set was never sent to the 
 University of Hawaii. We further split the training set into a train, validate, and test set for our initial model 
-evelopment. Once we were confident in our modeling architecture and hyperparameters were optimized, the final model was
+development. Once we were confident in our modeling architecture and hyperparameters were optimized, the final model was
 trained on the entire training set.  The final risk model was then sent to our collaborates to be evaluated on the
-hold-out test set. The process was very kaggle-esque. 
+hold-out test set. The process was very [kaggle-esque](https://www.kaggle.com/competitions){:target="_blank"}. 
 
 <center>
   <a name="img-model"></a>
@@ -125,7 +125,7 @@ networks were pooled and used to make final predictions of risk.
 Using an objective versus else approach, we evaluated risk predictions using area under the receiver operating 
 characteristic curve (AUC). Our model performed with an AUC of 0.66 when classifying controls verse everything else, 
 0.63 when classifying screen-detected cancer verse everything else, and 0.71 when classifying interval cancer verse 
-everything else. See [Figure 2](#img-auc)  Risk modeling is a hard problem and these results are on par, if not better, than current clinical 
+everything else. See [Figure 2](#img-auc). Risk modeling is a hard problem and these results are on par, if not better, than current clinical 
 risk models.
 
 <center>
@@ -161,7 +161,7 @@ Disentangling the density signal away from possible interval cancer risk signals
 research. There are more advanced AI techniques, such as adversarial approaches, that may be helpful for understanding 
 the interplay between breast density, imaging, and interval cancer risk. Hawaii has a higher incidence of late stage 
 cancer when compared to the rest of the United States. The mechanism is not yet known but many hypothesize that the 
-unique enthic makeup of the population plays a role. Our success with deep learning in this study gives us confidence 
+unique ethnic makeup of the population plays a role. Our success with deep learning in this study gives us confidence 
 that predicting risk of late stage cancer is possible. We welcome comments, conversations, discussion, and collaboration 
 on topics discussed here. Feel free to reach out and join the fight against cancer.
 
