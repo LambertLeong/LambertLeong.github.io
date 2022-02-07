@@ -1,7 +1,7 @@
 ---
 layout: post
 cover: assets/images/projects/nature_commsmed_3cb_icad/heatmap_3cb_breast_lesions.png
-title: Compositional Breast Imaging with Artificial Intelligence to Improve Cancer Detection
+title: Compositional Imaging with Artificial Intelligence to Improve Breast Cancer Detection
 date: 2021-11-14
 categories: projects
 author: Lambert
@@ -22,7 +22,7 @@ labels:
     - artificial intelligence
     - deep learning
     - python
-tags: breast cancer X-ray mammography radiology CAD machine learning AI artificial intelligence deep learning test
+tags: breast cancer X-ray mammography radiology CAD machine learning AI artificial intelligence deep learning 
 ---
 
 # TLDR #
