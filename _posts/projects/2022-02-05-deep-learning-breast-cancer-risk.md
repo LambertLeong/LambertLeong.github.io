@@ -2,7 +2,7 @@
 layout: post
 cover: assets/images/projects/deep_learning_breast_cancer_risk/AI_breast_cancer_risk.png
 title: Artificial Intelligence Can See Breast Cancer Before it Happens 
-date: 2021-11-14
+date: 2022-02-05
 categories: projects
 author: Lambert
 published: true
@@ -31,6 +31,7 @@ tags: breast cancer X-ray mammography radiology CAD machine learning AI artifici
 * Breast density is a better predictor of interval cancer risk.
 * This post is in direct response to the article entitled, “Deep Learning Predicts Interval and Screening-detected 
   Cancer from Screening Mammograms: A Case-Case-Control Study in 6369 Women”, published in Radiology and presented at 
+  the Radiological Society of North America (RSNA) 
   
 ---  
 
