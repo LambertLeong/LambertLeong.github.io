@@ -9,8 +9,8 @@ published: true
 featured: false
 permalink: /projects/deep-learning-breast-cancer-risk
 comments: true
-description: ""
-summary: 
+description: "Deep Learning Predicts Interval and Screening-detected Cancer from Screening Mammograms: A Case-Case-Control Study in 6369 Women"
+summary: Deep Learning Predicts Interval and Screening-detected Cancer from Screening Mammograms, A Case-Case-Control Study in 6369 Women
 labels:
     - breast cancer 
     - X-ray
@@ -22,14 +22,16 @@ labels:
     - artificial intelligence
     - deep learning
     - python
-tags: breast cancer X-ray mammography radiology CAD machine learning AI artificial intelligence deep learning risk
+tags: breast cancer X-ray mammography radiology machine learning AI artificial intelligence deep learning risk
 ---
 
 # Key Points #
 
-* Image base deep learning models identified unique signals of screen-detected cancer risk
-* Breast density is a better predictor of interval cancer risk.
-* This post is in direct response to the article entitled, “Deep Learning Predicts Interval and Screening-detected Cancer from Screening Mammograms: A Case-Case-Control Study in 6369 Women”, published in Radiology and presented at the Radiological Society of North America (RSNA) 
+* Our image base deep learning model identified __unique__ signals of screen-detected cancer risk
+* Breast density is a better predictor of interval cancer risk
+* This post is in direct response to the article entitled, [__“Deep Learning Predicts Interval and Screening-detected 
+Cancer from Screening Mammograms: A Case-Case-Control Study in 6369 Women”__](https://pubs.rsna.org/doi/abs/10.1148/radiol.2021203758){:target="_blank"},
+published in Radiology and presented at the [Radiological Society of North America (RSNA)](https://press.rsna.org/timssnet/media/pressreleases/14_pr_target.cfm?ID=2280){:target="_blank"} 
   
 ---  
 
@@ -40,12 +42,27 @@ tags: breast cancer X-ray mammography radiology CAD machine learning AI artifici
 * [Surprising Results](#head-results)
 * [What’s Next](#head-next)
 
-The use of artificial intelligence (AI) and deep learning (DL) in the medical and healthcare field has been increasing at an astonishing rate. While the Health Insurance Portability and Accountability Act (HIPAA) is important for the protection of personal health information, it presented as the biggest barrier for gathering large data sets required for deep learning. Several strategies have been successfully implemented to gather lots of data for training medical AI systems without risking patient privacy. AI continues to have a significant impact on medical imaging and deep learning models are constantly being developed to look for anomalies such as bone fractures or possible cancer.
+The use of artificial intelligence (AI) and deep learning (DL) in the medical and healthcare field has been increasing 
+at an astonishing rate. While the Health Insurance Portability and Accountability Act (HIPAA) is important for the 
+protection of personal health information, it presented as the biggest barrier for gathering large data sets required 
+for deep learning. Several strategies have been successfully implemented to gather lots of data for training medical AI 
+systems without risking patient privacy. AI continues to have a significant impact on medical imaging and deep learning 
+models are constantly being developed to look for anomalies such as bone fractures or possible cancer.
 
-The introduction of breast cancer screening has helped to reduce cancer mortality rates in women as well as provide a consistent source of image data. Typically, women 40 years and older receive biannual or annual screening mammograms to check for any signs of cancer. Many have developed AI to detect and segment cancers within a mammogram yet, fewer have developed image based deep learning models to predict risk. In the work being described, we developed a model to predict an individual’s breast cancer risk; more specifically interval and screen-detected cancer risk.
-	
+The introduction of breast cancer screening has helped to reduce cancer mortality rates in women as well as provide a 
+consistent source of image data. Typically, women 40 years and older receive biannual or annual screening mammograms to 
+check for any signs of cancer. Many have developed AI to detect and segment cancers within a mammogram yet, fewer have
+developed image based deep learning models to predict risk. In the work being described, we developed a model to predict
+an individual’s breast cancer risk; more specifically interval and screen-detected cancer risk.
 
-## Why Risk? <a name="head-why-risk"></a> ##
+
+## Why is Risk Important? <a name="head-why-risk"></a> ##
+<center>
+  <a name="img-stock"></a>
+<img src="/assets/images/projects/deep_learning_breast_cancer_risk/breast_cancer_risk.jpg" width="85%" alt="artificial intelligence breast cancer">
+<br>
+</center>
+<br> 
 
 Predicting breast cancer risk is analogous to forecasting which is an innately hard problem in all fields of science. 
 By comparison, accurately quantifying a patient's risk of cancer is more difficult than detecting the presence of cancer
@@ -90,14 +107,14 @@ hold-out test set. The process was very kaggle-esque.
 
 <center>
   <a name="img-model"></a>
-<img src="/assets/images/projects/deep_learning_breast_cancer_risk/deeplearning_netowrk.png" width="70%" alt="TODO">
+<img src="/assets/images/projects/deep_learning_breast_cancer_risk/deeplearning_netowrk.png" width="80%" alt="Deep Learning Architecture">
 <br>
-    <b>Figure 1:</b> TODO.
+    <b>Figure 1:</b> Four parallel networks for each mammographic view
 </center>
 <br> 
 
 The novelty of our deep learning model resulted from using four parallel networks to look at all imaging information 
-simultaneously for prediction. Other than density, imaging biomarkers of risk are underexplored and not well 
+simultaneously for prediction, seen in [Figure 1](#img-model). Other than density, imaging biomarkers of risk are underexplored and not well 
 characterized. Although cancer may develop in only one side of the breast, we suspected signals of risk may be present 
 throughout both the ipsilateral and contralateral breast. Each of the four networks was responsible for learning the 
 information in one of the four mammographic views and so there was a LCC, RCC, LMLO, and RMLO network. Outputs from all 
@@ -108,14 +125,14 @@ networks were pooled and used to make final predictions of risk.
 Using an objective versus else approach, we evaluated risk predictions using area under the receiver operating 
 characteristic curve (AUC). Our model performed with an AUC of 0.66 when classifying controls verse everything else, 
 0.63 when classifying screen-detected cancer verse everything else, and 0.71 when classifying interval cancer verse 
-everything else. Risk modeling is a hard problem and these results are on par, if not better, than current clinical 
+everything else. See [Figure 2](#img-auc)  Risk modeling is a hard problem and these results are on par, if not better, than current clinical 
 risk models.
 
 <center>
   <a name="img-auc"></a>
-<img src="/assets/images/projects/deep_learning_breast_cancer_risk/ccc_auc.png" width="90%" alt="TODO">
+<img src="/assets/images/projects/deep_learning_breast_cancer_risk/ccc_auc.png" width="90%" alt="Deep learning risk prediction AUC performance">
 <br>
-    <b>Figure 2:</b> TODO
+    <b>Figure 2:</b> Final model performance on hold-out test set measured by area under the receiver operating characteristic curve (AUC) 
 </center>
 <br>
 
@@ -123,18 +140,18 @@ To further interrogate possible imaging signals of risk, we compared our AI mode
 logistic regression models built using common clinical risk factors.  These risk factors included clinical and automated
 Breast Imaging Reporting and Data System (BI-RADS), BMI, and dense volume.  Automated measurements were obtained using 
 Volpara which is a clinically approved breast density software.  In the screen-detected cancer case, c-statistics 
-improved when combining risk factors with deep learning. This improvement indicated that deep learning was able to pick 
-up on imaging signals related to risk that are orthogonal or not captured by clinical risk factors. Although we 
+improved when combining risk factors with deep learning, shown in [Figure 3](#img-risk-factor). This improvement indicated that deep learning was able to pick 
+up on <u>imaging signals related to risk that are orthogonal or unique to clinical risk factors</u>. Although we 
 hypothesized it, it was still surprising! In the interval cancer case, deep learning models were not able to outperform
-models built on breast density alone.  In other words, breast density remains the most powerful predictor of interval
-cancer risk. This was even more surprising!! Breast density is a risk factor because dense tissue can obscure images
+models built on breast density alone. In other words, <u>breast density remains the most powerful predictor of interval
+cancer risk</u>. This was even more surprising!! Breast density is a risk factor because dense tissue can obscure images
 and mask possible lesions. Dense tissue may also be masking possible signals of risk and impairing our AI models performance.
 
 <center>
-  <a name="img-auc"></a>
-<img src="/assets/images/projects/deep_learning_breast_cancer_risk/deep_learning_performance.png" width="100%" alt="TODO">
+  <a name="img-risk-factor"></a>
+<img src="/assets/images/projects/deep_learning_breast_cancer_risk/deep_learning_performance.png" width="100%" alt="Deep learning vs clinical risk factors">
 <br>
-    <b>Figure 2:</b> TODO
+    <b>Figure 3:</b> Deep learning performance compared against clinical risk factor models
 </center>
 <br>
 
@@ -149,9 +166,9 @@ that predicting risk of late stage cancer is possible. We welcome comments, conv
 on topics discussed here. Feel free to reach out and join the fight against cancer.
 
 
-### References ###
+### Continuing the Discussion ###
 
-<a name="ref-leong" href="https://www.nature.com/articles/s43856-021-00024-0" target="_blank">[1]</a> Zhu, X.,Wolfgruber, T., 
-Leong, L., ... & Shepherd, J., Deep Learning Predicts Interval and Screening-detected Cancer from Screening Mammograms:
-A Case-Case-Control Study in 6369 Women (2021).
-  
+* [__Read the paper__](https://pubs.rsna.org/doi/abs/10.1148/radiol.2021203758){:target="_blank"}
+* [__Check out the github__](https://github.com/shepherd-lab/dl-mammography){:target="_blank"}
+* [__Contact an author__](https://www.lambertleong.com/contact){:target="_blank"}
+* [__Contact the lab__](https://shepherdresearchlab.org/about/our-team/){:target="_blank"}
