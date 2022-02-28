@@ -9,7 +9,7 @@ published: true
 featured: false
 permalink: /projects/deep-learning-breast-cancer-risk
 comments: true
-description: "Deep Learning Predicts Interval and Screening-detected Cancer from Screening Mammograms: A Case-Case-Control Study in 6369 Women"
+description: "Deep Learning Predicts Interval and Screening-detected Cancer from Screening Mammograms, A Case-Case-Control Study in 6369 Women"
 summary: Deep Learning Predicts Interval and Screening-detected Cancer from Screening Mammograms, A Case-Case-Control Study in 6369 Women
 labels:
     - breast cancer 
