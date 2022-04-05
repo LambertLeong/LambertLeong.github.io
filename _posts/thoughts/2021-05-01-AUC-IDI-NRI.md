@@ -135,6 +135,38 @@ test_new_pred=new_model.predict_proba(x_test[new_feat])
 We previously mentioned that comparing AUCs is a good starting point. We do that here to get an idea of how the new model
 performed with respect to our reference model. We use the following custom function to visualize ROC curves and confidence intervals (CI).
 ```python:
+def bootstrap_results(y_truth, y_pred,num_bootstraps = 1000):
+    n_bootstraps = num_bootstraps
+    rng_seed = 42  # control reproducibility
+    y_pred=y_pred
+    y_true=y_truth
+    rng = np.random.RandomState(rng_seed)
+    tprs=[]
+    fprs=[]
+    aucs=[]
+    threshs=[]
+    base_thresh = np.linspace(0, 1, 101)
+    for i in range(n_bootstraps):
+        # bootstrap by sampling with replacement on the prediction indices
+        indices = rng.randint(0, len(y_pred), len(y_pred))
+        if len(np.unique(y_true[indices])) < 2:
+            # We need at least one positive and one negative sample for ROC AUC
+            continue
+        fpr, tpr, thresh = metrics.roc_curve(y_true[indices],y_pred[indices])
+        thresh=thresh[1:]
+        thresh=np.append(thresh,[0.0])
+        thresh=thresh[::-1]
+        fpr = np.interp(base_thresh, thresh, fpr[::-1])
+        tpr = np.interp(base_thresh, thresh, tpr[::-1])
+        tprs.append(tpr)
+        fprs.append(fpr)
+        threshs.append(thresh)
+    tprs = np.array(tprs)
+    mean_tprs = tprs.mean(axis=0)  
+    fprs = np.array(fprs)
+    mean_fprs = fprs.mean(axis=0)
+    return base_thresh, mean_tprs, mean_fprs
+
 def get_auc_ci(y_truth, y_pred,num_bootstraps = 1000):
     n_bootstraps = num_bootstraps
     rng_seed = 42  # control reproducibility
