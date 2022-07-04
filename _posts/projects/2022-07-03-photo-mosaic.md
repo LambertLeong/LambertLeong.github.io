@@ -26,6 +26,7 @@ tags: photograhy imageprocessing image processing mosaic software datascience da
 * Machine learning can be used artistically to create photo mosaics
 * Modeling with K-nearest neighbors offers a robust method for searching when exact matches are not always possible.
 * [Checkout the whole catalog of photo mosaic animations](https://www.youtube.com/watch?v=tq-sQ0m1R40&list=PLvaAMsy5gV_UMmFxdwHYm00U6OrG-JLvp)
+
 # What is a Photo Mosaic #
 
 Here's an example!
@@ -122,7 +123,7 @@ which tiles have the closest color values.
   <a name="img-knn"></a>
 <img src="/assets/images/projects/photo_mosaic/knn_color_search.gif" width="80%" alt="Cover Photo Sub Sections">
 <br>
-    <b>Figure 2:</b>
+    <b>Figure 3:</b>
     The average RGB value for the subsection is plotted in red. Tiles with close RGB values are plotted in orange.
     Using KNN we can find the nearest match shown with the yellow "X".
 </center>
@@ -143,6 +144,9 @@ photo.
 # Closing #
 
 [If you would like your own photo mosaic or need help building your one, please feel free to reach out.](lamberttleong@gmail.com)
+We can repurpose your old images that are collecting dust on some hard drive somewhere and give them a second chance at something beautiful.neighbors.
+Hey maybe they can even become NFTs!
+
 Let's look at another example photo mosaic with a different animation. All animations
 are made programmatically and will be detailed in following post.
 
