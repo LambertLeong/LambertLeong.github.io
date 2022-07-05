@@ -1,7 +1,7 @@
 ---
 layout: post
 cover: assets/images/projects/photo_mosaic/web_gumwall_zoom_gif_720
-title: "Photo Mosaics Nearest Neighbors: Machine Learning for Digital Art"
+title: "Photo Mosaics with Nearest Neighbors: Machine Learning for Digital Art"
 date: 2022-07-03
 categories: projects
 author: Lambert
