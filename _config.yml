@@ -1,7 +1,7 @@
 # Site
-name: Lambert Leong
-description: Professional Protfolio for Lambert Leong
-meta_description: Professional Portfolio for Lambert Leong
+name: Lambert Leong, PhD
+description: Professional Portfolio for Lambert Leong, PhD
+meta_description: Professional Portfolio for Lambert Leong, PhD
 logo: /assets/images/landing_page/logo.png
 favicon: /assets/images/landing_page/favicon.ico
 paginate: 8
@@ -16,11 +16,11 @@ authors:
   Lambert:
     name: Lambert
     display_name: Lambert Leong
-    image: /assets/images/lambert_prof_2020_3.jpg
+    image: /assets/images/lambert_prof_2023.png
     email: lamberttleong@gmail.com
     web: lambertleong.com
     twitter:
-    description: Hi, I am Lambert Leong and I am a cancer researcher and data scientist. I specialize in topics such as artificial intellegence, breast cancer, and medical imaging.
+    description: Hi, I am Lambert Leong, PhD and I am a applied machine learning and cancer researcher. I specialize in topics such as artificial intelligence, breast cancer, and medical imaging.
 
 # Plugins
 plugins:
