@@ -5,7 +5,7 @@ title: Bitcoin Network Analysis
 date: 2016-11-11
 categories: projects
 author: Lambert
-featured: true
+featured: false
 permalink: /projects/bitcoin_network_analysis
 comments: true
 summary: Sampling and network analysis of the rapidly growing Bitcoin exchange and blockchain network. Cover GIF shows growth of the network over 6 hours
@@ -60,7 +60,7 @@ hypotheses and claims made about the network.
 
 
 Using a websocket API provided by
-[Blockchain.info](https://www.blockchain.com/api){:target="_blank"} I was able to sample
+[Blockchain.info](https://www.blockchain.com/api) I was able to sample
 blockchain transaction data which included, sender/receiver addresses, amount,
 hash difficulty, etc.  I was only concerned with the sender, receiver, and the
 amount of btc sent.  I took three samples of the network which included a one,
