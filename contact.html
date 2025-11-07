@@ -3,24 +3,20 @@ layout: page
 title: Contact
 ---
 
-<center>
-<h4>If form does not work, use email below</h4>
-<h3>Email: <span><a target="blank" href="lamberttleong@gmail.com">lamberttleong@gmail.com</a></span></h3>
-</center>
+<div class="text-center mb-4">
+    <h3>Email to: <a href="mailto:lamberttleong@gmail.com">lamberttleong@gmail.com</a></h3>
+    <h4>Or use the form below to send me a message directly!</h4>
+</div>
 
-<!-- modify this form HTML and place wherever you want your form -->
-<form
-        action="https://formspree.io/f/xdojavqe"
-        method="POST"
->
-    <label>
-        Your email:
-        <input type="email" name="email">
-    </label>
-    <label>
-        Your message:
-        <textarea name="message"></textarea>
-    </label>
-    <!-- your other form fields go here -->
-    <button type="submit">Send</button>
+<!-- Formspree Contact Form -->
+<form action="https://formspree.io/f/xdojavqe" method="POST">
+    <div class="form-group">
+        <label for="contact-email">Your email:</label>
+        <input type="email" class="form-control" id="contact-email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="contact-message">Your message:</label>
+        <textarea class="form-control" id="contact-message" name="message" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
 </form>
