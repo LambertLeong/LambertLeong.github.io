@@ -41,7 +41,7 @@ and that it would be a valuable contribution to the scientific community and so
 I began the process of taking it to publication.
 
 
-* [The project page can be found __HERE__](../projects/machine_learning_handwriting){:target="_blank"}
+* [The project page can be found __HERE__](../projects/machine-learning-handwriting){:target="_blank"}
 
 __Summary__
 
