@@ -1,7 +1,7 @@
 # Site
 name: Lambert Leong, PhD
-description: Professional Portfolio for Lambert Leong, PhD
-meta_description: Professional Portfolio for Lambert Leong, PhD
+description: Health AI portfolio for Lambert Leong, PhD
+meta_description: Health AI portfolio for Lambert Leong, PhD, featuring applied machine learning, foundation models, medical imaging, and healthcare AI research.
 logo: /assets/images/landing_page/logo.png
 favicon: /assets/images/landing_page/favicon.ico
 paginate: 8
@@ -20,7 +20,7 @@ authors:
     email: lamberttleong@gmail.com
     web: lambertleong.com
     twitter:
-    description: Hi, I am Lambert Leong, PhD and I am an applied machine learning and cancer researcher. I specialize in topics such as artificial intelligence, breast cancer, and medical imaging.
+    description: Hi, I am Lambert Leong, PhD. I build health AI systems spanning foundation models, generative AI evaluation, medical imaging, and applied machine learning research.
 
 # Plugins
 plugins:
