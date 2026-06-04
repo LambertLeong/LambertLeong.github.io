@@ -4,7 +4,7 @@ type: project
 published: true
 image: images/projects/images.jpg
 title: Inventory Database
-permalink: projects/Inventory_Database
+permalink: projects/inventory-database
 date: 2015
 labels:
   - Database

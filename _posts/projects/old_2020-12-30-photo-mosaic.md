@@ -9,7 +9,7 @@ featured: false
 permalink: projects/photo-mosaic
 comments: true
 published: false
-summary: TODO
+summary: Historical draft of the photo mosaic project page kept for reference.
 description: TODO
 labels:
   - Photography

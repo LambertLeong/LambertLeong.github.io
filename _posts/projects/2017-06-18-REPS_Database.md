@@ -5,7 +5,7 @@ title: Database Construction for Social Science Research Institute, Research and
 date: 2017-06-18
 categories: projects
 author: Lambert
-permalink: projects/REPS_database
+permalink: projects/reps-database
 featured: false
 comments: true
 summary: As a research assistant, I aggregated data from various tables to construct a relational, SQL, database.  I was required to write queries, analyze data, and organize the results to make them visually appealing.

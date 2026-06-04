@@ -1,0 +1,5 @@
+{%- assign external_href = include.href -%}
+{%- assign external_class = include.class | default: '' -%}
+{%- assign external_title = include.title | default: '' -%}
+{%- assign external_content = include.content -%}
+<a href="{{ external_href }}" target="_blank" rel="noopener noreferrer"{% if external_class != '' %} class="{{ external_class }}"{% endif %}{% if external_title != '' %} title="{{ external_title }}"{% endif %}>{{ external_content }}</a>

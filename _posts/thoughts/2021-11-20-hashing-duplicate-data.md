@@ -9,7 +9,7 @@ published: false
 featured: false
 permalink: thoughts/hashing-duplicate-data
 comments: true
-summary: TODO
+summary: Notes on identifying and managing duplicate records in biomedical datasets.
 description: TODO
 labels:
   - Hashing

@@ -7,7 +7,7 @@ categories: thoughts
 author: Lambert
 published: true
 featured: true
-permalink: thoughts/AUC-IDI-NRI
+permalink: thoughts/auc-idi-nri
 comments: true
 summary: Doctors and data scientist, here is an intro to IDI and NRI with a Python coded example. AUCs may not always be enough and this post allows you to go beyond the curve
 description: Doctors and data scientist, here is an intro to IDI and NRI with a Python coded example. AUCs may not always be enough and this post allows you to go beyond the curve

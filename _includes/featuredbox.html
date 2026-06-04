@@ -26,8 +26,7 @@
                              alt="{{ author.display_name }}">
                         </span>
                             <span class="author-meta">
-                        <span class="post-name"><a target="_blank"
-                                                   href="{{ author.web }}">{{ author.display_name }}</a></span><br/>
+                        <span class="post-name">{% include external_link.html href=author.web content=author.display_name %}</span><br/>
                         {% endif %}
                         <span class="post-date">{{ post.date | date_to_string }}</span>
                         </span>

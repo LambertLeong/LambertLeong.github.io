@@ -7,7 +7,7 @@ categories: thoughts
 author: Lambert
 published: true
 featured: true
-permalink: thoughts/agentic-AUC
+permalink: thoughts/agentic-auc
 comments: true
 summary: Agentic AI systems are on the rise in healthcare, but most only output binary decisions. This post provides options to turn those decisions into continuous scores so we can still use AUC for fair model comparison.
 description: Agentic AI systems are entering medical risk and detection pipelines, yet they usually output hard decisions instead of probabilities. Since AUC is still the standard metric for comparing models in medicine, we need practical ways to derive continuous scores from agentic workflows. This post walks through why AUC needs continuous values, how that clashes with binary agent outputs, and presents several concrete strategies for producing an AUC for agentic models.
@@ -421,5 +421,5 @@ The methods in this post provide practical ways to bridge the gap. By extracting
 This keeps new agentic solutions grounded against established baselines and allows us to evaluate them using the same language and methods that clinicians, statisticians, and reviewers already understand. With an AUC, we can truly evaluate if the agentic system is adding value.
 
 ### Relevant Resources <a name="resources"></a> ###
-- [Area Under the Curve and Beyond with Integrated Discrimination Improvement and Net Reclassification](https://www.lambertleong.com/thoughts/AUC-IDI-NRI)
+- [Area Under the Curve and Beyond with Integrated Discrimination Improvement and Net Reclassification](https://www.lambertleong.com/thoughts/auc-idi-nri)
 - [Using AUC in Medicine with Deep Learning](https://www.lambertleong.com/projects/deep-learning-breast-cancer-risk)

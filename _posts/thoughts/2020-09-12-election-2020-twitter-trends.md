@@ -5,7 +5,7 @@ title: Correlations Between Social Media and the 2020 Presidential Election
 date: 2020-11-03
 categories: thoughts
 author: Lambert
-featured: False
+featured: false
 published: True
 permalink: thoughts/election2020-social-media-trends
 comments: true

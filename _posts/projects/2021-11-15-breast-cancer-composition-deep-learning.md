@@ -143,7 +143,7 @@ and we wanted to see if AI with 3CB could outperform CAD.
     alone, shown in blue.
     <br>
     <i>*Code used to generate AUC with CI plot detailed <a target="_blank" rel="noopener noreferrer" href="https://lambertleong.medium.com/area-under-the-curve-and-beyond-f87a8ec6937b">HERE</a>
-     or <a target="_blank" rel="noopener noreferrer" href="https://www.lambertleong.com/thoughts/AUC-IDI-NRI">HERE</a></i>
+     or <a target="_blank" rel="noopener noreferrer" href="https://www.lambertleong.com/thoughts/auc-idi-nri">HERE</a></i>
 </center>
 <br>
 
@@ -163,7 +163,7 @@ composition could reduce unnecessary biopsies and ameliorate the problem.
     improves specificity. Metrics are plotted next to Breast Imaging-Reporting and Data System (BI-RADS) cutoffs for clinical reference. 
         <br>
         <i>*Code used to generate IDI with NRI plots detailed <a target="_blank" rel="noopener noreferrer" href="https://lambertleong.medium.com/area-under-the-curve-and-beyond-f87a8ec6937b">HERE</a>
-         or <a target="_blank" rel="noopener noreferrer" href="https://www.lambertleong.com/thoughts/AUC-IDI-NRI">HERE</a></i>
+         or <a target="_blank" rel="noopener noreferrer" href="https://www.lambertleong.com/thoughts/auc-idi-nri">HERE</a></i>
 </center>
 <br>
 

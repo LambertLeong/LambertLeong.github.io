@@ -6,7 +6,7 @@ date: 2012-07-08
 categories: projects
 author: Lambert
 featured: false
-permalink: projects/Analysis_of_KRAS_and_BRAF_mutant_colorectal_cancers_in_a_multiracial_population
+permalink: projects/kras-braf-mutant-colorectal-cancers
 comments: true
 summary: Study that looked at patterns and trends of certain gene mutations and their correlation to survival rates for  multiracial population.
 description: Study that looked at patterns and trends of certain gene mutations and their correlation to survival rates for  multiracial population.

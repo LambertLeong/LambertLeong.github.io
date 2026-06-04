@@ -6,7 +6,7 @@ date: 2016-11-11
 categories: projects
 author: Lambert
 featured: false
-permalink: /projects/bitcoin_network_analysis
+permalink: /projects/bitcoin-network-analysis
 comments: true
 summary: Sampling and network analysis of the rapidly growing Bitcoin exchange and blockchain network. Cover GIF shows growth of the network over 6 hours
 description: Sampling and network analysis of the rapidly growing Bitcoin (BTC) exchange and blockchain network. Cover GIF shows growth of the network over 6 hours
@@ -1143,5 +1143,4 @@ class="LinLibertineT-tlf-t-1x-x-70">. Elsevier, 31-43.</span>
                                                    </p>
                                                      </div>
                                                     <div class="addresses"></div>
-
 
