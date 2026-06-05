@@ -10,7 +10,7 @@ featured: false
 permalink: thoughts/hashing-duplicate-data
 comments: true
 summary: Notes on identifying and managing duplicate records in biomedical datasets.
-description: TODO
+description: Notes on using hashing strategies to identify duplicate and near-duplicate records in biomedical and machine learning datasets.
 labels:
   - Hashing
 tags: Hashing

@@ -2,4 +2,6 @@
 {%- assign external_class = include.class | default: '' -%}
 {%- assign external_title = include.title | default: '' -%}
 {%- assign external_content = include.content -%}
-<a href="{{ external_href }}" target="_blank" rel="noopener noreferrer"{% if external_class != '' %} class="{{ external_class }}"{% endif %}{% if external_title != '' %} title="{{ external_title }}"{% endif %}>{{ external_content }}</a>
+{%- assign is_absolute = external_href contains '://' -%}
+{%- assign is_site_link = external_href contains 'lambertleong.com' -%}
+<a href="{{ external_href }}"{% if is_absolute and is_site_link == false %} target="_blank" rel="noopener noreferrer"{% endif %}{% if external_class != '' %} class="{{ external_class }}"{% endif %}{% if external_title != '' %} title="{{ external_title }}"{% endif %}>{{ external_content }}</a>

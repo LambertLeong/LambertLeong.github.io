@@ -1,5 +1,8 @@
 # Site
-name: Lambert Leong, PhD
+title: Lambert Leong
+name: Lambert Leong
+url: https://www.lambertleong.com
+locale: en_US
 description: Health AI portfolio for Lambert Leong, PhD
 meta_description: Health AI portfolio for Lambert Leong, PhD, featuring applied machine learning, foundation models, medical imaging, and healthcare AI research.
 logo: /assets/images/landing_page/logo.png
@@ -18,7 +21,7 @@ authors:
     display_name: Lambert Leong
     image: /assets/images/lambert_prof_2023.png
     email: lamberttleong@gmail.com
-    web: lambertleong.com
+    web: https://www.lambertleong.com
     twitter:
     description: Hi, I am Lambert Leong, PhD. I build health AI systems spanning foundation models, generative AI evaluation, medical imaging, and applied machine learning research.
 
@@ -53,9 +56,10 @@ facebook:
   admins:
 
 social:
-name: Lambert Leong
-links:
-    - https://twitter.com/
-    - https://www.facebook.com/
-    - https://www.linkedin.com/
-    - https://github.com/
+  name: Lambert Leong
+  links:
+    - https://github.com/LambertLeong
+    - https://www.linkedin.com/in/lambert-leong
+    - https://twitter.com/leonglambert
+    - https://scholar.google.com/citations?hl=en&user=lmU6f04AAAAJ
+    - https://www.researchgate.net/profile/Lambert_Leong2

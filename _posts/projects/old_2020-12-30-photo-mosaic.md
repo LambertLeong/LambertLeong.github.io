@@ -6,11 +6,12 @@ date: 2020-12-01
 categories: projects
 author: Lambert
 featured: false
-permalink: projects/photo-mosaic
+permalink: projects/photo-mosaic-draft
 comments: true
 published: false
+sitemap: false
 summary: Historical draft of the photo mosaic project page kept for reference.
-description: TODO
+description: Historical draft of a photo mosaic project page retained for internal reference and not intended for search indexing.
 labels:
   - Photography
   - Image Processing

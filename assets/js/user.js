@@ -56,7 +56,9 @@ function imageZoom(imgID, resultID) {
 }
 
 var slideIndex = 1;
-showSlides(slideIndex);
+if (document.getElementsByClassName("mySlides").length) {
+    showSlides(slideIndex);
+}
 
 // Next/previous controls
 function plusSlides(n) {
@@ -73,6 +75,9 @@ function showSlides(n) {
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("demo");
     var captionText = document.getElementById("caption");
+    if (!slides.length || !dots.length || !captionText) {
+        return;
+    }
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
@@ -146,3 +151,45 @@ function magnify(imgID, zoom) {
         return {x : x, y : y};
     }
 }
+
+function isExternalLink(link) {
+    var url;
+    var internalHosts = [
+        window.location.hostname,
+        "lambertleong.com",
+        "www.lambertleong.com"
+    ];
+
+    if (!link || !link.href) {
+        return false;
+    }
+
+    try {
+        url = new URL(link.href, window.location.href);
+    } catch (error) {
+        return false;
+    }
+
+    if (url.protocol !== "http:" && url.protocol !== "https:") {
+        return false;
+    }
+
+    return internalHosts.indexOf(url.hostname) === -1;
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    var links = document.querySelectorAll("a[href]");
+
+    links.forEach(function (link) {
+        if (isExternalLink(link)) {
+            link.setAttribute("target", "_blank");
+            link.setAttribute("rel", "noopener noreferrer");
+            return;
+        }
+
+        link.removeAttribute("target");
+        if (link.getAttribute("rel") === "noopener noreferrer") {
+            link.removeAttribute("rel");
+        }
+    });
+});
