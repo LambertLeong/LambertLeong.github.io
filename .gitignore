@@ -6,3 +6,9 @@ _site/
 .sass-cache/
 .DS_Store
 vendor/bundle/
+
+# AI assistant configuration (keep local, never push to public repo)
+AGENTS.md
+writing_style_guide.md
+.gemini/
+.cursor/

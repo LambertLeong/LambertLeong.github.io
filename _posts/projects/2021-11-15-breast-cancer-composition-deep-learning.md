@@ -1,6 +1,9 @@
 ---
 layout: post
 cover: assets/images/projects/nature_commsmed_3cb_icad/heatmap_3cb_breast_lesions.png
+cover_home: assets/images/projects/nature_commsmed_3cb_icad/heatmap_3cb_breast_lesions_home.webp
+cover_home_width: 640
+cover_home_height: 640
 title: Compositional Imaging with Artificial Intelligence to Improve Breast Cancer Detection
 date: 2021-11-14
 categories: projects

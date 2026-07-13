@@ -1,6 +1,9 @@
 ---
 layout: post
 cover: assets/images/projects/pseudo_dxa/output3.gif
+cover_home: assets/images/projects/pseudo_dxa/output3_home_anim.webp
+cover_home_width: 480
+cover_home_height: 308
 title: "AI Predicts Your Insides From Your Outsides With Pseudo-DXA"
 date: 2024-12-08
 categories: projects
@@ -124,4 +127,3 @@ The Pseudo-DXA model marks a pivotal step towards a new standard of striving for
 Our Pseudo-DXA model is also a step in the direction of making health assessment more accessible. 3D scanning is now in phones and does not expose individuals to harmful ionizing radiation. In theory, one could get a 3D scan of themselves, run in through our models, and receive a DXA image from which they can obtain quantities of body composition. We acknowledge that our model generates statistically likely images and it is not able to predict pathologies such as tumors, fractures, or implants, which are statistically unlikely in the context of a healthy population from which this model was built. Our model also demonstrated great test-retest precision which means it has the ability to monitor change over time. So, individuals can scan themselves every day without the risk of radiation and the model is robust enough to show changes in composition, if any.
 
 We invite you to engage with this groundbreaking technology and/or provided an example of a quantitatively accurate generative medical imaging model. Share your thoughts, ask questions, or discuss potential applications in the comments. Your insights are valuable to us as we continue to innovate in the field of medical imaging and AI. Join the conversation and be part of this exciting journey!
-

@@ -1,12 +1,25 @@
 <!-- begin post -->
 {% assign author = site.authors[post.author] %}
+{% assign card_cover = post.cover_home | default: post.cover %}
+{% assign card_cover_width = post.cover_home_width %}
+{% assign card_cover_height = post.cover_home_height %}
+{% assign author_thumb = author.thumb_image | default: author.image %}
 <div class="col-sm-6">
     <div class="card">
         <div class="row">
             <div class="col-md-5 wrapthumbnail">
                 <a href="{{ post.url | absolute_url }}">
-                    <div class="thumbnail"
-                         style="background-image:url({{ site.baseurl }}/{{ post.cover}});">
+                    <div class="thumbnail">
+                        {% if card_cover %}
+                        <img class="thumbnail-img"
+                             src="{{ site.baseurl }}/{{ card_cover }}"
+                             alt="{{ post.title }}"
+                             loading="lazy"
+                             decoding="async"
+                             {% if card_cover_width %}width="{{ card_cover_width }}"{% endif %}
+                             {% if card_cover_height %}height="{{ card_cover_height }}"{% endif %}
+                             sizes="(max-width: 999px) 100vw, 190px">
+                        {% endif %}
                     </div>
                 </a>
             </div>
@@ -22,8 +35,12 @@
                         <div class="wrapfooter">
                             {% if post.author %}
                             <span class="meta-footer-thumb">
-                        <img class="author-thumb" src="{{ author.image }}"
-                             alt="{{ author.display_name }}">
+                        <img class="author-thumb" src="{{ author_thumb }}"
+                             alt="{{ author.display_name }}"
+                             loading="lazy"
+                             decoding="async"
+                             width="40"
+                             height="40">
                         </span>
                             <span class="author-meta">
                         <span class="post-name">{% include external_link.html href=author.web content=author.display_name %}</span><br/>

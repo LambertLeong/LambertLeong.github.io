@@ -1,6 +1,9 @@
 ---
 layout: post
 cover: assets/images/projects/photo_mosaic/web_gumwall_zoom_gif_720
+cover_home: assets/images/projects/photo_mosaic/web_gumwall_zoom_home_anim.webp
+cover_home_width: 400
+cover_home_height: 400
 title:  Photo Mosaic
 date: 2020-12-01
 categories: projects

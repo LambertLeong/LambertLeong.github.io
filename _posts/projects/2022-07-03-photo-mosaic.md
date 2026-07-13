@@ -1,6 +1,9 @@
 ---
 layout: post
 cover: assets/images/projects/photo_mosaic/web_gumwall_zoom_gif_720
+cover_home: assets/images/projects/photo_mosaic/web_gumwall_zoom_home_anim.webp
+cover_home_width: 400
+cover_home_height: 400
 title: "Photo Mosaics with Nearest Neighbors: Machine Learning for Digital Art"
 date: 2022-07-03
 categories: projects
@@ -143,7 +146,7 @@ photo.
 
 # Closing #
 
-[If you would like your own photo mosaic or need help building your one, please feel free to reach out.](lamberttleong@gmail.com)
+[If you would like your own photo mosaic or need help building your one, please feel free to reach out.](mailto:leonglambert@gmail.com)
 We can repurpose your old images that are collecting dust on some hard drive somewhere and give them a second chance at something beautiful.neighbors.
 Hey maybe they can even become NFTs!
 

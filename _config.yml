@@ -9,10 +9,10 @@ logo: /assets/images/landing_page/logo.png
 favicon: /assets/images/landing_page/favicon.ico
 paginate: 8
 baseurl:
-email: 'lamberttleong@gmail.com'
+email: 'leonglambert@gmail.com'
 google_analytics: UA-121492082-1
 disqus: lambertleong
-sharethis: lamberttleong@gmail.com
+sharethis: leonglambert@gmail.com
 
 # Authors
 authors:
@@ -20,7 +20,8 @@ authors:
     name: Lambert
     display_name: Lambert Leong
     image: /assets/images/lambert_prof_2023.png
-    email: lamberttleong@gmail.com
+    thumb_image: /assets/images/home/lambert_prof_2023_160.webp
+    email: leonglambert@gmail.com
     web: https://www.lambertleong.com
     twitter:
     description: Hi, I am Lambert Leong, PhD. I build health AI systems spanning foundation models, generative AI evaluation, medical imaging, and applied machine learning research.
@@ -40,6 +41,14 @@ permalinks: pretty
 #  layout: archive
 #  permalinks:
 #    category: 'category/:name/'
+
+# Exclude AI assistant config files from Jekyll build
+exclude:
+  - AGENTS.md
+  - writing_style_guide.md
+  - .cursor/
+  - .gemini/
+  - vendor/bundle/
 
 # Other
 markdown: kramdown

@@ -1,0 +1,43 @@
+{% assign person_name = "Lambert Leong, PhD" %}
+{% assign person_url = site.url | default: "https://www.lambertleong.com" %}
+{% assign knows_about = "healthcare AI|clinical GenAI evaluation|AI governance|model monitoring|healthcare foundation models|structured EHR modeling|recommender systems|medical imaging|computer vision|natural language processing" | split: "|" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ person_name | jsonify }},
+  "jobTitle": "Senior AI/ML Applied Scientist",
+  "url": {{ person_url | jsonify }},
+  "email": "mailto:leonglambert@gmail.com",
+  "affiliation": [
+    {
+      "@type": "Organization",
+      "name": "UnitedHealth Group"
+    },
+    {
+      "@type": "Organization",
+      "name": "Optum AI"
+    }
+  ],
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Hawaii"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Washington"
+    }
+  ]{% if site.social.links and site.social.links.size > 0 %},
+  "sameAs": [
+    {% for link in site.social.links %}
+    {{ link | jsonify }}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]{% endif %},
+  "knowsAbout": [
+    {% for topic in knows_about %}
+    {{ topic | jsonify }}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
