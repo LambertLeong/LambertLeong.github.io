@@ -17,13 +17,13 @@ sharethis: leonglambert@gmail.com
 # Authors
 authors:
   Lambert:
-    name: Lambert
+    name: Lambert Leong
     display_name: Lambert Leong
     image: /assets/images/lambert_prof_2023.png
     thumb_image: /assets/images/home/lambert_prof_2023_160.webp
     email: leonglambert@gmail.com
     web: https://www.lambertleong.com
-    twitter:
+    twitter: leonglambert
     description: Hi, I am Lambert Leong, PhD. I build health AI systems spanning foundation models, generative AI evaluation, medical imaging, and applied machine learning research.
 
 # Plugins

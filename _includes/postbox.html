@@ -11,7 +11,7 @@
             {% if card_cover %}
             <img class="img-fluid"
                  src="{{ site.baseurl }}/{{ card_cover }}"
-                 alt="{{ post.title }}"
+                 alt="{{ post.cover_alt | default: post.title | escape }}"
                  loading="lazy"
                  decoding="async"
                  {% if card_cover_width %}width="{{ card_cover_width }}"{% endif %}
