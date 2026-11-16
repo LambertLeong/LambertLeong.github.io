@@ -6,7 +6,7 @@ locale: en_US
 description: Writing, projects, photography, and healthcare AI by Lambert Leong
 meta_description: Writing, projects, photography, and healthcare AI by Lambert Leong, featuring applied machine learning, foundation models, medical imaging, and healthcare AI research.
 favicon: /assets/images/landing_page/favicon.ico
-paginate: 8
+paginate: 9
 baseurl:
 # Keep local scratch environments, private drafts and experiment caches out of
 # generated site copies and file watching. Originals remain available locally.
