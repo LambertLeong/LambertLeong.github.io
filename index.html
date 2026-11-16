@@ -1,98 +1,40 @@
 ---
 layout: default
-title: Lambert Leong, PhD | Senior AI/ML Applied Scientist in Health AI
-description: Lambert Leong's portfolio covering clinical GenAI evaluation, healthcare foundation models, structured EHR modeling, AI governance, recommender systems, and medical imaging.
+title: Lambert Leong, PhD | Lead AI/ML Scientist
+description: "Lambert Leong, PhD, Lead AI/ML Scientist at Optum working on foundation models, clinical generative AI, and responsible AI, with experience in computer vision and applied ML research."
+image: /assets/images/home/lambert_prof_2023_512.webp
+sitemap: true
 ---
-
-</div>
-</div>
-<!-- We've temporary closed main-content and container to have a full width intro -->
-<!-- Home Jumbotron
-================================================== -->
-<section class="intro">
-    <center>
-            <h1 style="color:snow"><span>ALOHA</span></h1>
-
-        <a href="/about">
-        <img src="/assets/images/home/lambert_prof_2023_512.webp" style="border-radius: 50%"
-             height="240" width="240" alt="A picture of author."
-             decoding="async" fetchpriority="high">
-        </a>
-        <br>
-        <h1 style="color:snow"><span>Lambert Leong, PhD</span></h1>
-        <h2 style="color:snow"><span>Senior AI/ML Applied Scientist</span></h2>
-        <h3 style="color:snow">My expertise:</h3>
-            <h4 style="color:snow">
-            Healthcare Foundation Models, Medical Imaging Models, Clinical GenAI Evaluation, Structured EHR Modeling,
-            AI Governance and Monitoring, Recommender Systems
-            <!--a href="https://www.lambertleong.com/thoughts/AUC-IDI-NRI" target="_blank">Data  Science,</a>
-            <!--a href="https://www.lambertleong.com/thoughts/auc-idi-nri" target="_blank">Data  Science,</a>
-            <a href="https://www.lambertleong.com/projects/deep-learning-breast-cancer-risk" target="_blank">Medical Imaging,</a>
-            <a href="https://www.lambertleong.com/projects/compositional-breast-cancer-ai" target="_blank">Cancer Research</a-->
-            </h4>
-        <br>
-        <!--a href="/about" class="btn" style="color:white">View More about me</a-->
-        <a href="https://linkedin.com/in/lambert-leong" target="_blank" rel="noopener noreferrer"><i
-            class="fab fa-linkedin fa-2x"></i></a>
-        <a href="https://scholar.google.com/citations?hl=en&user=lmU6f04AAAAJ" target="_blank" rel="noopener noreferrer"><i
-                class="ai ai-google-scholar-square ai-2x"></i></a>
-        <a href="https://github.com/LambertLeong" target="_blank" rel="noopener noreferrer"><i
-                class="fab fa-github fa-2x"></i></a>
-        <a href="https://www.researchgate.net/profile/Lambert_Leong2" target="_blank" rel="noopener noreferrer"><i
-                class="ai ai-researcherid-square ai-2x"></i></a>
-    </center>
+{% if paginator.page > 1 %}<header class="pacific-page-heading"><p class="eyebrow">The archive</p><h1>More from the notebook.</h1></header>{% else %}<section class="hero personal-hero">
+  <div>
+    <p class="eyebrow">Aloha</p>
+    <h1>Lambert Leong, PhD</h1>
+    <h2 class="hero-role">Lead AI/ML Scientist</h2>
+    <p class="hero-summary">At Optum, I lead AI/ML projects spanning healthcare foundation models, clinical generative AI, and responsible AI. I combine hands-on model development and evaluation with ownership of technical direction and delivery, building on experience in computer vision and applied ML research.</p>
+    <h3 class="hero-expertise-label">Areas of focus</h3>
+    <ul class="hero-expertise">
+      <li>Foundation Models &amp; Generative AI</li>
+      <li>Computer Vision &amp; Multimodal Learning</li>
+      <li>Responsible AI, Safety &amp; Clinical Validation</li>
+      <li>Agentic Workflows &amp; Decision Systems</li>
+      <li>Applied ML Research and Technical Leadership</li>
+    </ul>
+    <div class="actions"><a class="button" href="#explore">Explore my site →</a><a href="#about">More about me</a></div>
+  </div>
+  <figure class="personal-portrait"><img src="/assets/images/home/lambert_prof_2023_512.webp" width="512" height="512" alt="Lambert Leong smiling in an aloha shirt" fetchpriority="high" decoding="async"><figcaption>Lambert Leong, PhD</figcaption>
+    <nav class="hero-connect" aria-label="Connect with Lambert">{% include pacific-connect.html %}</nav></figure>
 </section>
-
-<!-- We reopen main-content and container -->
-<div class="container">
-    <div class="main-content">
-        <!-- Featured
-        ================================================== -->
-        <section class="featured-posts">
-            <div class="section-title">
-                <h2><span>Featured Post!</span></h2>
-            </div>
-            <div class="row listfeaturedtag">
-                {% for post in site.posts %}
-                {% if post.featured == true %}
-                {% include featuredbox.html %}
-                {% endif %}
-                {% endfor %}
-            </div>
-        </section>
-
-        <!-- Posts Index
-        ================================================== -->
-        {% if paginator.previous_page %}
-        {% if paginator.previous_page > 0 %}
-        <div id="jumptopageof"></div>
-        {% endif %}
-        {% endif %}
-        <section class="recent-posts row">
-            <div class="col-sm-8">
-                <div class="section-title">
-                    <h2><span>Recent Posts</span></h2>
-                </div>
-                <div class="masonrygrid row listrecent">
-                    {% for post in paginator.posts %}
-                    {% unless post.featured == true %}
-                    {% unless post.hide == true %}
-                    {% include postbox.html %}
-                    {% endunless %}
-                    {% endunless %}
-                    {% endfor %}
-                </div>
-
-                <!-- Pagination -->
-                <div class="bottompagination">
-        <span class="navigation" role="navigation">
-            {% include pagination.html %}
-        </span>
-                </div>
-            </div>
-
-            <!-- Sidebar -->
-            <div class="col-sm-4">
-                {% include sidebar.html %}
-            </div>
-        </section>
+<section class="section" id="explore">
+  <div class="section-head">
+    <div><p class="eyebrow">01 / Featured</p><h2>Featured posts.</h2></div>
+  </div>
+  <div class="pacific-card-grid">
+    {% assign featured_posts = site.posts | where: 'featured', true %}
+    {% for post in featured_posts %}
+      {% unless post.hide %}{% include pacific-card.html %}{% endunless %}
+    {% endfor %}
+  </div>
+</section>
+<section class="section about-grid" id="about"><div><p class="eyebrow">02 / A little about me</p><h2>Curiosity is<br>the common thread.</h2></div><div><p>I’m originally from Hawaii. I enjoy building things and exploring new trails. This site brings together my projects, thoughts, and personal interests.</p><p>Professionally, I’m a Lead AI/ML Scientist and team lead, with hands-on technical contributions and ownership of project outcomes. Healthcare is my strongest application domain. My background spans biology, computer science, and a PhD in Bioengineering. I care about useful systems and careful measurement.</p><div class="actions"><a class="button" href="/about">More about me ↗</a><a href="/career">My professional background ↗</a></div></div></section>{% endif %}<section class="section" id="recent"><div class="section-head"><div><p class="eyebrow">03 / From around the site</p><h2>Recent thoughts &amp; projects.</h2></div></div><div class="pacific-card-grid">
+{% for post in paginator.posts %}{% unless post.hide %}{% include pacific-card.html %}{% endunless %}{% endfor %}
+</div>{% include pagination.html %}</section>

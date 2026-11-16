@@ -18,14 +18,11 @@
           crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
           rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i"
-          rel="stylesheet">
     <link rel="stylesheet"
     href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
     integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
     crossorigin="anonymous">
 
-    <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/assets/css/user.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 
@@ -83,259 +80,17 @@
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-M8JBFKS');</script>
     <!-- End Google Tag Manager -->
+    <link rel="stylesheet" href="{{ '/assets/css/pacific.css' | relative_url }}">
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | absolute_url }}">
 </head>
-
-{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{%
-endcapture %}
-<body class="{{ layout }}">
-
-<!-- Begin Menu Navigation
-================================================== -->
-<header class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
-    <button class="navbar-toggler navbar-toggler-right" type="button"
-            data-toggle="collapse" data-target="#navbarsWow"
-            aria-controls="navbarsWow" aria-expanded="false"
-            aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="container">
-
-        <!-- Begin Logo -->
-        <a class="navbar-brand" href="{{ site.baseurl }}/">
-            {% if site.logo == true %}
-            <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
-            {% else %}
-            Lambert Leong
-            {% endif %}
-        </a>
-        <!-- End Logo -->
-
-        <!-- Begin Menu -->
-        <div class="collapse navbar-collapse" id="navbarsWow">
-
-            <!-- Begin Menu -->
-
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link"
-                       href="{{ site.baseurl }}/about">About</a>
-                </li>
-
-                <li class="nav-item">
-                    <!--a class="nav-link" href="{{ site.baseurl }}/category/projects/">Projects</a-->
-                    <a class="nav-link" href="{{ site.baseurl }}/projects">Projects</a>
-                </li>
-
-                <li class="nav-item">
-                    <!--a class="nav-link" href="{{ site.baseurl }}/category/experience/">Experience</a-->
-                    <a class="nav-link" href="{{ site.baseurl }}/experience">Experience</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link"
-                       href="{{ site.baseurl }}/thoughts">Thoughts</a>
-                </li>
-
-                <!--li class="nav-item">
-                    <a class="nav-link"
-                       href="{{ site.baseurl }}/thoughts">Learn With Lam</a>
-                </li-->
-
-                <li class="nav-item">
-                    <a class="nav-link"
-                       href="{{ site.baseurl }}/fun">Fun</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link"
-                       href="{{ site.baseurl }}/career">Career</a>
-                </li>
-
-
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ site.baseurl }}/contact">Contact</a>
-                </li>
-
-                <li class="nav-item">
-                    {% include external_link.html href="https://www.buymeacoffee.com/lambertleong" class="nav-link highlight" content="Support" %}
-                </li>
-
-                <!--li class="nav-item">
-                    <a class="nav-link highlight" href="//getco.us/dev">Developer
-                        Newsletter</a>
-                </li-->
-            </ul>
-            <!-- End Menu -->
-
-        </div>
-    </div>
-</header>
-
-
-<!-- End Menu Navigation
-================================================== -->
-
-<div class="site-content">
-
-    <div class="container">
-
-        <!-- Site Title
-        ================================================== -->
-
-        <div class="mainheading" style="display:none;">
-            <h1 class="sitetitle">{{ site.name }}</h1>
-            <p class="lead">
-                {{ site.description }}
-            </p>
-        </div>
-
-        <!-- Content
-        ================================================== -->
-        <div class="main-content">
-            {{ content }}
-        </div>
-
-    </div><!-- /.container -->
-
-    <!-- Before Footer
-    ================================================== -->
-    <div class="beforefooter">
-        <div class="container">
-            <div class="row justify-content-center">
-                <!--div class="col-md-8">
-                    <h3>Newsletter for Developers</h3>
-                    <center><p>A handpicked selection of recommended
-                        tech-related articles, updates about the latest apps &
-                        technologies, inspiration from global and unique sources
-                        delivered directly to your inbox.</p></center>
-                    <a class="btn btn-primary btn-lg" href="#" target="_blank">Sign
-                        Up</a>
-                </div-->
-                <div class="col-md-4 text-right footersocial">
-                    <h5>Connect with me</h5>
-                    <!--a href="https://facebook.com" target="_blank"><i
-                            class="fab fa-facebook"></i></a-->
-                    <a href="https://linkedin.com/in/lambert-leong" target="_blank" rel="noopener noreferrer"><i
-                            class="fab fa-linkedin fa-3x"></i></a>
-                    <a href="https://scholar.google.com/citations?hl=en&user=lmU6f04AAAAJ" target="_blank" rel="noopener noreferrer"><i
-                        class="ai ai-google-scholar-square ai-3x"></i></a>
-                    <a href="https://github.com/LambertLeong" target="_blank" rel="noopener noreferrer"><i
-                        class="fab fa-github fa-3x"></i></a>
-                    <a href="https://twitter.com/leonglambert" target="_blank" rel="noopener noreferrer"><i
-                        class="fab fa-twitter fa-3x"></i></a>
-                    <a href="https://www.researchgate.net/profile/Lambert_Leong2" target="_blank" rel="noopener noreferrer"><i
-                            class="ai ai-researcherid-square ai-3x"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Begin Footer
-    ================================================== -->
-    <footer class="footer">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-sm-3">
-                    <!--div class="footer-widget">
-                        <h5 class="title">$ Prasad</h5>
-                        <p>Prasad is a Jekyll theme designed for complete
-                            portfolio-cum-blog for developers.</p>
-                    </div-->
-                </div>
-
-                <div class="col-sm-3">
-                    <div class="footer-widget">
-                        <h5 class="title">Resources</h5>
-                        <ul>
-                            <li>
-                                <a href="{{ site.baseurl }}/fun/photo-gallery">Photo Gallery</a>
-                            </li>
-                            <li>
-                                <a href="{{ site.baseurl }}/contact">Contact</a>
-                            </li>
-                            <li>
-                                <a href="{{ site.baseurl }}/sitemap.xml">SiteMap</a>
-                            </li>
-                            <li><a href="{{ site.baseurl }}/feed.xml">Live
-                                Feed</a></li>
-                            <!--li><a href="#">Live Chat</a></li>
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">TOC</a></li-->
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-3">
-                    <div class="footer-widget">
-                        <h5 class="title">Category</h5>
-                        <ul>
-                            <li><a href="{{ site.baseurl }}/about">About</a></li>
-                            <li><a href="{{ site.baseurl }}/career">Career</a></li>
-                            <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
-                            <li><a href="{{ site.baseurl }}/experience">Experience</a></li>
-                            <li><a href="{{ site.baseurl }}/thoughts">Thoughts</a></li>
-                            <li><a href="{{ site.baseurl }}/fun">Fun</a></li>
-                            <li><a href="/assets/docs/lambertleong_resume.pdf">Resume</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-3">
-                    <div class="footer-widget textwidget">
-                        <h5 class="title">About Me</h5>
-                        <p>My name is Lambert Leong and I build Health AI systems spanning clinical GenAI evaluation, healthcare foundation models, recommender systems, and medical imaging research.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="copyright">
-                <p class="pull-left">
-                    Made with Love in <a href="https://jekyllrb.com"
-                                         target="_blank"><img
-                        src="/assets/images/jekyll.png" width="32px"
-                        height="32px"/></a>
-                    Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
-                </p>
-                <!--p class="pull-right">
-                    <a target="_blank"
-                       href="https://www.wowthemes.net/free-jekyll-template-affiliates/">"Affiliate
-                        Theme"</a> - Modified by <a href="https://cdrrazan.com">@cdrrazan</a>
-                </p-->
-                <div class="clearfix"></div>
-            </div>
-
-        </div>
-
-    </footer>
-    <!-- End Footer
-    ================================================== -->
-
-</div> <!-- /.site-content> -->
-
-<!-- JavaScript-->
-<!--================================================== -->
-
-<!--script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script-->
-
-<script defer src="{{ site.baseurl }}/assets/js/user.js?v={{ site.time | date: '%s' }}"></script>
-
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-        crossorigin="anonymous"></script>
-
-<script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-        crossorigin="anonymous"></script>
-
-<script defer src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
-
-<script defer type='text/javascript'
-        src='{{ site.baseurl }}/assets/js/masonry.pkgd.min.js'></script>
-
-<script defer src="{{ site.baseurl }}/assets/js/theme.js"></script>
-
+<body class="pacific-site layout-{{ page.layout | slugify }}">
+<a class="pacific-skip" href="#main">Skip to content</a>
+<div class="pacific-shell">
+  {% include pacific-nav.html %}
+  <main id="main" class="pacific-main">{{ content }}</main>
+  {% include pacific-footer.html %}
+</div>
+<script defer src="{{ '/assets/js/user.js' | relative_url }}"></script>
+<script defer src="{{ "/assets/js/pacific-search.js" | relative_url }}"></script>
 </body>
-
 </html>

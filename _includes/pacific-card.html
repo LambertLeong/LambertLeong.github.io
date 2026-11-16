@@ -1,0 +1,8 @@
+{% assign card_cover = post.cover_home | default: post.cover %}
+<article class="pacific-card">
+  {% if card_cover %}<a href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true"><img src="{{ card_cover | relative_url }}" alt="" loading="lazy" decoding="async"{% if post.cover_home_width %} width="{{ post.cover_home_width }}" height="{{ post.cover_home_height }}"{% endif %}></a>{% endif %}
+  <p class="eyebrow">{{ post.categories | join: ' / ' }} · <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %Y' }}</time></p>
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+  <p>{{ post.summary | default: post.description | default: post.excerpt | strip_html | truncatewords: 38 }}</p>
+  <a class="text-link" href="{{ post.url | relative_url }}">Read more →<span class="sr-only"> {{ post.title | escape }}</span></a>
+</article>

@@ -1,19 +1,8 @@
 ---
 layout: default
 ---
-<section>
-    <div class="section-title">
-        <center><h2><span>{{ page.title }}</span></h2></center>
-    </div>
-
-    <div class="article-post">
-        {{content}}
-    </div>
-    {% if page.comments == true %}
-    <div id="comments">
-        <div>
-            {% include disqus.html %}
-        </div>
-    </div>
-    {% endif %}
+<section class="pacific-reader pacific-page">
+{% unless page.content_heading %}<header class="pacific-page-heading"><p class="eyebrow">Lambert Leong</p><h1>{{ page.title | escape }}</h1></header>{% endunless %}
+<div class="article-post">{{ content }}</div>
+{% if page.comments == true %}<div id="comments">{% include disqus.html %}</div>{% endif %}
 </section>

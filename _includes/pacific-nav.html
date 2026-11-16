@@ -1,0 +1,25 @@
+<header class="pacific-header">
+  <a class="pacific-brand" href="{{ '/' | relative_url }}">Lambert Leong</a>
+  <nav class="pacific-nav" aria-label="Main navigation">
+    <a href="{{ '/about' | relative_url }}"{% if page.url contains '/about' %} aria-current="page"{% endif %}>About</a>
+    <a href="{{ '/projects' | relative_url }}"{% if page.url contains '/projects' %} aria-current="page"{% endif %}>Projects</a>
+    <a href="{{ '/thoughts' | relative_url }}"{% if page.url contains '/thoughts' %} aria-current="page"{% endif %}>Thoughts</a>
+    <a href="{{ '/experience' | relative_url }}"{% if page.url contains '/experience' %} aria-current="page"{% endif %}>Experience</a>
+    <a href="{{ '/fun' | relative_url }}"{% if page.url contains '/fun' %} aria-current="page"{% endif %}>Fun</a>
+    <a href="{{ '/contact' | relative_url }}"{% if page.url contains '/contact' %} aria-current="page"{% endif %}>Contact</a>
+    <details class="pacific-search" id="header-search" data-index="{{ '/search.json' | relative_url }}">
+      <summary aria-label="Search the site" aria-controls="header-search-panel" title="Search the site">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg>
+      </summary>
+      <div class="pacific-search-panel" id="header-search-panel">
+        <form role="search" action="{{ '/search' | relative_url }}">
+          <label for="header-search-input">Search the site</label>
+          <input id="header-search-input" type="search" name="q" placeholder="Enter keywords…" autocomplete="off" aria-controls="header-search-results">
+        </form>
+        <p class="pacific-search-status" role="status" aria-live="polite">Search thoughts, projects, and more.</p>
+        <ul id="header-search-results" aria-label="Search results"></ul>
+        <noscript><a href="{{ '/search' | relative_url }}">Open the full search page</a></noscript>
+      </div>
+    </details>
+  </nav>
+</header>

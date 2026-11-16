@@ -3,12 +3,29 @@ title: Lambert Leong
 name: Lambert Leong
 url: https://www.lambertleong.com
 locale: en_US
-description: Health AI portfolio for Lambert Leong, PhD
-meta_description: Health AI portfolio for Lambert Leong, PhD, featuring applied machine learning, foundation models, medical imaging, and healthcare AI research.
-logo: /assets/images/landing_page/logo.png
+description: Writing, projects, photography, and healthcare AI by Lambert Leong
+meta_description: Writing, projects, photography, and healthcare AI by Lambert Leong, featuring applied machine learning, foundation models, medical imaging, and healthcare AI research.
 favicon: /assets/images/landing_page/favicon.ico
 paginate: 8
 baseurl:
+# Keep local scratch environments, private drafts and experiment caches out of
+# generated site copies and file watching. Originals remain available locally.
+exclude:
+  - AGENTS.md
+  - writing_style_guide.md
+  - .cursor/
+  - .gemini/
+  - vendor/bundle/
+  - "_tmp"
+  - "_drafts_codex"
+  - "assets/notebooks/jev-from-scratch/results/keep-vlm-comparison-20261023/native-cache"
+  - "assets/notebooks/jev-from-scratch/history"
+  - "assets/notebooks/jev-from-scratch/results/keep-tutorial-run*/per-image-predictions.jsonl.gz"
+# Preserve the generated local review page across builds; its source stays private.
+keep_files:
+  - ".git"
+  - ".svn"
+  - "_tmp/keep-followup-review"
 email: 'leonglambert@gmail.com'
 google_analytics: UA-121492082-1
 disqus: lambertleong
@@ -42,13 +59,6 @@ permalinks: pretty
 #  permalinks:
 #    category: 'category/:name/'
 
-# Exclude AI assistant config files from Jekyll build
-exclude:
-  - AGENTS.md
-  - writing_style_guide.md
-  - .cursor/
-  - .gemini/
-  - vendor/bundle/
 
 # Other
 markdown: kramdown

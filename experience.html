@@ -1,28 +1,194 @@
 ---
 layout: default
-title: Experiences
+title: Experience | Lambert Leong, PhD
+description: "Lambert Leong’s professional experience across applied ML research, technical leadership, healthcare, computer vision, engineering, and industry."
+sitemap: true
 ---
+<style>
+  .career-page {
+    max-width: 920px;
+    margin: 0 auto;
+    color: #222;
+  }
 
-<!-- Begin List Posts
-================================================== -->
-<section class="row recent-posts">
-  <div class="col-md-8 col-lg-8">
-    <div class="section-title">
-      <h2><span>Experience Archive</span></h2>
+  .career-page h1,
+  .career-page h2,
+  .career-page h3 {
+    letter-spacing: 0;
+  }
+
+  .career-hero {
+    padding: 1.5rem 0 1rem;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 1.75rem;
+  }
+
+  .career-kicker {
+    margin-bottom: .5rem;
+    color: #5f6f7a;
+    font-size: .95rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .career-hero h1 {
+    margin-bottom: .75rem;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    line-height: 1.08;
+  }
+
+  .career-lede {
+    max-width: 800px;
+    font-size: 1.15rem;
+    line-height: 1.7;
+  }
+
+  .career-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+    margin-top: 1.25rem;
+  }
+
+  .career-button {
+    display: inline-block;
+    padding: .7rem 1rem;
+    border: 1px solid #1f5f7a;
+    border-radius: 4px;
+    background: #1f5f7a;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .career-button:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #174a60;
+  }
+
+  .career-button.secondary {
+    background: #fff;
+    color: #1f5f7a;
+  }
+
+  .career-button.secondary:hover {
+    color: #174a60;
+    background: #f4f8fa;
+  }
+
+  .career-section {
+    margin: 2rem 0;
+  }
+
+  .career-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .career-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 1rem;
+    background: #fff;
+  }
+
+  .career-card h3 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-size: 1.05rem;
+  }
+
+  .career-card p,
+  .career-section p {
+    line-height: 1.7;
+  }
+
+  .career-proof-list {
+    padding-left: 1.1rem;
+  }
+
+  .career-proof-list li {
+    margin-bottom: .65rem;
+    line-height: 1.55;
+  }
+
+  .career-skill-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  .career-skill-strip li {
+    padding: .35rem .55rem;
+    border: 1px solid #d9e3e8;
+    border-radius: 4px;
+    background: #f7fafb;
+    font-size: .95rem;
+  }
+
+  @media (max-width: 760px) {
+    .career-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .career-actions {
+      display: block;
+    }
+
+    .career-button {
+      display: block;
+      margin-bottom: .75rem;
+      text-align: center;
+    }
+  }
+</style>
+<div class="career-page">
+  <section class="career-hero">
+    <div class="career-kicker">Lambert Leong, PhD · Lead AI/ML Scientist</div>
+    <h1>Experience</h1>
+    <p class="career-lede">
+      I am a Lead AI/ML Scientist at Optum, where I lead projects spanning healthcare foundation models, clinical generative AI, and responsible AI. My work combines hands-on research and model development with ownership of technical direction and delivery. Healthcare is my strongest application domain, with a broader background in computer vision, statistical methods, and research engineering across industry and academia.
+    </p>
+    <div class="career-actions">
+      <a class="career-button" href="#experience-history">Explore My Experience</a>
+      <a class="career-button secondary" href="/assets/docs/lambertleong_resume.pdf" target="_blank">View Resume</a>
     </div>
-    <div class="masonrygrid row listrecent">
-      {% assign posts = site.posts | where: "categories", "experience"  %}
+  </section>
+  <section class="career-section">
+    <h2>Selected Contributions</h2>
+    <ul class="career-proof-list">
+      <li>
+        Led clinical GenAI evaluation work across five healthcare use cases by combining automated metrics, Large Language Model (LLM)-as-judge methods, adversarial prompting, calibrated clinical Subject Matter Expert (SME) review, reusable evaluation libraries, and monthly monitoring dashboards.
+      </li>
+      <li>
+        Supported governed review for clinical AI systems spanning patient message response, chart summarization, medical coding, expanded response generation, and Electronic Medical Record (EMR) text transformation, with $1.5M realized business benefit and $5M projected annual benefit reported by the business.
+      </li>
+      <li>
+        Designed a world-model-inspired healthcare research direction over 500M service timepoints across 35M members, enriched with date-of-service and demographic signals to study future service-pattern prediction.
+      </li>
+      <li>
+        Published and contributed to medical imaging work across Computed Tomography (CT) segmentation, spleen volumetry, body-composition analysis, breast cancer risk prediction, generative medical imaging, and self-supervised whole-body X-ray embeddings.
+      </li>
+    </ul>
+  </section>
+</div>
 
-      {% for post in posts  %}
-      {% include postbox.html %}
-      {% endfor %}
-    </div>
+<section class="section" id="experience-history" aria-labelledby="experience-heading">
+  <header class="section-head"><div><p class="eyebrow">Across industry &amp; research</p><h2 id="experience-heading">Professional Experience</h2></div></header>
+  <div class="pacific-card-grid">
+  {% assign experience_posts = site.posts | where: 'categories', 'experience' %}
+  {% for post in experience_posts %}{% unless post.hide %}{% include pacific-card.html %}{% endunless %}{% endfor %}
   </div>
-
-  <!-- Sidebar -->
-  <div class="col-md-4 col-lg-4">
-    {% include sidebar.html %}
-  </div>
-  <!-- End Sidebar -->
-
 </section>
+
+<div class="career-page">
+  <section class="career-section">
+    <h2>Connect</h2>
+    <p>
+      I value conversations about applied machine learning, research, and responsible AI. You can reach me at <a href="mailto:leonglambert@gmail.com">leonglambert@gmail.com</a> or explore my <a href="#experience-history">experience</a> and <a href="/projects">projects</a>.
+    </p>
+  </section>
+</div>
