@@ -2,6 +2,7 @@
 title: Lambert Leong
 name: Lambert Leong
 url: https://www.lambertleong.com
+markdown_exports_origin: https://www.lambertleong.com
 locale: en_US
 description: Writing, projects, photography, and healthcare AI by Lambert Leong
 meta_description: Writing, projects, photography, and healthcare AI by Lambert Leong, featuring applied machine learning, foundation models, medical imaging, and healthcare AI research.
@@ -11,6 +12,10 @@ baseurl:
 # Keep local scratch environments, private drafts and experiment caches out of
 # generated site copies and file watching. Originals remain available locally.
 exclude:
+  - scripts/
+  - tests/
+  - docs/
+  - README.md
   - AGENTS.md
   - writing_style_guide.md
   - .cursor/
